@@ -1,0 +1,24 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="WeiboCrawler.Properties" GeneratedClassName="WeiboOAuth">
+  <Profiles />
+  <Settings>
+    <Setting Name="AccessToken" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="AppKey" Type="System.String" Scope="User">
+      <Value Profile="(Default)">744917056</Value>
+    </Setting>
+    <Setting Name="AppSecrect" Type="System.String" Scope="User">
+      <Value Profile="(Default)">9880920d66a7eb371e708992c6b65a1a</Value>
+    </Setting>
+    <Setting Name="CallbackUrl" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://127.0.0.1</Value>
+    </Setting>
+    <Setting Name="WeiboUser" Type="System.String" Scope="User">
+      <Value Profile="(Default)">silver6wings@gmail.com</Value>
+    </Setting>
+    <Setting Name="WeiboPassword" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Richbird123</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E673D763-EAAF-4357-AFE7-3301093ABF13}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DesignPlatform</RootNamespace>
+    <AssemblyName>DesignPlatform</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classifiers\Learnable\ClassifierLearnableBayes.cs" />
+    <Compile Include="Classifiers\ClassifierHaveIllegalChar.cs" />
+    <Compile Include="Classifiers\ClassifierHaveRNRNRN.cs" />
+    <Compile Include="Classifiers\ClassifierHaveUppercase.cs" />
+    <Compile Include="Classifiers\ClassifierLength10.cs" />
+    <Compile Include="Classifiers\Classifier.cs" />
+    <Compile Include="Classifiers\ClassifierHaveNumber.cs" />
+    <Compile Include="Classifiers\Learnable\Detector.cs" />
+    <Compile Include="Classifiers\Learnable\DetectorLetter.cs" />
+    <Compile Include="Classifiers\Learnable\DetectorSplit.cs" />
+    <Compile Include="Classifiers\Learnable\DetectorSpace.cs" />
+    <Compile Include="Classifiers\FilterTypeIllegal.cs" />
+    <Compile Include="Classifiers\Learnable\ClassifierLearnable.cs" />
+    <Compile Include="Classifiers\Learnable\Teacher.cs" />
+    <Compile Include="Classifiers\Speaker.cs" />
+    <Compile Include="Classifiers\Transmitter.cs" />
+    <Compile Include="Framework\Collector.cs" />
+    <Compile Include="Framework\Distributer.cs" />
+    <Compile Include="Classifiers\FilterType.cs" />
+    <Compile Include="Classifiers\Filter.cs" />
+    <Compile Include="Framework\StrategyFactory.cs" />
+    <Compile Include="Framework\StrategyTester.cs" />
+    <Compile Include="Client.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Framework\Strategy.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NaiveBayes\NaiveBayes.csproj">
+      <Project>{F42C8860-10DF-4288-89F0-6BFA3EE1D6CD}</Project>
+      <Name>NaiveBayes</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

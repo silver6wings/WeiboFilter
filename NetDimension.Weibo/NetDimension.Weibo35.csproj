@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7B795714-40D6-4B2E-A277-CBE13C33E1ED}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NetDimension.Weibo</RootNamespace>
+    <AssemblyName>NetDimension.Weibo</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\NET35\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;NET35</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\NET35\NetDimension.Weibo.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\NET35\</OutputPath>
+    <DefineConstants>NET35</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\NET35\NetDimension.Weibo.XML</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccessToken.cs" />
+    <Compile Include="Client.cs" />
+    <Compile Include="Entities\comment\Collection.cs" />
+    <Compile Include="Entities\comment\Entity.cs" />
+    <Compile Include="Entities\EntityBase.cs" />
+    <Compile Include="Entities\favorite\Collection.cs" />
+    <Compile Include="Entities\favorite\Entity.cs" />
+    <Compile Include="Entities\favorite\IDCollection.cs" />
+    <Compile Include="Entities\favorite\IDEntity.cs" />
+    <Compile Include="Entities\favorite\TagEntity.cs" />
+    <Compile Include="Entities\friendship\Entity.cs" />
+    <Compile Include="Entities\friendship\Result.cs" />
+    <Compile Include="Entities\GeoEntity.cs" />
+    <Compile Include="Entities\PrivacyEntity.cs" />
+    <Compile Include="Entities\RateLimitStatus.cs" />
+    <Compile Include="Entities\repost\Collection.cs" />
+    <Compile Include="Entities\SchoolEntity.cs" />
+    <Compile Include="Entities\search\App.cs" />
+    <Compile Include="Entities\search\AtUser.cs" />
+    <Compile Include="Entities\search\School.cs" />
+    <Compile Include="Entities\search\Status.cs" />
+    <Compile Include="Entities\search\User.cs" />
+    <Compile Include="Entities\shortUrl\Clicks.cs" />
+    <Compile Include="Entities\shortUrl\CommentComments.cs" />
+    <Compile Include="Entities\shortUrl\CommentCount.cs" />
+    <Compile Include="Entities\shortUrl\Info.cs" />
+    <Compile Include="Entities\shortUrl\Location.cs" />
+    <Compile Include="Entities\shortUrl\Locations.cs" />
+    <Compile Include="Entities\shortUrl\Referers.cs" />
+    <Compile Include="Entities\shortUrl\RefererUrl.cs" />
+    <Compile Include="Entities\shortUrl\ShareCounts.cs" />
+    <Compile Include="Entities\shortUrl\ShareStatuses.cs" />
+    <Compile Include="Entities\shortUrl\Url.cs" />
+    <Compile Include="Entities\status\Collection.cs" />
+    <Compile Include="Entities\status\Count.cs" />
+    <Compile Include="Entities\status\Emotion.cs" />
+    <Compile Include="Entities\status\Entity.cs" />
+    <Compile Include="Entities\status\IDs.cs" />
+    <Compile Include="Entities\tag\Tag.cs" />
+    <Compile Include="Entities\trend\HotTrends.cs" />
+    <Compile Include="Entities\trend\IsFollow.cs" />
+    <Compile Include="Entities\trend\Keyword.cs" />
+    <Compile Include="Entities\trend\Trend.cs" />
+    <Compile Include="Entities\UnreadCountResult.cs" />
+    <Compile Include="Entities\user\Collection.cs" />
+    <Compile Include="Entities\user\Count.cs" />
+    <Compile Include="Entities\user\Entity.cs" />
+    <Compile Include="Entities\user\IDCollection.cs" />
+    <Compile Include="Entities\VerifyNickNameResult.cs" />
+    <Compile Include="Error.cs" />
+    <Compile Include="Interface\AccountAPI.cs" />
+    <Compile Include="Interface\CommentAPI.cs" />
+    <Compile Include="Interface\CommonAPI.cs" />
+    <Compile Include="Interface\Entity\AccountInterface.cs" />
+    <Compile Include="Interface\Entity\CommentInterface.cs" />
+    <Compile Include="Interface\Entity\CommonInterface.cs" />
+    <Compile Include="Interface\Entity\FavoriteInterface.cs" />
+    <Compile Include="Interface\Entity\FriendshipInterface.cs" />
+    <Compile Include="Interface\Entity\SearchInterface.cs" />
+    <Compile Include="Interface\Entity\ShortUrlInterface.cs" />
+    <Compile Include="Interface\Entity\StatusInterface.cs" />
+    <Compile Include="Interface\Entity\SuggestionInterface.cs" />
+    <Compile Include="Interface\Entity\TagInterface.cs" />
+    <Compile Include="Interface\Entity\TrendInterface.cs" />
+    <Compile Include="Interface\Entity\UserInterface.cs" />
+    <Compile Include="Interface\EntityInterfaces.cs" />
+    <Compile Include="Interface\FavoriteAPI.cs" />
+    <Compile Include="Interface\FriendshipAPI.cs" />
+    <Compile Include="Interface\LocationAPI.cs" />
+    <Compile Include="Interface\PlaceAPI.cs" />
+    <Compile Include="Interface\SearchAPI.cs" />
+    <Compile Include="Interface\ShortUrlAPI.cs" />
+    <Compile Include="Interface\StatusAPI.cs" />
+    <Compile Include="Interface\SuggestionAPI.cs" />
+    <Compile Include="Interface\TagAPI.cs" />
+    <Compile Include="Interface\TrendAPI.cs" />
+    <Compile Include="Interface\UserAPI.cs" />
+    <Compile Include="Interface\WeiboAPI.cs" />
+    <Compile Include="Interface\WeiboInterface.cs" />
+    <Compile Include="NetDimenison.Json\Bson\BsonBinaryType.cs" />
+    <Compile Include="NetDimenison.Json\Bson\BsonBinaryWriter.cs" />
+    <Compile Include="NetDimenison.Json\Bson\BsonObjectId.cs" />
+    <Compile Include="NetDimenison.Json\Bson\BsonReader.cs" />
+    <Compile Include="NetDimenison.Json\Bson\BsonToken.cs" />
+    <Compile Include="NetDimenison.Json\Bson\BsonType.cs" />
+    <Compile Include="NetDimenison.Json\Bson\BsonWriter.cs" />
+    <Compile Include="NetDimenison.Json\ConstructorHandling.cs" />
+    <Compile Include="NetDimenison.Json\Converters\BinaryConverter.cs" />
+    <Compile Include="NetDimenison.Json\Converters\BsonObjectIdConverter.cs" />
+    <Compile Include="NetDimenison.Json\Converters\CustomCreationConverter.cs" />
+    <Compile Include="NetDimenison.Json\Converters\DataSetConverter.cs" />
+    <Compile Include="NetDimenison.Json\Converters\DataTableConverter.cs" />
+    <Compile Include="NetDimenison.Json\Converters\DateTimeConverterBase.cs" />
+    <Compile Include="NetDimenison.Json\Converters\EntityKeyMemberConverter.cs" />
+    <Compile Include="NetDimenison.Json\Converters\ExpandoObjectConverter.cs" />
+    <Compile Include="NetDimenison.Json\Converters\IsoDateTimeConverter.cs" />
+    <Compile Include="NetDimenison.Json\Converters\JavaScriptDateTimeConverter.cs" />
+    <Compile Include="NetDimenison.Json\Converters\KeyValuePairConverter.cs" />
+    <Compile Include="NetDimenison.Json\Converters\RegexConverter.cs" />
+    <Compile Include="NetDimenison.Json\Converters\StringEnumConverter.cs" />
+    <Compile Include="NetDimenison.Json\Converters\VersionConverter.cs" />
+    <Compile Include="NetDimenison.Json\Converters\XmlNodeConverter.cs" />
+    <Compile Include="NetDimenison.Json\DateFormatHandling.cs" />
+    <Compile Include="NetDimenison.Json\DateParseHandling.cs" />
+    <Compile Include="NetDimenison.Json\DateTimeZoneHandling.cs" />
+    <Compile Include="NetDimenison.Json\DefaultValueHandling.cs" />
+    <Compile Include="NetDimenison.Json\FormatterAssemblyStyle.cs" />
+    <Compile Include="NetDimenison.Json\Formatting.cs" />
+    <Compile Include="NetDimenison.Json\IJsonLineInfo.cs" />
+    <Compile Include="NetDimenison.Json\JsonArrayAttribute.cs" />
+    <Compile Include="NetDimenison.Json\JsonConstructorAttribute.cs" />
+    <Compile Include="NetDimenison.Json\JsonContainerAttribute.cs" />
+    <Compile Include="NetDimenison.Json\JsonConvert.cs" />
+    <Compile Include="NetDimenison.Json\JsonConverter.cs" />
+    <Compile Include="NetDimenison.Json\JsonConverterAttribute.cs" />
+    <Compile Include="NetDimenison.Json\JsonConverterCollection.cs" />
+    <Compile Include="NetDimenison.Json\JsonDictionaryAttribute.cs" />
+    <Compile Include="NetDimenison.Json\JsonException.cs" />
+    <Compile Include="NetDimenison.Json\JsonIgnoreAttribute.cs" />
+    <Compile Include="NetDimenison.Json\JsonObjectAttribute.cs" />
+    <Compile Include="NetDimenison.Json\JsonPosition.cs" />
+    <Compile Include="NetDimenison.Json\JsonPropertyAttribute.cs" />
+    <Compile Include="NetDimenison.Json\JsonReader.cs" />
+    <Compile Include="NetDimenison.Json\JsonReaderException.cs" />
+    <Compile Include="NetDimenison.Json\JsonSerializationException.cs" />
+    <Compile Include="NetDimenison.Json\JsonSerializer.cs" />
+    <Compile Include="NetDimenison.Json\JsonSerializerSettings.cs" />
+    <Compile Include="NetDimenison.Json\JsonTextReader.cs" />
+    <Compile Include="NetDimenison.Json\JsonTextWriter.cs" />
+    <Compile Include="NetDimenison.Json\JsonToken.cs" />
+    <Compile Include="NetDimenison.Json\JsonValidatingReader.cs" />
+    <Compile Include="NetDimenison.Json\JsonWriter.cs" />
+    <Compile Include="NetDimenison.Json\JsonWriterException.cs" />
+    <Compile Include="NetDimenison.Json\Linq\Extensions.cs" />
+    <Compile Include="NetDimenison.Json\Linq\IJEnumerable.cs" />
+    <Compile Include="NetDimenison.Json\Linq\JArray.cs" />
+    <Compile Include="NetDimenison.Json\Linq\JConstructor.cs" />
+    <Compile Include="NetDimenison.Json\Linq\JContainer.cs" />
+    <Compile Include="NetDimenison.Json\Linq\JEnumerable.cs" />
+    <Compile Include="NetDimenison.Json\Linq\JObject.cs" />
+    <Compile Include="NetDimenison.Json\Linq\JPath.cs" />
+    <Compile Include="NetDimenison.Json\Linq\JProperty.cs" />
+    <Compile Include="NetDimenison.Json\Linq\JPropertyDescriptor.cs" />
+    <Compile Include="NetDimenison.Json\Linq\JPropertyKeyedCollection.cs" />
+    <Compile Include="NetDimenison.Json\Linq\JRaw.cs" />
+    <Compile Include="NetDimenison.Json\Linq\JToken.cs" />
+    <Compile Include="NetDimenison.Json\Linq\JTokenEqualityComparer.cs" />
+    <Compile Include="NetDimenison.Json\Linq\JTokenReader.cs" />
+    <Compile Include="NetDimenison.Json\Linq\JTokenType.cs" />
+    <Compile Include="NetDimenison.Json\Linq\JTokenWriter.cs" />
+    <Compile Include="NetDimenison.Json\Linq\JValue.cs" />
+    <Compile Include="NetDimenison.Json\MemberSerialization.cs" />
+    <Compile Include="NetDimenison.Json\MissingMemberHandling.cs" />
+    <Compile Include="NetDimenison.Json\NullValueHandling.cs" />
+    <Compile Include="NetDimenison.Json\ObjectCreationHandling.cs" />
+    <Compile Include="NetDimenison.Json\PreserveReferencesHandling.cs" />
+    <Compile Include="NetDimenison.Json\ReferenceLoopHandling.cs" />
+    <Compile Include="NetDimenison.Json\Required.cs" />
+    <Compile Include="NetDimenison.Json\Schema\Extensions.cs" />
+    <Compile Include="NetDimenison.Json\Schema\JsonSchema.cs" />
+    <Compile Include="NetDimenison.Json\Schema\JsonSchemaBuilder.cs" />
+    <Compile Include="NetDimenison.Json\Schema\JsonSchemaConstants.cs" />
+    <Compile Include="NetDimenison.Json\Schema\JsonSchemaException.cs" />
+    <Compile Include="NetDimenison.Json\Schema\JsonSchemaGenerator.cs" />
+    <Compile Include="NetDimenison.Json\Schema\JsonSchemaModel.cs" />
+    <Compile Include="NetDimenison.Json\Schema\JsonSchemaModelBuilder.cs" />
+    <Compile Include="NetDimenison.Json\Schema\JsonSchemaNode.cs" />
+    <Compile Include="NetDimenison.Json\Schema\JsonSchemaNodeCollection.cs" />
+    <Compile Include="NetDimenison.Json\Schema\JsonSchemaResolver.cs" />
+    <Compile Include="NetDimenison.Json\Schema\JsonSchemaType.cs" />
+    <Compile Include="NetDimenison.Json\Schema\JsonSchemaWriter.cs" />
+    <Compile Include="NetDimenison.Json\Schema\UndefinedSchemaIdHandling.cs" />
+    <Compile Include="NetDimenison.Json\Schema\ValidationEventArgs.cs" />
+    <Compile Include="NetDimenison.Json\Schema\ValidationEventHandler.cs" />
+    <Compile Include="NetDimenison.Json\SerializationBinder.cs" />
+    <Compile Include="NetDimenison.Json\Serialization\CachedAttributeGetter.cs" />
+    <Compile Include="NetDimenison.Json\Serialization\CamelCasePropertyNamesContractResolver.cs" />
+    <Compile Include="NetDimenison.Json\Serialization\DefaultContractResolver.cs" />
+    <Compile Include="NetDimenison.Json\Serialization\DefaultReferenceResolver.cs" />
+    <Compile Include="NetDimenison.Json\Serialization\DefaultSerializationBinder.cs" />
+    <Compile Include="NetDimenison.Json\Serialization\DynamicValueProvider.cs" />
+    <Compile Include="NetDimenison.Json\Serialization\ErrorContext.cs" />
+    <Compile Include="NetDimenison.Json\Serialization\ErrorEventArgs.cs" />
+    <Compile Include="NetDimenison.Json\Serialization\IContractResolver.cs" />
+    <Compile Include="NetDimenison.Json\Serialization\IReferenceResolver.cs" />
+    <Compile Include="NetDimenison.Json\Serialization\IValueProvider.cs" />
+    <Compile Include="NetDimenison.Json\Serialization\JsonArrayContract.cs" />
+    <Compile Include="NetDimenison.Json\Serialization\JsonContainerContract.cs" />
+    <Compile Include="NetDimenison.Json\Serialization\JsonContract.cs" />
+    <Compile Include="NetDimenison.Json\Serialization\JsonDictionaryContract.cs" />
+    <Compile Include="NetDimenison.Json\Serialization\JsonDynamicContract.cs" />
+    <Compile Include="NetDimenison.Json\Serialization\JsonFormatterConverter.cs" />
+    <Compile Include="NetDimenison.Json\Serialization\JsonISerializableContract.cs" />
+    <Compile Include="NetDimenison.Json\Serialization\JsonLinqContract.cs" />
+    <Compile Include="NetDimenison.Json\Serialization\JsonObjectContract.cs" />
+    <Compile Include="NetDimenison.Json\Serialization\JsonPrimitiveContract.cs" />
+    <Compile Include="NetDimenison.Json\Serialization\JsonProperty.cs" />
+    <Compile Include="NetDimenison.Json\Serialization\JsonPropertyCollection.cs" />
+    <Compile Include="NetDimenison.Json\Serialization\JsonSerializerInternalBase.cs" />
+    <Compile Include="NetDimenison.Json\Serialization\JsonSerializerInternalReader.cs" />
+    <Compile Include="NetDimenison.Json\Serialization\JsonSerializerInternalWriter.cs" />
+    <Compile Include="NetDimenison.Json\Serialization\JsonSerializerProxy.cs" />
+    <Compile Include="NetDimenison.Json\Serialization\JsonStringContract.cs" />
+    <Compile Include="NetDimenison.Json\Serialization\JsonTypeReflector.cs" />
+    <Compile Include="NetDimenison.Json\Serialization\LateBoundMetadataTypeAttribute.cs" />
+    <Compile Include="NetDimenison.Json\Serialization\ObjectConstructor.cs" />
+    <Compile Include="NetDimenison.Json\Serialization\OnErrorAttribute.cs" />
+    <Compile Include="NetDimenison.Json\Serialization\ReflectionValueProvider.cs" />
+    <Compile Include="NetDimenison.Json\StreamingContext.cs" />
+    <Compile Include="NetDimenison.Json\TypeNameHandling.cs" />
+    <Compile Include="NetDimenison.Json\Utilities\Base64Encoder.cs" />
+    <Compile Include="NetDimenison.Json\Utilities\BidirectionalDictionary.cs" />
+    <Compile Include="NetDimenison.Json\Utilities\CollectionUtils.cs" />
+    <Compile Include="NetDimenison.Json\Utilities\CollectionWrapper.cs" />
+    <Compile Include="NetDimenison.Json\Utilities\ConvertUtils.cs" />
+    <Compile Include="NetDimenison.Json\Utilities\DateTimeUtils.cs" />
+    <Compile Include="NetDimenison.Json\Utilities\DictionaryWrapper.cs" />
+    <Compile Include="NetDimenison.Json\Utilities\DynamicProxy.cs" />
+    <Compile Include="NetDimenison.Json\Utilities\DynamicProxyMetaObject.cs" />
+    <Compile Include="NetDimenison.Json\Utilities\DynamicReflectionDelegateFactory.cs" />
+    <Compile Include="NetDimenison.Json\Utilities\DynamicUtils.cs" />
+    <Compile Include="NetDimenison.Json\Utilities\DynamicWrapper.cs" />
+    <Compile Include="NetDimenison.Json\Utilities\EnumUtils.cs" />
+    <Compile Include="NetDimenison.Json\Utilities\EnumValue.cs" />
+    <Compile Include="NetDimenison.Json\Utilities\EnumValues.cs" />
+    <Compile Include="NetDimenison.Json\Utilities\ILGeneratorExtensions.cs" />
+    <Compile Include="NetDimenison.Json\Utilities\JavaScriptUtils.cs" />
+    <Compile Include="NetDimenison.Json\Utilities\LateBoundReflectionDelegateFactory.cs" />
+    <Compile Include="NetDimenison.Json\Utilities\LinqBridge.cs" />
+    <Compile Include="NetDimenison.Json\Utilities\ListWrapper.cs" />
+    <Compile Include="NetDimenison.Json\Utilities\MathUtils.cs" />
+    <Compile Include="NetDimenison.Json\Utilities\MethodCall.cs" />
+    <Compile Include="NetDimenison.Json\Utilities\MiscellaneousUtils.cs" />
+    <Compile Include="NetDimenison.Json\Utilities\ReflectionDelegateFactory.cs" />
+    <Compile Include="NetDimenison.Json\Utilities\ReflectionUtils.cs" />
+    <Compile Include="NetDimenison.Json\Utilities\StringBuffer.cs" />
+    <Compile Include="NetDimenison.Json\Utilities\StringReference.cs" />
+    <Compile Include="NetDimenison.Json\Utilities\StringUtils.cs" />
+    <Compile Include="NetDimenison.Json\Utilities\ThreadSafeStore.cs" />
+    <Compile Include="NetDimenison.Json\Utilities\TypeExtensions.cs" />
+    <Compile Include="NetDimenison.Json\Utilities\ValidationUtils.cs" />
+    <Compile Include="NetDimenison.Json\WriteState.cs" />
+    <Compile Include="WeiboBinaryParameter.cs" />
+    <Compile Include="WeiboException.cs" />
+    <Compile Include="WeiboParameter.cs" />
+    <Compile Include="OAuth.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utility.cs" />
+    <Compile Include="WeiboStringParameter.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Entities\account\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

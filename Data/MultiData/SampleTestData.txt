@@ -1,0 +1,7 @@
+@GOOD
+quick rabbit
+@GOOD
+quick rabbit
+@BAD
+quick money
+@END
