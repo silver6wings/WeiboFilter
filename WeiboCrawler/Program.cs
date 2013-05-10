@@ -34,8 +34,10 @@ namespace WeiboCrawler
             rr.DropStream();
             */
 
+            /*
             Console.WriteLine("=== END ===");
             Console.ReadKey();
+            */
         }
     }
 }
