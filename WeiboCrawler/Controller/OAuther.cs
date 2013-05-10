@@ -16,57 +16,10 @@ namespace WeiboCrawler
             string passport = Properties.WeiboOAuth.Default.WeiboUser;
             string password = Properties.WeiboOAuth.Default.WeiboPassword;
 
+            Console.WriteLine("username:" + passport);
+            Console.WriteLine("password:" + "******");
+
             return o.ClientLogin(passport, password);
-        }
-
-        static OAuth Authorize()
-        {
-            OAuth o = new OAuth(
-                Properties.WeiboOAuth.Default.AppKey, 
-                Properties.WeiboOAuth.Default.AppSecrect, 
-                Properties.WeiboOAuth.Default.CallbackUrl
-                );
-
-            //让使用者自行选择一个授权方式
-            Console.WriteLine("Please choose OAuth mode:");
-            Console.WriteLine("1.Standard process");
-            Console.WriteLine("2.Second process");//一键授权登录
-
-
-            //ConsoleKeyInfo key = Console.ReadKey(true);
-            Console.WriteLine("Auto use second one ....");
-            /*
-            if (key.Key == ConsoleKey.D2)	//使用模拟方法
-            */
-
-            //这里使用第二种方法抓取
-            {
-                while (!ClientLogin(o))
-                {
-                    Console.WriteLine("OAuth fail, please try again.");
-                    Console.WriteLine("");
-                }
-                Console.WriteLine("OAuth success!");
-            }
-            /*
-            else
-            {
-                string authorizeUrl = o.GetAuthorizeURL();
-                System.Diagnostics.Process.Start(authorizeUrl);
-                Console.Write("复制浏览器中的Code:");
-                string code = Console.ReadLine();
-                try
-                {
-                    AccessToken accessToken = o.GetAccessTokenByAuthorizationCode(code); //请注意这里返回的是AccessToken对象，不是string
-                }
-                catch (WeiboException ex)
-                {
-                    Console.WriteLine(ex.Message);
-                }
-            }
-            */
-
-            return o;
         }
 
         public static Client getOAuth()
@@ -143,5 +96,54 @@ namespace WeiboCrawler
             return new Client(oauth);
         }
 
+        static OAuth Authorize()
+        {
+            OAuth o = new OAuth(
+                Properties.WeiboOAuth.Default.AppKey,
+                Properties.WeiboOAuth.Default.AppSecrect,
+                Properties.WeiboOAuth.Default.CallbackUrl
+                );
+
+            //让使用者自行选择一个授权方式
+            Console.WriteLine("Please choose OAuth mode:");
+            Console.WriteLine("1.Standard process");
+            Console.WriteLine("2.Second process");//一键授权登录
+
+
+            //ConsoleKeyInfo key = Console.ReadKey(true);
+            Console.WriteLine("Auto use second one ....");
+            /*
+            if (key.Key == ConsoleKey.D2)	//使用模拟方法
+            */
+
+            //这里使用第二种方法抓取
+            {
+                while (!ClientLogin(o))
+                {
+                    Console.WriteLine("OAuth fail, please try again.");
+                    Console.WriteLine("");
+                }
+                Console.WriteLine("OAuth success!");
+            }
+            /*
+            else
+            {
+                string authorizeUrl = o.GetAuthorizeURL();
+                System.Diagnostics.Process.Start(authorizeUrl);
+                Console.Write("复制浏览器中的Code:");
+                string code = Console.ReadLine();
+                try
+                {
+                    AccessToken accessToken = o.GetAccessTokenByAuthorizationCode(code); //请注意这里返回的是AccessToken对象，不是string
+                }
+                catch (WeiboException ex)
+                {
+                    Console.WriteLine(ex.Message);
+                }
+            }
+            */
+
+            return o;
+        }
     }
 }

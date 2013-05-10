@@ -2,20 +2,24 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
-
 
 namespace WeiboCrawler
 {
     public class Test
     {
         public static void Main()
-        {            
-            Crawler mr = new Crawler();
-   
-            User ur = mr.getUserInfo("银翎六翼");
+        {
 
-            Console.WriteLine(ur.Description);
+            Crawler cr = new Crawler();
+            while(true)
+            {
+                Console.WriteLine("Calling...");
+                List<Status> ls = cr.getUserStatusByUserName("莉莉努力去哈佛宾大包养小白脸", 10);
+                foreach (Status s in ls) Downloader.getStatusPictures(s);
+                Thread.Sleep(10000);
+            }
 
             /*
             Recorder rr = new Recorder(false);
@@ -30,6 +34,7 @@ namespace WeiboCrawler
             rr.DropStream();
             */
 
+            Console.WriteLine("=== END ===");
             Console.ReadKey();
         }
     }

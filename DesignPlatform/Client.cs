@@ -5,7 +5,6 @@ using System.Text;
 using System.IO;
 
 using DesignPlatform.Classifiers;
-using NaiveBayes;
 
 namespace DesignPlatform
 {

@@ -17,7 +17,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
+    <OutputPath>..\bin\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -42,10 +42,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Crawler.cs" />
-    <Compile Include="Models\TestSimpleObject.cs" />
+    <Compile Include="Controller\Crawler.cs" />
+    <Compile Include="Controller\Downloader.cs" />
+    <Compile Include="Properties\Crawler.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Crawler.settings</DependentUpon>
+    </Compile>
     <Compile Include="Models\User.cs" />
-    <Compile Include="OAuther.cs" />
+    <Compile Include="Controller\OAuther.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\WeiboOAuth.Designer.cs">
@@ -54,10 +59,14 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
     <Compile Include="Models\Status.cs" />
-    <Compile Include="Recorder.cs" />
+    <Compile Include="Controller\Recorder.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Properties\Crawler.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Crawler.Designer.cs</LastGenOutput>
+    </None>
     <None Include="Properties\WeiboOAuth.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>WeiboOAuth.Designer.cs</LastGenOutput>
