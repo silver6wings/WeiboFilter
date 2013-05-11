@@ -11,15 +11,7 @@ namespace WeiboCrawler
     {
         public static void Main()
         {
-
-            Crawler cr = new Crawler();
-            while(true)
-            {
-                Console.WriteLine("Calling...");
-                List<Status> ls = cr.getUserStatusByUserName("莉莉努力去哈佛宾大包养小白脸", 10);
-                foreach (Status s in ls) Downloader.getStatusPictures(s);
-                Thread.Sleep(10000);
-            }
+            watchPhoto("莉莉努力去哈佛宾大包养小白脸", 5);
 
             /*
             Recorder rr = new Recorder(false);
@@ -34,10 +26,20 @@ namespace WeiboCrawler
             rr.DropStream();
             */
 
-            /*
             Console.WriteLine("=== END ===");
             Console.ReadKey();
-            */
+        }
+
+        public static void watchPhoto(string userName, int everyWatch)
+        {
+            Crawler cr = new Crawler();
+            while (true)
+            {
+                Console.WriteLine(DateTime.Now + " Calling...");
+                List<Status> ls = cr.getUserStatusByUserName(userName, everyWatch);
+                foreach (Status s in ls) Downloader.getStatusPictures(s);
+                Thread.Sleep(20000);
+            }
         }
     }
 }
