@@ -25,27 +25,23 @@ namespace WeiboCrawler
         public int CommentsCount { get; internal set; }
         public string RetweetedStatusID { get; internal set; }
         
-        public static Status CreateByAPI(NetDimension.Weibo.Entities.status.Entity statusInfo)
+        public Status(NetDimension.Weibo.Entities.status.Entity statusInfo)
         {
-            Status myStatusInfo = new Status();
+            this.CreatedAt =                statusInfo.CreatedAt;
+            this.ID =                       statusInfo.ID;
+            this.Text =                     statusInfo.Text;
 
-            myStatusInfo.CreatedAt =                statusInfo.CreatedAt;
-            myStatusInfo.ID =                       statusInfo.ID;
-            myStatusInfo.Text =                     statusInfo.Text;
+            this.Source =                   statusInfo.Source;
+            this.Favorited =                statusInfo.Favorited;
+            this.Truncated =                statusInfo.Truncated;
 
-            myStatusInfo.Source =                   statusInfo.Source;
-            myStatusInfo.Favorited =                statusInfo.Favorited;
-            myStatusInfo.Truncated =                statusInfo.Truncated;
+            this.ThumbnailPictureUrl =      statusInfo.ThumbnailPictureUrl;
+            this.MiddleSizePictureUrl =     statusInfo.MiddleSizePictureUrl;
+            this.OriginalPictureUrl =       statusInfo.OriginalPictureUrl;
 
-            myStatusInfo.ThumbnailPictureUrl =      statusInfo.ThumbnailPictureUrl;
-            myStatusInfo.MiddleSizePictureUrl =     statusInfo.MiddleSizePictureUrl;
-            myStatusInfo.OriginalPictureUrl =       statusInfo.OriginalPictureUrl;
-
-            myStatusInfo.RepostsCount =             statusInfo.RepostsCount;
-            myStatusInfo.CommentsCount =            statusInfo.CommentsCount;
-            if (statusInfo.RetweetedStatus != null) myStatusInfo.RetweetedStatusID = statusInfo.RetweetedStatus.ID;
-
-            return myStatusInfo;
+            this.RepostsCount =             statusInfo.RepostsCount;
+            this.CommentsCount =            statusInfo.CommentsCount;
+            if (statusInfo.RetweetedStatus != null) this.RetweetedStatusID = statusInfo.RetweetedStatus.ID;
         }
     }
 }

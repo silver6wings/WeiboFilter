@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace WeiboCrawler
 {
     [Serializable()]
-    class User
+    public class User
     {
         public string ID { get; internal set; }             // 用户ID
         public string Name { get; internal set; }           // 用户昵称
@@ -25,27 +25,22 @@ namespace WeiboCrawler
         public string VerifiedType { get; internal set; }
         public string Lang { get; internal set; }
 
-        public static User CreateByAPI(NetDimension.Weibo.Entities.user.Entity userInfo){
+        public User(NetDimension.Weibo.Entities.user.Entity userInfo){
+            this.ID =             userInfo.ID;
+            this.Name =           userInfo.Name;
+            this.Province =       userInfo.Province; 
+            this.City =           userInfo.City;
+            this.Location =       userInfo.Location;
+            this.Description =    userInfo.Description;
+            this.Gender =         userInfo.Gender;
 
-            User myUserInfo = new User();
+            this.FollowersCount = userInfo.FollowersCount;
+            this.FriendsCount =   userInfo.FriendsCount;
+            this.StatusesCount =  userInfo.StatusesCount;
 
-            myUserInfo.ID =             userInfo.ID;
-            myUserInfo.Name =           userInfo.Name;
-            myUserInfo.Province =       userInfo.Province; 
-            myUserInfo.City =           userInfo.City;
-            myUserInfo.Location =       userInfo.Location;
-            myUserInfo.Description =    userInfo.Description;
-            myUserInfo.Gender =         userInfo.Gender;
-
-            myUserInfo.FollowersCount = userInfo.FollowersCount;
-            myUserInfo.FriendsCount =   userInfo.FriendsCount;
-            myUserInfo.StatusesCount =  userInfo.StatusesCount;
-
-            myUserInfo.Verified =       userInfo.Verified;
-            myUserInfo.VerifiedType =   userInfo.VerifiedType;
-            myUserInfo.Lang =           userInfo.Lang;
-
-            return myUserInfo;
+            this.Verified =       userInfo.Verified;
+            this.VerifiedType =   userInfo.VerifiedType;
+            this.Lang =           userInfo.Lang;
         }
     }
 }

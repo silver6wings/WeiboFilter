@@ -73,7 +73,7 @@ namespace WeiboCrawler.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("silver6wings@gmail.com")]
+        [global::System.Configuration.DefaultSettingValueAttribute("silver6wings")]
         public string WeiboUser {
             get {
                 return ((string)(this["WeiboUser"]));

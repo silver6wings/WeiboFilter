@@ -22,7 +22,7 @@ namespace WeiboCrawler
             User user = null;
             try
             {
-                user = User.CreateByAPI(sina.API.Entity.Users.Show(null, userName));
+                user = new User(sina.API.Entity.Users.Show(null, userName));
                 Console.WriteLine(user.Name);
             }
             catch (Exception ex)
@@ -33,19 +33,19 @@ namespace WeiboCrawler
             return user;
         }
 
-        public List<Status> getUserStatusByUserName(string userName, int num = 50)
+        public List<Status> getUserStatusByUserName(string userName, int num = 50, int page = 1)
         {
             List<Status> myStatusList = new List<Status>();
 
             try
             {
-                var statusList = sina.API.Entity.Statuses.UserTimeline(null, userName, "0", "0", num, 1, false, 0, false);
+                var statusList = sina.API.Entity.Statuses.UserTimeline(null, userName, "0", "0", num, page, false, 0, false);
 
                 if (statusList.Statuses != null)
                 {
                     foreach (var statusInfo in statusList.Statuses)
                     {
-                        Status status = Status.CreateByAPI(statusInfo);
+                        Status status = new Status(statusInfo);
                         myStatusList.Add(status);
                     }
                 }

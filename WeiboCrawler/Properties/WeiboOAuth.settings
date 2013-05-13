@@ -15,7 +15,7 @@
       <Value Profile="(Default)">http://127.0.0.1</Value>
     </Setting>
     <Setting Name="WeiboUser" Type="System.String" Scope="User">
-      <Value Profile="(Default)">silver6wings@gmail.com</Value>
+      <Value Profile="(Default)">silver6wings</Value>
     </Setting>
     <Setting Name="WeiboPassword" Type="System.String" Scope="User">
       <Value Profile="(Default)">Richbird123</Value>

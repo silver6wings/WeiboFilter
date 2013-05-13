@@ -16,14 +16,14 @@ namespace WeiboCrawler
         IFormatter formatter;
         Stream stream;
 
-        public Recorder(bool useBinary)
+        public Recorder(bool useBinary = true)
         {
             if (useBinary) formatter = new BinaryFormatter();
             else formatter = new SoapFormatter();
             stream = null;
         }
 
-        public void OpenStream(string fileName){
+        public void WriteStream(string fileName){
             stream = File.Open(fileName, FileMode.Append);
         }
 
@@ -32,20 +32,35 @@ namespace WeiboCrawler
             stream = File.Open(fileName, FileMode.Open);
         }
 
-        public void DropStream(){
+        public void CloseStream(){
             stream.Close();
         }
 
         public void writeObj(object obj)
         {
-            if (stream == null) Console.WriteLine("S");
-            if (obj == null) Console.WriteLine("O");
-            formatter.Serialize(stream, obj);    
+            try
+            {
+                formatter.Serialize(stream, obj);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("{0}", ex.GetType().Name);
+                Console.WriteLine("{0}", ex.Message);
+            }
         }
 
         public object readObj()
         {
-            return formatter.Deserialize(stream); ;
+            object o = null;
+            try
+            {                
+                o = formatter.Deserialize(stream);
+            }
+            catch 
+            {
+                // Here may the end of file.
+            }
+            return o;
         }
     }
 }
