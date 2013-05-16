@@ -11,7 +11,7 @@ using System.Runtime.Serialization.Formatters.Soap;
 
 namespace WeiboCrawler
 {
-    class Recorder
+    public class Recorder
     {
         IFormatter formatter;
         Stream stream;
@@ -36,7 +36,7 @@ namespace WeiboCrawler
             stream.Close();
         }
 
-        public void writeObj(object obj)
+        public void WriteObject(object obj)
         {
             try
             {
@@ -49,7 +49,7 @@ namespace WeiboCrawler
             }
         }
 
-        public object readObj()
+        public object ReadObject()
         {
             object o = null;
             try

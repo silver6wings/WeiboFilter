@@ -25,7 +25,7 @@ namespace WeiboCrawler.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("_Data/")]
+        [global::System.Configuration.DefaultSettingValueAttribute("../_Data/Weibo/")]
         public string weiboPath {
             get {
                 return ((string)(this["weiboPath"]));
@@ -37,7 +37,7 @@ namespace WeiboCrawler.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("_Data/Pictures/")]
+        [global::System.Configuration.DefaultSettingValueAttribute("../_Data/Pictures/")]
         public string picPath {
             get {
                 return ((string)(this["picPath"]));

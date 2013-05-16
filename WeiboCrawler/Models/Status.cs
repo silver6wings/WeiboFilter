@@ -14,7 +14,7 @@ namespace WeiboCrawler
         public string Text { get; internal set; }
 
         public string Source { get; internal set; }
-        public bool Favorited { get; internal set; }
+        public string UserID { get; internal set; }
         public bool Truncated { get; internal set; }
 
         public string ThumbnailPictureUrl { get; internal set; }
@@ -32,7 +32,7 @@ namespace WeiboCrawler
             this.Text =                     statusInfo.Text;
 
             this.Source =                   statusInfo.Source;
-            this.Favorited =                statusInfo.Favorited;
+            this.UserID =                   statusInfo.User.ID;
             this.Truncated =                statusInfo.Truncated;
 
             this.ThumbnailPictureUrl =      statusInfo.ThumbnailPictureUrl;
@@ -41,6 +41,7 @@ namespace WeiboCrawler
 
             this.RepostsCount =             statusInfo.RepostsCount;
             this.CommentsCount =            statusInfo.CommentsCount;
+            
             if (statusInfo.RetweetedStatus != null) this.RetweetedStatusID = statusInfo.RetweetedStatus.ID;
         }
     }

@@ -44,7 +44,7 @@
   <ItemGroup>
     <Compile Include="Controller\Crawler.cs" />
     <Compile Include="Controller\Downloader.cs" />
-    <Compile Include="Models\Label.cs" />
+    <Compile Include="Models\Labeling.cs" />
     <Compile Include="Properties\Crawler.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>

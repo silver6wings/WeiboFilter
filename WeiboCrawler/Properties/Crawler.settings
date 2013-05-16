@@ -3,10 +3,10 @@
   <Profiles />
   <Settings>
     <Setting Name="weiboPath" Type="System.String" Scope="User">
-      <Value Profile="(Default)">_Data/</Value>
+      <Value Profile="(Default)">../_Data/Weibo/</Value>
     </Setting>
     <Setting Name="picPath" Type="System.String" Scope="User">
-      <Value Profile="(Default)">_Data/Pictures/</Value>
+      <Value Profile="(Default)">../_Data/Pictures/</Value>
     </Setting>
   </Settings>
 </SettingsFile>

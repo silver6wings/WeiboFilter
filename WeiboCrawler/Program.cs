@@ -8,14 +8,14 @@ using System.IO;
 
 namespace WeiboCrawler
 {
-    public class Test
+    public class Program
     {
         public static void Main()
         {
             Console.WriteLine("=== START ===");
 
-            //keepWatchingPhotos("莉莉努力去哈佛宾大包养小白脸", 5);
-            fetchStatus("莉莉努力去哈佛宾大包养小白脸");
+            //keepWatchingPhotos("silver6wings", 5);
+            fetchStatus("作业本");
 
             Console.WriteLine("=== END ===");
             Console.ReadKey();
@@ -33,11 +33,11 @@ namespace WeiboCrawler
             if(File.Exists(filePath))
             {
                 rr.ReadStream(filePath);
-                Status ts = (Status)rr.readObj();
+                Status ts = (Status)rr.ReadObject();
                 while (ts != null)
                 {
                     if (max < long.Parse(ts.ID)) max = long.Parse(ts.ID);
-                    ts = (Status)rr.readObj();
+                    ts = (Status)rr.ReadObject();
                 }
                 rr.CloseStream();
             }
@@ -52,7 +52,7 @@ namespace WeiboCrawler
                 // 如果是最新的就写入到记录文件中
                 if (max < long.Parse(s.ID))
                 {
-                    rr.writeObj(s);
+                    rr.WriteObject(s);
                     Console.WriteLine(s.ID);
                 }
             }
