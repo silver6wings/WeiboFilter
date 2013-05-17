@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 using WeiboCrawler;
 
@@ -14,51 +15,24 @@ namespace LabelingTools
 {
     public partial class Form1 : Form
     {
-        private Button bt1, bt2;
-        private TextBox txb1;
-
         private bool isLabeling;
-        private string fileName;
-        private string filePath;
+        private string labelingPath;
+        private string labelingName;
+
         private Recorder statusRecorder, labelRecorder;
         private Status status;
+        private List<Labeling> existLabeling;
 
         public Form1()
         {
             InitializeComponent();
 
+            labelingPath = "../../_Data/Labeling/";
+
             statusRecorder = new Recorder(false);
             labelRecorder = new Recorder(false);
-
-            this.Width = 800;
-            this.Height = 600;
-            this.Text = "No File Reading...";
-
-            bt1 = new Button();
-            bt1.Text = "普通信息";
-            bt1.BackColor = Color.SkyBlue;
-            bt1.Location = new Point(50, 450);
-            bt1.Size = new Size(300, 80);
-            bt1.Click += new EventHandler(bt1_click);
-            this.Controls.Add(bt1);
-
-            bt2 = new Button();
-            bt2.Text = "垃圾信息";
-            bt2.BackColor = Color.Red;
-            bt2.ForeColor = Color.White;
-            bt2.Location = new Point(400, 450);
-            bt2.Size = new Size(300, 80);
-            bt2.Click += new EventHandler(bt2_click);
-            this.Controls.Add(bt2);
-
-            txb1 = new TextBox();
-            txb1.Location = new Point(50, 80);
-            txb1.Size = new Size(600, 300);
-            txb1.Multiline = true;
-            txb1.ScrollBars = ScrollBars.Vertical;
-            txb1.WordWrap = true;
-            this.Controls.Add(txb1);
-
+            existLabeling = new List<Labeling>();
+            
             // Set menu item
             MenuItem mi = new MenuItem("Load File");
             mi.Click += new EventHandler(menu_click);
@@ -69,7 +43,7 @@ namespace LabelingTools
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            isLabeling = false;
+            refreshCheckedBoxes(false);
         }
 
         // ### Keyboard Operation ###
@@ -95,7 +69,9 @@ namespace LabelingTools
             ofd.Filter = "文本文件(*.txt;*.doc)|*.txt;*.doc";
             ofd.FilterIndex = 1;
             ofd.FileName = "";
-            
+
+            string filePath = "";
+            string fileName = "";
             if (ofd.ShowDialog() == DialogResult.OK)
             {
                 fileName = ofd.SafeFileName.ToString();
@@ -104,85 +80,138 @@ namespace LabelingTools
 
             if (!string.IsNullOrEmpty(filePath))
             {
-                fireLabeling(filePath);
+                startLabeling(filePath, fileName);
             }
             else
             {
                 this.Text = "_(:3」∠)_ Loading failed....";
             }
         }
-
+        
         private void bt1_click(object s, EventArgs e)
         {
             if (!isLabeling) return;
 
-            refreshNextStatus();
-            //normal status do nothing
+            Labeling tlb = findLabeling(status.ID);
+            if (tlb != null) existLabeling.Remove(tlb);
+
+            existLabeling.Add(new Labeling("Normal", status.Text, status.ID, status.UserID));
+
+            if (!refreshNextStatus()) finishLabeling();
         }
 
         private void bt2_click(object s, EventArgs e)
         {
             if (!isLabeling) return;
 
-            if (refreshNextStatus())
-            {
-                Labeling lbl = new Labeling("Spam", status.Text, status.ID, status.UserID);
-                labelRecorder.WriteObject(lbl);
-            }
+            Labeling tlb = findLabeling(status.ID);
+            if (tlb != null) existLabeling.Remove(tlb);
+
+            existLabeling.Add(new Labeling("Spam", status.Text, status.ID, status.UserID));
+
+            if (!refreshNextStatus()) finishLabeling();
         }
 
         // ### Custom ###
 
-        private void fireLabeling(string filePath)
+        private void startLabeling(string sourcePath, string sourceName)
         {
-            this.Text = filePath;
-            statusRecorder.ReadStream(filePath);
+            refreshCheckedBoxes(true);
 
-            
-            string recordPath = "../../_Data/Labeling/" + fileName;
-            Console.WriteLine(recordPath);
-            labelRecorder.WriteStream(recordPath);
-            
-            refreshNextStatus();
+            // 打开标记读取数据流
+            labelingName = "Result_" + sourceName;
+            string recordPath = labelingPath + labelingName;  
+
+            // 载入已存在的
+            if(File.Exists(recordPath))
+            {
+                labelRecorder.ReadStream(recordPath);            
+                existLabeling.Clear();  
+                Labeling tl = (Labeling)labelRecorder.ReadObject();
+                while(tl != null){
+                    existLabeling.Add(tl);
+                    tl = (Labeling)labelRecorder.ReadObject();
+                }
+                labelRecorder.CloseStream();
+            }
+
+            // 打开微博读取数据流
+            this.Text = sourcePath;
+            statusRecorder.ReadStream(sourcePath);
+
+            if (!refreshNextStatus()) finishLabeling();
         }
 
-        // if has next return true
+        private void finishLabeling()
+        {
+            refreshCheckedBoxes(false);
+
+            // 记录最新的标记结果然后关闭
+            string recordPath = labelingPath + labelingName;
+
+            labelRecorder.OverWriteStream(recordPath);
+            foreach (Labeling tl in existLabeling)            
+                labelRecorder.WriteObject(tl);            
+            labelRecorder.CloseStream();
+            labelingName = "";
+
+            // 关闭微博读取流
+            statusRecorder.CloseStream();
+
+            txb1.Text = "";
+            this.Text = "No File Reading";
+        }
+       
         private bool refreshNextStatus()
         {
-            try
+            status = null;
+            bool foundNext = false;
+
+            // 找到下一个符合过滤需求的Status
+            while (!foundNext)
             {
                 status = (Status)statusRecorder.ReadObject();
-                if (status != null)
-                {
-                    isLabeling = true;
-                    txb1.Text = status.Text;
-                    txb1.Text += status.UserID;
-                    return true;
-                }
+
+                if (status == null) break;
                 else
                 {
-                    statusRecorder.CloseStream();
-                    labelRecorder.CloseStream();
-                    isLabeling = false;
-                    fileName = "";
-                    filePath = "";
-                    txb1.Text = "";
-                    this.Text = "No File Reading";
-                    return false;
+                    Labeling tlb = findLabeling(status.ID);
+
+                    if (cbUnlabeled.Checked == true && tlb == null)
+                        foundNext = true;
+                    else if (cbNormal.Checked == true && tlb.Category == "Normal")
+                        foundNext = true;
+                    else if (cbSpam.Checked == true && tlb.Category == "Spam")
+                        foundNext = true;
                 }
             }
-            catch
+
+            // 找到了就显示出来等代标记
+            if (foundNext)
             {
-                statusRecorder.CloseStream();
-                labelRecorder.CloseStream();
-                isLabeling = false;
-                fileName = "";
-                filePath = "";
-                txb1.Text = "";
-                this.Text = "No File Reading... Error";
-                return false;
+                txb1.Text = "Status ID:";
+                txb1.Text += status.UserID;
+                txb1.Text += "\r\n";
+                txb1.Text += status.Text;
             }
+
+            return foundNext;
         }
 
+        private Labeling findLabeling(string statusID)
+        {
+            foreach (Labeling lb in existLabeling)            
+                if (lb.StatusID == status.ID)                
+                    return lb;                            
+            return null;
+        }
+
+        private void refreshCheckedBoxes(bool isDoingLabeling)
+        {
+            isLabeling = isDoingLabeling;
+            cbUnlabeled.Enabled = !isLabeling;
+            cbNormal.Enabled = !isLabeling;
+            cbSpam.Enabled = !isLabeling;
+        }
     }
 }

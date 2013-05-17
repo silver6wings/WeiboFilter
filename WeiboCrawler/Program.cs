@@ -15,7 +15,7 @@ namespace WeiboCrawler
             Console.WriteLine("=== START ===");
 
             //keepWatchingPhotos("silver6wings", 5);
-            fetchStatus("作业本");
+            fetchStatus("银翎六翼");
 
             Console.WriteLine("=== END ===");
             Console.ReadKey();
@@ -76,4 +76,3 @@ namespace WeiboCrawler
 
     }
 }
-

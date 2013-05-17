@@ -23,8 +23,14 @@ namespace WeiboCrawler
             stream = null;
         }
 
-        public void WriteStream(string fileName){
+        public void WriteStream(string fileName)
+        {
             stream = File.Open(fileName, FileMode.Append);
+        }
+
+        public void OverWriteStream(string fileName)
+        {
+            stream = File.Open(fileName, FileMode.Create);
         }
 
         public void ReadStream(string fileName)
@@ -32,7 +38,8 @@ namespace WeiboCrawler
             stream = File.Open(fileName, FileMode.Open);
         }
 
-        public void CloseStream(){
+        public void CloseStream()
+        {
             stream.Close();
         }
 

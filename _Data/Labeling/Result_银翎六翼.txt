@@ -1,0 +1,200 @@
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Labeling id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboCrawler/WeiboCrawler%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_Category_x003E_k__BackingField id="ref-3">Normal</_x003C_Category_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-4">[酷]新鼠标喜欢死了，瞬间战斗力提高200%哇哇~</_x003C_Text_x003E_k__BackingField>
+<_x003C_StatusID_x003E_k__BackingField id="ref-5">3578932143900042</_x003C_StatusID_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-6">1570153267</_x003C_UserID_x003E_k__BackingField>
+</a1:Labeling>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Labeling id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboCrawler/WeiboCrawler%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_Category_x003E_k__BackingField id="ref-3">Normal</_x003C_Category_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-4">居然很没出息的看完了，“看我头像的眼神！” //@史上第一最最搞:好剧情好屌丝好好笑神反转</_x003C_Text_x003E_k__BackingField>
+<_x003C_StatusID_x003E_k__BackingField id="ref-5">3578695929262747</_x003C_StatusID_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-6">1570153267</_x003C_UserID_x003E_k__BackingField>
+</a1:Labeling>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Labeling id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboCrawler/WeiboCrawler%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_Category_x003E_k__BackingField id="ref-3">Normal</_x003C_Category_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-4">0_0 BVR又是个神马概念？</_x003C_Text_x003E_k__BackingField>
+<_x003C_StatusID_x003E_k__BackingField id="ref-5">3578272673370078</_x003C_StatusID_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-6">1570153267</_x003C_UserID_x003E_k__BackingField>
+</a1:Labeling>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Labeling id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboCrawler/WeiboCrawler%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_Category_x003E_k__BackingField id="ref-3">Normal</_x003C_Category_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-4">感觉不像软文，经济学的原理讲的还是很清楚的。</_x003C_Text_x003E_k__BackingField>
+<_x003C_StatusID_x003E_k__BackingField id="ref-5">3578236716281929</_x003C_StatusID_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-6">1570153267</_x003C_UserID_x003E_k__BackingField>
+</a1:Labeling>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Labeling id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboCrawler/WeiboCrawler%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_Category_x003E_k__BackingField id="ref-3">Normal</_x003C_Category_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-4">黑的漂亮</_x003C_Text_x003E_k__BackingField>
+<_x003C_StatusID_x003E_k__BackingField id="ref-5">3577908931021868</_x003C_StatusID_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-6">1570153267</_x003C_UserID_x003E_k__BackingField>
+</a1:Labeling>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Labeling id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboCrawler/WeiboCrawler%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_Category_x003E_k__BackingField id="ref-3">Normal</_x003C_Category_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-4">=3=~❤ 超理想型style</_x003C_Text_x003E_k__BackingField>
+<_x003C_StatusID_x003E_k__BackingField id="ref-5">3576714896514294</_x003C_StatusID_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-6">1570153267</_x003C_UserID_x003E_k__BackingField>
+</a1:Labeling>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Labeling id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboCrawler/WeiboCrawler%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_Category_x003E_k__BackingField id="ref-3">Normal</_x003C_Category_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-4">起腿的动作帅爆了[爱你]</_x003C_Text_x003E_k__BackingField>
+<_x003C_StatusID_x003E_k__BackingField id="ref-5">3576552962709074</_x003C_StatusID_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-6">1570153267</_x003C_UserID_x003E_k__BackingField>
+</a1:Labeling>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Labeling id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboCrawler/WeiboCrawler%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_Category_x003E_k__BackingField id="ref-3">Normal</_x003C_Category_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-4">Test2</_x003C_Text_x003E_k__BackingField>
+<_x003C_StatusID_x003E_k__BackingField id="ref-5">3576445428920077</_x003C_StatusID_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-6">1570153267</_x003C_UserID_x003E_k__BackingField>
+</a1:Labeling>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Labeling id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboCrawler/WeiboCrawler%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_Category_x003E_k__BackingField id="ref-3">Normal</_x003C_Category_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-4">Test1</_x003C_Text_x003E_k__BackingField>
+<_x003C_StatusID_x003E_k__BackingField id="ref-5">3576445080754511</_x003C_StatusID_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-6">1570153267</_x003C_UserID_x003E_k__BackingField>
+</a1:Labeling>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Labeling id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboCrawler/WeiboCrawler%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_Category_x003E_k__BackingField id="ref-3">Normal</_x003C_Category_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-4">Test</_x003C_Text_x003E_k__BackingField>
+<_x003C_StatusID_x003E_k__BackingField id="ref-5">3576408519577761</_x003C_StatusID_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-6">1570153267</_x003C_UserID_x003E_k__BackingField>
+</a1:Labeling>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Labeling id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboCrawler/WeiboCrawler%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_Category_x003E_k__BackingField id="ref-3">Normal</_x003C_Category_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-4">Test1</_x003C_Text_x003E_k__BackingField>
+<_x003C_StatusID_x003E_k__BackingField id="ref-5">3576408255274449</_x003C_StatusID_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-6">1570153267</_x003C_UserID_x003E_k__BackingField>
+</a1:Labeling>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Labeling id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboCrawler/WeiboCrawler%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_Category_x003E_k__BackingField id="ref-3">Normal</_x003C_Category_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-4">Test</_x003C_Text_x003E_k__BackingField>
+<_x003C_StatusID_x003E_k__BackingField id="ref-5">3576407974449673</_x003C_StatusID_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-6">1570153267</_x003C_UserID_x003E_k__BackingField>
+</a1:Labeling>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Labeling id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboCrawler/WeiboCrawler%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_Category_x003E_k__BackingField id="ref-3">Normal</_x003C_Category_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-4">【中国太多人拥有的只是伪青春】 http://t.cn/zTH0GF3 一位姑娘在放映途中突然号啕大哭，并跑出场外。这是发生在《致我们终将逝去的青春》（简称《致青春》）上映前看片会上的一幕。 我们无法得知那一刻她的内心经历了怎样的波澜，或许是想起曾经为了爱情... （分享自@无觅网）</_x003C_Text_x003E_k__BackingField>
+<_x003C_StatusID_x003E_k__BackingField id="ref-5">3576196862782120</_x003C_StatusID_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-6">1570153267</_x003C_UserID_x003E_k__BackingField>
+</a1:Labeling>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Labeling id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboCrawler/WeiboCrawler%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_Category_x003E_k__BackingField id="ref-3">Normal</_x003C_Category_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-4">搜狗已经给360跪了么，马上就要变成360输入法了咩？</_x003C_Text_x003E_k__BackingField>
+<_x003C_StatusID_x003E_k__BackingField id="ref-5">3576196002325396</_x003C_StatusID_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-6">1570153267</_x003C_UserID_x003E_k__BackingField>
+</a1:Labeling>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Labeling id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboCrawler/WeiboCrawler%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_Category_x003E_k__BackingField id="ref-3">Normal</_x003C_Category_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-4">每次快被玩坏的时候就证明经验值槽已经快满了，然后不久就会头顶刷刷金光一亮，闪出一行字LEVEL UP，然后就可以加新的技能点了。 =v=</_x003C_Text_x003E_k__BackingField>
+<_x003C_StatusID_x003E_k__BackingField id="ref-5">3576167967573682</_x003C_StatusID_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-6">1570153267</_x003C_UserID_x003E_k__BackingField>
+</a1:Labeling>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Labeling id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboCrawler/WeiboCrawler%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_Category_x003E_k__BackingField id="ref-3">Normal</_x003C_Category_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-4">╮(╯▽╰)╭早晚都得挨这么一刀，谁叫自己当年不争气呢……</_x003C_Text_x003E_k__BackingField>
+<_x003C_StatusID_x003E_k__BackingField id="ref-5">3575837443973251</_x003C_StatusID_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-6">1570153267</_x003C_UserID_x003E_k__BackingField>
+</a1:Labeling>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Labeling id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboCrawler/WeiboCrawler%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_Category_x003E_k__BackingField id="ref-3">Normal</_x003C_Category_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-4">//@亮晶晶的马甲: //@优秀网页设计: 更多神作请戳→http://t.cn/zTzjpDx 【图标 ICON 】专栏//@李猛干: 这才是设计啊……第一个尤其喜欢//@叶兰舟-Designer: 这才是设计啊…</_x003C_Text_x003E_k__BackingField>
+<_x003C_StatusID_x003E_k__BackingField id="ref-5">3575757286496127</_x003C_StatusID_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-6">1570153267</_x003C_UserID_x003E_k__BackingField>
+</a1:Labeling>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Labeling id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboCrawler/WeiboCrawler%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_Category_x003E_k__BackingField id="ref-3">Normal</_x003C_Category_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-4">一年的时间过得太特么快了，去年北航开GMIC还被抓去做flash开场动画……</_x003C_Text_x003E_k__BackingField>
+<_x003C_StatusID_x003E_k__BackingField id="ref-5">3575735962690522</_x003C_StatusID_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-6">1570153267</_x003C_UserID_x003E_k__BackingField>
+</a1:Labeling>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Labeling id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboCrawler/WeiboCrawler%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_Category_x003E_k__BackingField id="ref-3">Normal</_x003C_Category_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-4">还是很怀念十年前做flash动画的日子滴</_x003C_Text_x003E_k__BackingField>
+<_x003C_StatusID_x003E_k__BackingField id="ref-5">3575039854778830</_x003C_StatusID_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-6">1570153267</_x003C_UserID_x003E_k__BackingField>
+</a1:Labeling>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Labeling id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboCrawler/WeiboCrawler%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_Category_x003E_k__BackingField id="ref-3">Normal</_x003C_Category_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-4">很小的时候大人就教育我：有种你别玩游戏，有本事你做一个游戏玩别人去。于是乎，多年之后，变成了码农 =v=#//@创业家杂志: 转发微博</_x003C_Text_x003E_k__BackingField>
+<_x003C_StatusID_x003E_k__BackingField id="ref-5">3574942941236098</_x003C_StatusID_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-6">1570153267</_x003C_UserID_x003E_k__BackingField>
+</a1:Labeling>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
