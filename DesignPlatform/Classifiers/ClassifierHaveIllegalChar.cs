@@ -7,7 +7,7 @@ namespace DesignPlatform.Classifiers
 {
     class ClassifierHaveIllegalChar : Classifier
     {
-        public override string doClassify(string comment)
+        public override string classify(string comment)
         {
             int t = 0;
             int max = 0;

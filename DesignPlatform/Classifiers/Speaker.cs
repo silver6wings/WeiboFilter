@@ -14,14 +14,18 @@ namespace DesignPlatform.Classifiers
             _finalCategory = finalCategory;
         }
 
-        public override void doReceive(string comment, string category)
+        public override void receiveItem(string comment, string category)
         {
-            doReport(comment, category);
+            // 不分类直接就发布声明
+            reportItem(comment, category);
         }
 
-        public override void doReport(string comment, string category)
+        public override void reportItem(string comment, string category)
         {
+            // 显示分类路径
             if (_strategy._showPath) Console.WriteLine("\"{0}\" >> {1}", comment, _finalCategory);
+
+            // 告诉strategy最终结果
             _strategy._categoryResult = _finalCategory;
         }
     }

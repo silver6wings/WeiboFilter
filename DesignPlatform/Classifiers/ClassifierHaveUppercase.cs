@@ -7,7 +7,7 @@ namespace DesignPlatform.Classifiers
 {
     class ClassifierHaveUppercase : Classifier
     {
-        public override string doClassify(string comment)
+        public override string classify(string comment)
         {
             for (int i = 0; i < comment.Length; i++)
             {

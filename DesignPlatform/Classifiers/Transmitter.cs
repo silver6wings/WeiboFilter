@@ -7,21 +7,11 @@ namespace DesignPlatform.Classifiers
 {
 	abstract class Transmitter
     {
-        protected Strategy _strategy;
-        protected int _index;
-        
-        public void setStrategy(Strategy strategy)
-        {
-            _strategy = strategy;
-        }
+        public Strategy _strategy { get; internal set; } // 自己所在的strategy
+        public int _index { get; internal set; } // 自己所在的strategy里classifier的位置       
 
-        public void setIndex(int index)
-        {
-            _index = index;
-        }
+        public abstract void receiveItem(string item, string category);
 
-        public abstract void doReceive(string comment, string category);
-
-        public abstract void doReport(string comment, string category);
+        public abstract void reportItem(string item, string category);
 	}
 }

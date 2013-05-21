@@ -7,7 +7,7 @@ namespace DesignPlatform.Classifiers
 {
     class ClassifierLength10 : Classifier
     {
-        public override string doClassify(string comment)
+        public override string classify(string comment)
         {
             if (comment.Length > 10)
             {

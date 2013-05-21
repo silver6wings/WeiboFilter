@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using PanGu;
 using PanGu.Dict;
 
-namespace WeiboCrawler
+namespace WeiboTools
 {
     class WordDivider
     {

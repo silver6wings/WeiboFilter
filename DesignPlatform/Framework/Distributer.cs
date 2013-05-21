@@ -14,12 +14,10 @@ namespace DesignPlatform
             _strategys = strategys;
         }
 
-        public void pushComments(string comment)
+        // 将item分发给各个strategy
+        public void pushItem(string item)
         {
-            foreach (Strategy strategy in _strategys)
-            {
-                strategy.makeDecision(comment);
-            }
+            foreach (Strategy strategy in _strategys) strategy.receiveItem(item);            
         }
     }
 }

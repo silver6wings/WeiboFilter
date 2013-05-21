@@ -17,7 +17,7 @@ namespace DesignPlatform
             List<Transmitter> testClassifierGroup = new List<Transmitter>();
 
             ClassifierLearnable c0 = new ClassifierLearnableBayes(ClassifierLearnableBayesType.Naive);
-            c0.setDetector(new DetectorSpace());
+            c0._detector = new DetectorSpace();
             Teacher.teachWithFile(c0, "../Data/DP/TrainData.txt");
 
             /*        
@@ -49,7 +49,7 @@ namespace DesignPlatform
             List<Transmitter> testClassifierGroup = new List<Transmitter>();
 
             Classifier c1 = new ClassifierHaveIllegalChar();
-            c1.setFilter(new FilterType());
+            c1._filter = new FilterType();
 
             Classifier c2 = new ClassifierHaveRNRNRN();
 

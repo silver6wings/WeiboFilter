@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using NetDimension.Weibo;
 
-namespace WeiboCrawler
+namespace WeiboTools
 {
     class OAuther
     {

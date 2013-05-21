@@ -26,7 +26,7 @@ namespace DesignPlatform
                 {
                     line = sr.ReadLine();
 
-                    if (strategy.makeDecision(line).Equals("GOOD"))
+                    if (strategy.receiveItem(line).Equals("GOOD"))
                     {
                         whiteReal[0]++;
                     }
@@ -38,7 +38,7 @@ namespace DesignPlatform
                 else // is Black
                 {
                     line = sr.ReadLine();
-                    if (strategy.makeDecision(line).Equals("GOOD"))
+                    if (strategy.receiveItem(line).Equals("GOOD"))
                     {
                         blackReal[0]++;
                     }

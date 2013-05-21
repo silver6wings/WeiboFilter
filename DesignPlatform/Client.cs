@@ -17,7 +17,7 @@ namespace DesignPlatform
             Strategy se = StrategyFactory.getBayesStra();
 
             se._showPath = false;
-            se.makeDecision("À1234567890123ÀÁÂÃÄÅ℃【“”字");
+            se.receiveItem("À1234567890123ÀÁÂÃÄÅ℃【“”字");
 
             StrategyTester.testBinary(se, "../Data/DP/TestData_2012-10-31.txt");
              

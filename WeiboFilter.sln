@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabelingTools", "LabelingTools\LabelingTools.csproj", "{04F5F05A-AEB8-46A7-899A-DFE100816ABA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeiboCrawler", "WeiboCrawler\WeiboCrawler.csproj", "{5C4FE0EE-12D4-4D66-826C-732386484618}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeiboTools", "WeiboCrawler\WeiboTools.csproj", "{5C4FE0EE-12D4-4D66-826C-732386484618}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetDimension.Weibo40", "NetDimension.Weibo\NetDimension.Weibo40.csproj", "{7B795714-40D6-4B2E-A277-CBE13C33E1ED}"
 EndProject

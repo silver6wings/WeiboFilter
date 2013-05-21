@@ -8,12 +8,12 @@ namespace DesignPlatform
 {
     class Strategy
     {
-        internal string _categoryResult;
-        internal string _name;
-        internal bool _showPath;
+        internal string _categoryResult;                //
+        internal string _name;                          // 策略名
+        internal bool _showPath;                        // 是否显示路径
 
-        internal List<Transmitter> _classifierGroup;
-        internal string[][] _graph;
+        internal List<Transmitter> _transmitters;       // 分类器
+        internal string[][] _graph;                     // 分类器路径图
 
         
         public Strategy(string name, string[][] graph, List<Transmitter> classifierGroup, bool showPath = false)
@@ -23,19 +23,21 @@ namespace DesignPlatform
             _showPath = showPath;
 
             _graph = graph;
-            _classifierGroup = classifierGroup;
+            _transmitters = classifierGroup;
 
-            for (int i = 0; i < _classifierGroup.Count; i++)
+            // 把每个classifer连接到strategy上
+            for (int i = 0; i < _transmitters.Count; i++)
             {
-                _classifierGroup.ElementAt(i).setIndex(i);
-                _classifierGroup.ElementAt(i).setStrategy(this);
+                _transmitters.ElementAt(i)._index = i;
+                _transmitters.ElementAt(i)._strategy = this;
             }
         }
         
-        public string makeDecision(string comment, int startNum = 0)
+        public string receiveItem(string item, int startClassiferNum = 0)
         {
             // default _classifiers[0] is entrance;
-            _classifierGroup.ElementAt(startNum).doReceive(comment, "start");
+            _transmitters.ElementAt(startClassiferNum).receiveItem(item, "start");
+
             return _categoryResult;
         }
     }

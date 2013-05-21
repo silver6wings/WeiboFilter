@@ -7,16 +7,11 @@ namespace DesignPlatform.Classifiers
 {
     abstract class ClassifierLearnable : Classifier
     {
-        protected Detector _detector;
+        public Detector _detector { get; set; }
 
-        public void setDetector(Detector detector)
-        {
-            _detector = detector;
-        }
+        public abstract void train(string comment, string category);
 
-        public abstract void doTrain(string comment, string category);
-
-        public abstract void doUntrain(string comment, string category);
+        public abstract void untrain(string comment, string category);
 
         public abstract void showModelInfo();
     }

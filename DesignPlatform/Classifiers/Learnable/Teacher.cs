@@ -22,7 +22,7 @@ namespace DesignPlatform.Classifiers
                 string catName = line;// Category Name
                 line = sr.ReadLine(); // load features
 
-                classifier.doTrain(line, catName);
+                classifier.train(line, catName);
 
                 line = sr.ReadLine(); // load next
             }

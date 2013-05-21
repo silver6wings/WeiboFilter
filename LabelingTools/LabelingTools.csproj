@@ -81,9 +81,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\WeiboCrawler\WeiboCrawler.csproj">
+    <ProjectReference Include="..\WeiboCrawler\WeiboTools.csproj">
       <Project>{5c4fe0ee-12d4-4d66-826c-732386484618}</Project>
-      <Name>WeiboCrawler</Name>
+      <Name>WeiboTools</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

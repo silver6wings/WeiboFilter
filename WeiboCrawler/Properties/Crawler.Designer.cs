@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WeiboCrawler.Properties {
+namespace WeiboTools.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
@@ -25,25 +25,37 @@ namespace WeiboCrawler.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("../_Data/Weibo/")]
-        public string weiboPath {
+        [global::System.Configuration.DefaultSettingValueAttribute("../../_Data/")]
+        public string basePath {
             get {
-                return ((string)(this["weiboPath"]));
+                return ((string)(this["basePath"]));
             }
             set {
-                this["weiboPath"] = value;
+                this["basePath"] = value;
             }
         }
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("../_Data/Pictures/")]
+        [global::System.Configuration.DefaultSettingValueAttribute("../../_Data/Pictures/")]
         public string picPath {
             get {
                 return ((string)(this["picPath"]));
             }
             set {
                 this["picPath"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("../../_Data/Weibo/")]
+        public string weiboPath {
+            get {
+                return ((string)(this["weiboPath"]));
+            }
+            set {
+                this["weiboPath"] = value;
             }
         }
     }

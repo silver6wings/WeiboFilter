@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using System.Net;
 using System.IO;
 
-namespace WeiboCrawler
+namespace WeiboTools
 {
     class Downloader
     {

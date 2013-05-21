@@ -38,7 +38,7 @@ namespace DesignPlatform.Classifiers
             _featuresCountInAllCategory = new Dictionary<string, long>();
         }
 
-        public override string doClassify(string comment)
+        public override string classify(string comment)
         {
             if(_classifierBayesType == ClassifierLearnableBayesType.Revised)
             {
@@ -54,7 +54,7 @@ namespace DesignPlatform.Classifiers
             }
         }
 
-        public override void doTrain(string comment, string category)
+        public override void train(string comment, string category)
         {
             // Add category name list
             if (!_categoryNames.Contains(category)) _categoryNames.Add(category);
@@ -88,7 +88,7 @@ namespace DesignPlatform.Classifiers
             }
         }
 
-        public override void doUntrain(string comment, string category)
+        public override void untrain(string comment, string category)
         {
             throw new NotImplementedException();
         }

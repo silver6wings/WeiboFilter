@@ -7,8 +7,8 @@
     <ProjectGuid>{5C4FE0EE-12D4-4D66-826C-732386484618}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>WeiboCrawler</RootNamespace>
-    <AssemblyName>WeiboCrawler</AssemblyName>
+    <RootNamespace>WeiboTools</RootNamespace>
+    <AssemblyName>WeiboTools</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
