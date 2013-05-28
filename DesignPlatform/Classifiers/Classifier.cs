@@ -45,7 +45,7 @@ namespace DesignPlatform.Classifiers
             Console.WriteLine("Classifier can't find next...");
         }
 
-        // classify detail
+        // return的string就是classifier分的类别
         public abstract string classify(string item); 
     }
 }
