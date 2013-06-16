@@ -1,0 +1,1584 @@
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Thu Jun 13 13:42:42 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3588724933335488</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">想不到我苦苦追寻了10年的瘦身梦，用了小S推荐的睡睡瘦这款产品终于梦想成真了，一瞬间我哭的稀里哗啦的[泪]！这一刻我把小S当成了此生最大的恩人！我身高166cm，减肥前是158斤，我用了三个疗程，居然两个月就让我减到了98斤[兔子]，价格不贵也没反弹[心]，分享购买地址&#62;&#62;http://t.cn/zHRWg0N</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://weibo.com/&#34; rel=&#34;nofollow&#34;&#62;新浪微博&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField id="ref-8">http://ww1.sinaimg.cn/thumbnail/cf3e3d97jw1e5mggpsmsyj20c80cxwfx.jpg</_x003C_ThumbnailPictureUrl_x003E_k__BackingField>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField id="ref-9">http://ww1.sinaimg.cn/bmiddle/cf3e3d97jw1e5mggpsmsyj20c80cxwfx.jpg</_x003C_MiddleSizePictureUrl_x003E_k__BackingField>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField id="ref-10">http://ww1.sinaimg.cn/large/cf3e3d97jw1e5mggpsmsyj20c80cxwfx.jpg</_x003C_OriginalPictureUrl_x003E_k__BackingField>
+<_x003C_RepostsCount_x003E_k__BackingField>1253</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>402</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField xsi:null="1"/>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Thu Jun 13 16:01:59 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3588759989270052</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">回复@Kamcheng_:你好亲，这个用过的都知道，效果反响很大。 //@Kamcheng_:怎么多评论。谁敢说这款产品有效果的？[鄙视]</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://weibo.com/&#34; rel=&#34;nofollow&#34;&#62;新浪微博&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_RepostsCount_x003E_k__BackingField>0</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>0</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField id="ref-8">3588724933335488</_x003C_RetweetedStatusID_x003E_k__BackingField>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Thu Jun 13 14:30:50 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3588737055654434</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">[呵呵][呵呵]睡睡瘦懒人享瘦贴让刘洪飞成全国减肥偶像和楷模[兔子]</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://weibo.com/&#34; rel=&#34;nofollow&#34;&#62;新浪微博&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_RepostsCount_x003E_k__BackingField>0</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>0</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField id="ref-8">3585660612727397</_x003C_RetweetedStatusID_x003E_k__BackingField>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Thu Jun 13 14:29:04 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3588736597880481</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">转发微博</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://weibo.com/&#34; rel=&#34;nofollow&#34;&#62;新浪微博&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_RepostsCount_x003E_k__BackingField>0</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>0</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField id="ref-8">3588724933335488</_x003C_RetweetedStatusID_x003E_k__BackingField>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Thu Jun 13 14:08:17 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3588731359178664</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">[呵呵][呵呵]减淝励志姐一个月暴瘦20斤，感谢非诚勿扰和小s推荐的升级版懒人睡睡贴，现在全网最低价只要【65元】【65元】【65元】买2送1、买3送2、买4送3、买5送5，太给力啦[兔子]，分享购买地址&#62;&#62;http://t.cn/zHRWg0N</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://weibo.com/&#34; rel=&#34;nofollow&#34;&#62;新浪微博&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_RepostsCount_x003E_k__BackingField>0</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>0</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField xsi:null="1"/>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Thu Jun 13 13:44:05 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3588725281811373</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">转发微博</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://weibo.com/&#34; rel=&#34;nofollow&#34;&#62;新浪微博&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_RepostsCount_x003E_k__BackingField>0</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>0</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField id="ref-8">3588724933335488</_x003C_RetweetedStatusID_x003E_k__BackingField>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Thu Jun 13 13:43:34 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3588725151464104</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">转发微博</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://weibo.com/&#34; rel=&#34;nofollow&#34;&#62;新浪微博&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_RepostsCount_x003E_k__BackingField>0</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>0</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField id="ref-8">3588724933335488</_x003C_RetweetedStatusID_x003E_k__BackingField>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Thu Jun 13 13:37:27 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3588723612247806</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">[呵呵]减淝励志姐一个月暴瘦20斤，感谢非诚勿扰和小s推荐的升级版懒人睡睡贴，现在全网最低价只要【65元】【65元】【65元】买2送1、买3送2、买4送3、买5送5，太给力啦，[礼物]</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://weibo.com/&#34; rel=&#34;nofollow&#34;&#62;新浪微博&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_RepostsCount_x003E_k__BackingField>0</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>0</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField xsi:null="1"/>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Wed Jun 05 18:12:38 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3585893765717698</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">糗事爆料时间，说说自己或朋友的那些有意思的事儿吧~</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://weibo.com/&#34; rel=&#34;nofollow&#34;&#62;新浪微博&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_RepostsCount_x003E_k__BackingField>0</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>0</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField xsi:null="1"/>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Wed Jun 05 02:46:11 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3585660612727397</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">睡睡瘦懒人享瘦贴让刘洪飞成全国减肥偶像和楷模  http://t.cn/zTUnvyI  （分享自 @56网）</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://app.weibo.com/t/feed/1NtDfK&#34; rel=&#34;nofollow&#34;&#62;56网连接分享&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_RepostsCount_x003E_k__BackingField>1</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>1</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField xsi:null="1"/>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Wed Jun 05 02:45:15 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3585660377840508</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">http://t.cn/zTUnvyI</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://weibo.com/&#34; rel=&#34;nofollow&#34;&#62;新浪微博&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_RepostsCount_x003E_k__BackingField>0</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>0</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField xsi:null="1"/>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Sat Jun 01 11:45:05 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3584346679704989</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">北京从今年开始全面实施新版空气质量标准，增加PM2.5的全面监测。市环保监测中心主任张大伟表示，因为去年一年忙于安置各种PM2.5监测设备，不同原理的仪器设备不断变化，因此很难取得2012年北京市PM2.5浓度值的情况。——“忙于安装设备”这个借口真新鲜！</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://weibo.com/&#34; rel=&#34;nofollow&#34;&#62;新浪微博&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_RepostsCount_x003E_k__BackingField>0</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>0</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField xsi:null="1"/>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Sat Jun 01 00:52:58 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3584182569412106</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">#大龄儿童也过节#</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://weibo.com/&#34; rel=&#34;nofollow&#34;&#62;新浪微博&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_RepostsCount_x003E_k__BackingField>0</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>1</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField xsi:null="1"/>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Fri May 31 23:48:12 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3584166270210568</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">一个人要做到对自己的美，聪明，善良，完全不自知，才显贵重，一旦有自知，品就自动下降一个层次，就仿佛栀子花不知道自己有多香，兰花不知道自己有多幽静。天分，天性，从来都不需要发言和解释。 ——《素年锦时》 大家记得多看书。</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://weibo.com/&#34; rel=&#34;nofollow&#34;&#62;新浪微博&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField id="ref-8">http://ww4.sinaimg.cn/thumbnail/cf3e3d97tw1e57wwtmfbxj20c8085jsk.jpg</_x003C_ThumbnailPictureUrl_x003E_k__BackingField>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField id="ref-9">http://ww4.sinaimg.cn/bmiddle/cf3e3d97tw1e57wwtmfbxj20c8085jsk.jpg</_x003C_MiddleSizePictureUrl_x003E_k__BackingField>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField id="ref-10">http://ww4.sinaimg.cn/large/cf3e3d97tw1e57wwtmfbxj20c8085jsk.jpg</_x003C_OriginalPictureUrl_x003E_k__BackingField>
+<_x003C_RepostsCount_x003E_k__BackingField>1</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>0</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField xsi:null="1"/>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Fri May 31 22:56:00 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3584153129373583</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">北京同胞们，我们将组织义工队伍，帮助需要帮助的人们。有谁愿意去做义工？</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://weibo.com/&#34; rel=&#34;nofollow&#34;&#62;新浪微博&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_RepostsCount_x003E_k__BackingField>0</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>0</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField xsi:null="1"/>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Fri May 31 21:33:45 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3584132443399095</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">回复@北京牙医尹刚:我也是这么想的 //@北京牙医尹刚:新发地监管不力，罚一敬百。</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://weibo.com/&#34; rel=&#34;nofollow&#34;&#62;新浪微博&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_RepostsCount_x003E_k__BackingField>1</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>0</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField id="ref-8">3582622196198697</_x003C_RetweetedStatusID_x003E_k__BackingField>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Fri May 31 14:18:32 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3584022917669121</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">转发微博</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://weibo.com/&#34; rel=&#34;nofollow&#34;&#62;新浪微博&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_RepostsCount_x003E_k__BackingField>0</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>0</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField id="ref-8">3584022359774912</_x003C_RetweetedStatusID_x003E_k__BackingField>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Fri May 31 12:53:00 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3584001387947246</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">【出行提示·30处堵点将改造】二环路东北城角联络线等14处环路进出口及香泉环岛等6处地点拓宽；在双井桥、安贞桥、航天桥等3处桥区建设公交立体换乘，消除交叉冲突点；在西三环万寿寺站等5处地点修建公交港湾，减少公交车停靠对社会车辆通行的影响；对朝阳门桥、东四十条桥进行改造，缓解桥区拥堵。</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://weibo.com/&#34; rel=&#34;nofollow&#34;&#62;新浪微博&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_RepostsCount_x003E_k__BackingField>6</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>2</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField xsi:null="1"/>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Fri May 31 12:19:22 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3583992919538954</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">【中国好生意，电线杆传媒狂想曲】北京大约有10万根电线杆，随之而来的是&#34;牛皮癣&#34;广告不胜其扰。但电线杆覆盖面积广，辐射用户精准，旺盛的客户需求，是天然的广告平台！到周五了，需要头脑激荡一下，看黑马哥如何变废为宝，将电线杆打造成100亿美元市值大公司！电线杆传媒狂想曲:http://t.cn/zHXBocj</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://weibo.com/&#34; rel=&#34;nofollow&#34;&#62;新浪微博&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField id="ref-8">http://ww4.sinaimg.cn/thumbnail/cf3e3d97jw1e57d0fi57lj200100104g.jpg</_x003C_ThumbnailPictureUrl_x003E_k__BackingField>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField id="ref-9">http://ww4.sinaimg.cn/bmiddle/cf3e3d97jw1e57d0fi57lj200100104g.jpg</_x003C_MiddleSizePictureUrl_x003E_k__BackingField>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField id="ref-10">http://ww4.sinaimg.cn/large/cf3e3d97jw1e57d0fi57lj200100104g.jpg</_x003C_OriginalPictureUrl_x003E_k__BackingField>
+<_x003C_RepostsCount_x003E_k__BackingField>0</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>0</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField xsi:null="1"/>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Fri May 31 12:05:13 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3583989359034203</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">回复@一颗小小呆:我觉得不可能是她 //@一颗小小呆:回复@北京生活V播报:之前有传过是曾轶可，应该不是她吧？</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://weibo.com/&#34; rel=&#34;nofollow&#34;&#62;新浪微博&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_RepostsCount_x003E_k__BackingField>0</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>0</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField id="ref-8">3581234241865309</_x003C_RetweetedStatusID_x003E_k__BackingField>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Fri May 31 12:01:27 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3583988411042896</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">回复@一颗小小呆:花还没有确定，应该是个小众女歌手 //@一颗小小呆:花是谁？</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://weibo.com/&#34; rel=&#34;nofollow&#34;&#62;新浪微博&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_RepostsCount_x003E_k__BackingField>0</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>0</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField id="ref-8">3581234241865309</_x003C_RetweetedStatusID_x003E_k__BackingField>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Fri May 31 02:13:11 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3583840368815199</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">那些期待的日子，我们唯有汗水伴着种子，埋进土地。季节会来的，自由的春风会吹佛到南国中国北国，还有雨水。当风与雨水降临的时候，兄弟们姐妹们，我们会在风雨中歌唱，舞蹈，我们一起过我们的日子，因为我们曾在一起，数过三九，一九，二九，三九。我们把过去的日子当成种子，血色的苦难让大地肥沃。</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://weibo.com/&#34; rel=&#34;nofollow&#34;&#62;新浪微博&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_RepostsCount_x003E_k__BackingField>0</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>0</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField xsi:null="1"/>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Fri May 31 02:11:38 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3583839978618893</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">转发微博</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://weibo.com/&#34; rel=&#34;nofollow&#34;&#62;新浪微博&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_RepostsCount_x003E_k__BackingField>0</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>0</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField id="ref-8">3583837990447377</_x003C_RetweetedStatusID_x003E_k__BackingField>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Fri May 31 02:10:25 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3583839672535372</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">转发微博</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://weibo.com/&#34; rel=&#34;nofollow&#34;&#62;新浪微博&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_RepostsCount_x003E_k__BackingField>0</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>0</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField id="ref-8">3583838342781783</_x003C_RetweetedStatusID_x003E_k__BackingField>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Fri May 31 01:30:28 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3583829618554793</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">转发微博</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://weibo.com/&#34; rel=&#34;nofollow&#34;&#62;新浪微博&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_RepostsCount_x003E_k__BackingField>0</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>0</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField id="ref-8">3583640241842816</_x003C_RetweetedStatusID_x003E_k__BackingField>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Fri May 31 01:15:45 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3583825915077946</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">各位北京同学 大家都睡觉了没[嘻嘻]</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://weibo.com/&#34; rel=&#34;nofollow&#34;&#62;新浪微博&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_RepostsCount_x003E_k__BackingField>0</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>0</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField xsi:null="1"/>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Thu May 30 23:13:34 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3583795170800707</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">【月经后吃什么？】每次月经都会使血液的主要成份血浆蛋白、铁、钾、钙、镁等丢失。因此，在月经干净后1-5日内，应补充蛋白质、 矿物质及补血的食品。选用既有美容又有补血作用的食品，如牛奶 、鸡蛋、鸽蛋、鹌鹑蛋、牛肉、羊肉、猪蹄、芡实、菠菜、桂圆肉、胡萝卜、苹果、荔枝肉、樱桃等。</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://weibo.com/&#34; rel=&#34;nofollow&#34;&#62;新浪微博&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField id="ref-8">http://ww4.sinaimg.cn/thumbnail/cf3e3d97tw1e56qatbr8dj20b40eg0u4.jpg</_x003C_ThumbnailPictureUrl_x003E_k__BackingField>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField id="ref-9">http://ww4.sinaimg.cn/bmiddle/cf3e3d97tw1e56qatbr8dj20b40eg0u4.jpg</_x003C_MiddleSizePictureUrl_x003E_k__BackingField>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField id="ref-10">http://ww4.sinaimg.cn/large/cf3e3d97tw1e56qatbr8dj20b40eg0u4.jpg</_x003C_OriginalPictureUrl_x003E_k__BackingField>
+<_x003C_RepostsCount_x003E_k__BackingField>0</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>0</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField xsi:null="1"/>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Thu May 30 22:35:13 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3583785515682489</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">【消灭肚腩4妙招】①吃橙色果蔬：橙色果蔬富含维生素C和β-胡萝卜素，避免腹部脂肪堆积；②补充硒：硒可抗癌，还能降低腹部肥胖发生率；③多吃鱼和蛋：吃鱼和蛋等优质蛋白易产生饱腹感，有利减肥；④吃合适的脂肪：多吃橄榄油、亚麻籽油、核桃油、豆腐，少食含反式脂肪的食物如人造奶油、奶茶。</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://weibo.com/&#34; rel=&#34;nofollow&#34;&#62;新浪微博&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField id="ref-8">http://ww4.sinaimg.cn/thumbnail/cf3e3d97tw1e56p6wgwvuj20c808k0t5.jpg</_x003C_ThumbnailPictureUrl_x003E_k__BackingField>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField id="ref-9">http://ww4.sinaimg.cn/bmiddle/cf3e3d97tw1e56p6wgwvuj20c808k0t5.jpg</_x003C_MiddleSizePictureUrl_x003E_k__BackingField>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField id="ref-10">http://ww4.sinaimg.cn/large/cf3e3d97tw1e56p6wgwvuj20c808k0t5.jpg</_x003C_OriginalPictureUrl_x003E_k__BackingField>
+<_x003C_RepostsCount_x003E_k__BackingField>0</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>1</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField xsi:null="1"/>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Thu May 30 21:54:09 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3583775180642978</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">#你好 夏天#</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://weibo.com/&#34; rel=&#34;nofollow&#34;&#62;新浪微博&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_RepostsCount_x003E_k__BackingField>0</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>0</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField xsi:null="1"/>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Thu May 30 21:07:26 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3583763432568660</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">5月19日,群众将一男孩送到王府井派出所,称他找不到家了。来到派出所的男孩很是沉默,不愿沟通。民警耐心地与他聊天,缓解他的压力,了解到男孩陈某今年12岁,与朋友离家游玩后找不到家。经反复核实,民警确认其4月18日从东三旗走失,父母已报警。接到电话,陈某父母不到半小时赶到派出所,一把将孩子抱在怀中。</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://weibo.com/&#34; rel=&#34;nofollow&#34;&#62;新浪微博&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField id="ref-8">http://ww4.sinaimg.cn/thumbnail/cf3e3d97jw1e56mnl1ubwj20b40bvt9n.jpg</_x003C_ThumbnailPictureUrl_x003E_k__BackingField>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField id="ref-9">http://ww4.sinaimg.cn/bmiddle/cf3e3d97jw1e56mnl1ubwj20b40bvt9n.jpg</_x003C_MiddleSizePictureUrl_x003E_k__BackingField>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField id="ref-10">http://ww4.sinaimg.cn/large/cf3e3d97jw1e56mnl1ubwj20b40bvt9n.jpg</_x003C_OriginalPictureUrl_x003E_k__BackingField>
+<_x003C_RepostsCount_x003E_k__BackingField>0</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>0</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField xsi:null="1"/>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Thu May 30 12:55:03 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3583639511679396</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">记者刘磊：地铁昌八联络线连接昌平线和8号线，全长6.3公里，设三座车站，朱辛庄站与昌平线换乘，平西府站和育知路站为地下站，建成后将与运营中的地铁8号线贯通运营，8号线的乘客可直接坐到朱辛庄站换乘昌平线；这将大大缓解13号线的压力。目前昌八线的土建基本完成，9月20日空载试运行。</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://weibo.com/&#34; rel=&#34;nofollow&#34;&#62;新浪微博&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_RepostsCount_x003E_k__BackingField>0</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>0</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField xsi:null="1"/>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Thu May 30 12:02:11 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3583626207506129</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">【郭美美豪车被撞案终审宣判，获得索赔60多万元】郭美美曾在网上炫富的玛莎拉蒂车，购买于2011年4月2日，价240万元。被中粮集团一辆奥迪车撞坏，郭美美为索赔修理费、车辆贬值损失将中粮集团告上法院。二中院终审判令中粮集团、肇事司机连带赔偿60.3万元，保险公司赔偿2000元。http://t.cn/zTmcCov</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://weibo.com/&#34; rel=&#34;nofollow&#34;&#62;新浪微博&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_RepostsCount_x003E_k__BackingField>0</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>0</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField xsi:null="1"/>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Thu May 30 01:23:33 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3583465490090987</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">烟草危害是当今世界最严重的公共卫生问题之一，每10秒就有一人死于“香烟”危害，每年有7.4亿人在吸二手烟！你知道被动吸二手烟的危害吗？那些在电梯间、公共场合被你吸入的二手烟，就这样毫不留情地杀入你的每一个细胞。太冤了，不能再沉默，向二手烟say no!</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://weibo.com/&#34; rel=&#34;nofollow&#34;&#62;新浪微博&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_RepostsCount_x003E_k__BackingField>0</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>0</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField xsi:null="1"/>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Wed May 29 14:56:35 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3583307713186059</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">【夜间健康作息】1.晚上9-11点为免疫系统排毒，应静听音乐。2.晚间11-凌晨1点，肝的排毒，需在熟睡中进行。3.半夜至凌晨4点为脊椎造血时段，不宜熬夜。4.凌晨1-3点，胆的排毒。5.凌晨3-5点，肺的排毒。6.凌晨5-7点，大肠排毒应排便。７.早7-9点应吃早餐。北京生活v播报提醒大家注意身体 少熬夜。</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://weibo.com/&#34; rel=&#34;nofollow&#34;&#62;新浪微博&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_RepostsCount_x003E_k__BackingField>2</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>2</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField xsi:null="1"/>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Wed May 29 14:13:15 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3583296803630398</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">高考 北京：老爸，我考了530，比一本分数线53分！“儿子真有出息，走去上海旅游！” 河南：爸，我530，跟二本线差了20分 “真没出息，别上了，滚上海打工吧！” 上海：“爸，我330，送我出国” “行，去学个工商管理回来帮我吧，今年又从河南招了不少农民工”。</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://weibo.com/&#34; rel=&#34;nofollow&#34;&#62;新浪微博&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_RepostsCount_x003E_k__BackingField>0</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>0</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField xsi:null="1"/>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Wed May 29 12:16:37 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3583267451985409</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">27日下午,北四环附近一天桥上,一中年男子兜售古董,男子说这几件青铜器价值几十万,因为急需钱做手术,只要两、三万元就能卖,一位买菜回家的大妈见男子说得可怜,也听说过古董值钱,正商量砍价时,男子看到城管队员来了,起身就跑,碰倒了一只“青铜鼎“,鼎一破里面装的沙土漏了出来,大妈这才发现差点上当。</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://weibo.com/&#34; rel=&#34;nofollow&#34;&#62;新浪微博&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField id="ref-8">http://ww1.sinaimg.cn/thumbnail/cf3e3d97tw1e551oyel6gj209q07nwfs.jpg</_x003C_ThumbnailPictureUrl_x003E_k__BackingField>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField id="ref-9">http://ww1.sinaimg.cn/bmiddle/cf3e3d97tw1e551oyel6gj209q07nwfs.jpg</_x003C_MiddleSizePictureUrl_x003E_k__BackingField>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField id="ref-10">http://ww1.sinaimg.cn/large/cf3e3d97tw1e551oyel6gj209q07nwfs.jpg</_x003C_OriginalPictureUrl_x003E_k__BackingField>
+<_x003C_RepostsCount_x003E_k__BackingField>0</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>0</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField xsi:null="1"/>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Wed May 29 00:42:48 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3583092847202825</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">【北京发现第二例人感染H7N9禽流感确诊病例】北京市卫生局28日称，北京市疾病预防控制中心28日上午报告，从北京大学人民医院就诊的流感样病例中发现一例人感染H7N9禽流感病例，患者为6岁男童。该病例是北京市报告的第二例人感染H7N9禽流感确诊病例。 http://t.cn/zHJwvWX</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://weibo.com/&#34; rel=&#34;nofollow&#34;&#62;新浪微博&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_RepostsCount_x003E_k__BackingField>0</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>0</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField xsi:null="1"/>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Tue May 28 15:58:08 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3582960818933318</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">2013.05.23晚22时我公司发生入室盗窃案，地址是北京市海淀区北四环西路68号左岸工社10层西区。作案人是下午在楼内多次踩点儿，发现公司没有关门，到前台盗取门禁卡，待员工离开后返回行窃。附上嫌疑人照片，请本区域内公司提高防范意识，并请大家提供线索。by@关村小楼儿</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://weibo.com/&#34; rel=&#34;nofollow&#34;&#62;新浪微博&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField id="ref-8">http://ww1.sinaimg.cn/thumbnail/cf3e3d97jw1e542h5gmb7j20c807ndgz.jpg</_x003C_ThumbnailPictureUrl_x003E_k__BackingField>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField id="ref-9">http://ww1.sinaimg.cn/bmiddle/cf3e3d97jw1e542h5gmb7j20c807ndgz.jpg</_x003C_MiddleSizePictureUrl_x003E_k__BackingField>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField id="ref-10">http://ww1.sinaimg.cn/large/cf3e3d97jw1e542h5gmb7j20c807ndgz.jpg</_x003C_OriginalPictureUrl_x003E_k__BackingField>
+<_x003C_RepostsCount_x003E_k__BackingField>0</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>0</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField xsi:null="1"/>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Tue May 28 12:06:49 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3582902601780521</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">【经常吃夜宵的朋友，小心胃癌！】很多人有吃夜宵的习惯，但研究发现，吃夜宵对胃的伤害非常大！胃黏膜上皮细胞的寿命很短，约2—3天就要再生一次。再生过程一般在夜间胃肠道休息时进行。如经常在夜间进餐，胃黏膜就不能得到及时修复，容易发生癌变。为了健康，夜宵少吃啊！！</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://weibo.com/&#34; rel=&#34;nofollow&#34;&#62;新浪微博&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_RepostsCount_x003E_k__BackingField>0</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>0</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField xsi:null="1"/>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Mon May 27 22:59:56 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3582704572136959</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">转发微博</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://weibo.com/&#34; rel=&#34;nofollow&#34;&#62;新浪微博&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_RepostsCount_x003E_k__BackingField>0</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>0</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField id="ref-8">3582702848697908</_x003C_RetweetedStatusID_x003E_k__BackingField>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Mon May 27 22:53:56 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3582703062419643</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">#请保持微笑 #</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://weibo.com/&#34; rel=&#34;nofollow&#34;&#62;新浪微博&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_RepostsCount_x003E_k__BackingField>0</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>0</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField xsi:null="1"/>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Mon May 27 17:32:35 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3582622196198697</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">【羊肉卷掺鸭肉 检疫合格证1毛钱1张】近日在北京新发地牛羊肉批发市场，个别商户却以10元/斤的超低价把羊肉卖到涮肉馆、火锅店等。而羊肉卷目前价格约28元/斤。其所售羊肉经送检，检测出了鸭肉的成分。有商家称产品检疫合格证可买到，一毛钱一张。都是老百姓餐桌上美食，咱能别这么黑心么？北京v播报</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://weibo.com/&#34; rel=&#34;nofollow&#34;&#62;新浪微博&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField id="ref-8">http://ww2.sinaimg.cn/thumbnail/cf3e3d97jw1e52zaht1ouj20b412aaf2.jpg</_x003C_ThumbnailPictureUrl_x003E_k__BackingField>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField id="ref-9">http://ww2.sinaimg.cn/bmiddle/cf3e3d97jw1e52zaht1ouj20b412aaf2.jpg</_x003C_MiddleSizePictureUrl_x003E_k__BackingField>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField id="ref-10">http://ww2.sinaimg.cn/large/cf3e3d97jw1e52zaht1ouj20b412aaf2.jpg</_x003C_OriginalPictureUrl_x003E_k__BackingField>
+<_x003C_RepostsCount_x003E_k__BackingField>2</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>4</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField xsi:null="1"/>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Mon May 27 15:51:32 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3582596761831503</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">转发微博</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://weibo.com/&#34; rel=&#34;nofollow&#34;&#62;新浪微博&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_RepostsCount_x003E_k__BackingField>0</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>0</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField id="ref-8">3582596124251999</_x003C_RetweetedStatusID_x003E_k__BackingField>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Mon May 27 15:43:42 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3582594790358461</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">爱笑的人运气都不会差，今天，你微笑了吗？</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://weibo.com/&#34; rel=&#34;nofollow&#34;&#62;新浪微博&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_RepostsCount_x003E_k__BackingField>0</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>0</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField xsi:null="1"/>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Mon May 27 14:55:00 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3582582534921700</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">北京：租客拒退到期店铺 房东带人砸门腾房 事发世纪茶贸中心2号楼2单元一家茶叶店内。目击者称，昨天下午6点，冲进5个男的，手拿铁锤等利器，有的砸门，有的搬东西。店主刘女士称，十点左右该店再次遭遇20多名男子闯入店中，将该店中茶叶搬到楼外，昨天下雨，茶叶都被浸湿了，“所有的损失约20万元”</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://weibo.com/&#34; rel=&#34;nofollow&#34;&#62;新浪微博&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField id="ref-8">http://ww3.sinaimg.cn/thumbnail/cf3e3d97jw1e52uyfnp30j20b407edgl.jpg</_x003C_ThumbnailPictureUrl_x003E_k__BackingField>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField id="ref-9">http://ww3.sinaimg.cn/bmiddle/cf3e3d97jw1e52uyfnp30j20b407edgl.jpg</_x003C_MiddleSizePictureUrl_x003E_k__BackingField>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField id="ref-10">http://ww3.sinaimg.cn/large/cf3e3d97jw1e52uyfnp30j20b407edgl.jpg</_x003C_OriginalPictureUrl_x003E_k__BackingField>
+<_x003C_RepostsCount_x003E_k__BackingField>0</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>0</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField xsi:null="1"/>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Sun May 26 23:30:17 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3582349826089526</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">//@芙蓉姐姐: 继习大大之后李总也关注足球了，中国足球有救了！</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://weibo.com/&#34; rel=&#34;nofollow&#34;&#62;新浪微博&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_RepostsCount_x003E_k__BackingField>0</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>0</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField id="ref-8">3582347846746578</_x003C_RetweetedStatusID_x003E_k__BackingField>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Sun May 26 19:31:28 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3582289730599997</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">恳请好心人帮帮它！谢谢！4月二十二号晚十一点左右，在朝阳门外三丰里小区附近丢失古牧爱犬，家人十分伤心，恳求朋友们帮忙留意，特征如下：母犬，4岁，右眼球有蓝色癍迹，性格温顺。提供线索找到狗狗的朋友，本人愿意现金20000元酬谢！13001098487</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://weibo.com/&#34; rel=&#34;nofollow&#34;&#62;新浪微博&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField id="ref-8">http://ww2.sinaimg.cn/thumbnail/cf3e3d97jw1e51xeilaqpj20cj0h9dhr.jpg</_x003C_ThumbnailPictureUrl_x003E_k__BackingField>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField id="ref-9">http://ww2.sinaimg.cn/bmiddle/cf3e3d97jw1e51xeilaqpj20cj0h9dhr.jpg</_x003C_MiddleSizePictureUrl_x003E_k__BackingField>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField id="ref-10">http://ww2.sinaimg.cn/large/cf3e3d97jw1e51xeilaqpj20cj0h9dhr.jpg</_x003C_OriginalPictureUrl_x003E_k__BackingField>
+<_x003C_RepostsCount_x003E_k__BackingField>1</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>0</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField xsi:null="1"/>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Sun May 26 15:59:03 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3582236273875134</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">我刚刚使用了微博会员特权，将一条精彩的微博置顶显示咯，快来我的个人主页瞧瞧吧！ http://weibo.com/zkang818/profile</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://weibo.com/&#34; rel=&#34;nofollow&#34;&#62;新浪微博&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_RepostsCount_x003E_k__BackingField>0</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>0</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField xsi:null="1"/>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Sun May 26 15:21:05 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3582226719206285</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">阳光明媚、微风轻浮，今儿你出游了没？</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://weibo.com/&#34; rel=&#34;nofollow&#34;&#62;新浪微博&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_RepostsCount_x003E_k__BackingField>0</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>0</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField xsi:null="1"/>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Sun May 26 05:47:57 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3582082477117854</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">转发微博</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://weibo.com/&#34; rel=&#34;nofollow&#34;&#62;新浪微博&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_RepostsCount_x003E_k__BackingField>0</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>0</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField id="ref-8">3581833155041015</_x003C_RetweetedStatusID_x003E_k__BackingField>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Sat May 25 01:48:54 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3581659931100666</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">见过这么炫丽的互粉平台有木有？见过这么好用的互粉平台有木有？见过涨粉丝这么快的平台有木有？一键互粉，一键关注，还是一键转发，微博上竟有如此平台，哎呀妈呀，快点加入#百盖粉丝控#吧，链接地址：http://t.cn/zTsTUN8</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://app.weibo.com/t/feed/ymdGj&#34; rel=&#34;nofollow&#34;&#62;百盖互粉网&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField id="ref-8">http://ww1.sinaimg.cn/thumbnail/cf3e3d97jw1e4zx2m1aotj206403t3yh.jpg</_x003C_ThumbnailPictureUrl_x003E_k__BackingField>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField id="ref-9">http://ww1.sinaimg.cn/bmiddle/cf3e3d97jw1e4zx2m1aotj206403t3yh.jpg</_x003C_MiddleSizePictureUrl_x003E_k__BackingField>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField id="ref-10">http://ww1.sinaimg.cn/large/cf3e3d97jw1e4zx2m1aotj206403t3yh.jpg</_x003C_OriginalPictureUrl_x003E_k__BackingField>
+<_x003C_RepostsCount_x003E_k__BackingField>0</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>1</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField xsi:null="1"/>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Sat May 25 01:47:10 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3581659494842772</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">转发微博</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://app.weibo.com/t/feed/ymdGj&#34; rel=&#34;nofollow&#34;&#62;百盖互粉网&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_RepostsCount_x003E_k__BackingField>0</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>0</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField id="ref-8">3560469685807679</_x003C_RetweetedStatusID_x003E_k__BackingField>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Sat May 25 01:45:50 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3581659163459345</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">转发微博</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://app.weibo.com/t/feed/ymdGj&#34; rel=&#34;nofollow&#34;&#62;百盖互粉网&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_RepostsCount_x003E_k__BackingField>0</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>0</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField id="ref-8">3580086366501229</_x003C_RetweetedStatusID_x003E_k__BackingField>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Sat May 25 01:45:11 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3581658999864204</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">转发微博</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://app.weibo.com/t/feed/ymdGj&#34; rel=&#34;nofollow&#34;&#62;百盖互粉网&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_RepostsCount_x003E_k__BackingField>0</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>0</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField id="ref-8">3560469685807679</_x003C_RetweetedStatusID_x003E_k__BackingField>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Fri May 24 15:24:20 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3581502757184599</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">#周五微心情 # 北京下雨了，大家赶紧收衣服。。[哈哈]</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://weibo.com/&#34; rel=&#34;nofollow&#34;&#62;新浪微博&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_RepostsCount_x003E_k__BackingField>0</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>0</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField xsi:null="1"/>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Fri May 24 14:04:39 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3581482704226404</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">【今天上午十点木樨地桥发生惨烈交通事故！看后车那涂装是军车吗？祈祷前车里的人平安】2013年5月24日10时左右，木樨地桥发生重大交通事故！现场惨烈！北京的家人们，路上开车的一定要躲着点儿大车，尤其是白牌儿。。。</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://weibo.com/&#34; rel=&#34;nofollow&#34;&#62;新浪微博&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField id="ref-8">http://ww3.sinaimg.cn/thumbnail/cf3e3d97jw1e4zcppkjfbj20c81ae7c3.jpg</_x003C_ThumbnailPictureUrl_x003E_k__BackingField>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField id="ref-9">http://ww3.sinaimg.cn/bmiddle/cf3e3d97jw1e4zcppkjfbj20c81ae7c3.jpg</_x003C_MiddleSizePictureUrl_x003E_k__BackingField>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField id="ref-10">http://ww3.sinaimg.cn/large/cf3e3d97jw1e4zcppkjfbj20c81ae7c3.jpg</_x003C_OriginalPictureUrl_x003E_k__BackingField>
+<_x003C_RepostsCount_x003E_k__BackingField>0</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>0</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField xsi:null="1"/>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Thu May 23 23:34:06 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3581263618841711</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">对@赵薇 说：[得意地笑]</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://weibo.com/&#34; rel=&#34;nofollow&#34;&#62;新浪微博&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_RepostsCount_x003E_k__BackingField>0</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>0</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField xsi:null="1"/>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Thu May 23 22:59:11 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3581254832083890</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">[呵呵]北京的同学。求关注 来自话题#随手拍# http://t.cn/zTMdaZL</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://app.weibo.com/t/feed/4AbAFV&#34; rel=&#34;nofollow&#34;&#62;微话题&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_RepostsCount_x003E_k__BackingField>0</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>0</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField id="ref-8">3581235034994023</_x003C_RetweetedStatusID_x003E_k__BackingField>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Thu May 23 21:37:23 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3581234241865309</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">大家还记得他的面孔吧。。一个从不追从商业 淡薄名利的音乐人。从初中开始，喜欢他十年了，一直默默关注着他。如今他已是不惑之年，已经好久没有消息了。听说下月有他的演唱会，我百分百的支持买票带家人朋友去看。我觉得好的音乐大家都会喜欢。 北京树与花演唱会 他终于肯出山了。。[呵呵]</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://weibo.com/&#34; rel=&#34;nofollow&#34;&#62;新浪微博&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField id="ref-8">http://ww3.sinaimg.cn/thumbnail/cf3e3d97tw1e4yjzl94myj20bp0faq41.jpg</_x003C_ThumbnailPictureUrl_x003E_k__BackingField>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField id="ref-9">http://ww3.sinaimg.cn/bmiddle/cf3e3d97tw1e4yjzl94myj20bp0faq41.jpg</_x003C_MiddleSizePictureUrl_x003E_k__BackingField>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField id="ref-10">http://ww3.sinaimg.cn/large/cf3e3d97tw1e4yjzl94myj20bp0faq41.jpg</_x003C_OriginalPictureUrl_x003E_k__BackingField>
+<_x003C_RepostsCount_x003E_k__BackingField>6</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>8</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField xsi:null="1"/>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Thu May 23 11:38:56 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3581083645603081</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">刚去看过了，真的可以各种挑逗岳云鹏啊！！买吊票都没有的福利，去晚了可没了啊 ，赶紧着！//@岳云鹏: 就说不要钱吧，你们下手也留点情啊！！谁要是玩儿起来没完，我可记他一辈子！ = = http://t.cn/zH4CV1F</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://app.weibo.com/t/feed/548J4o&#34; rel=&#34;nofollow&#34;&#62;微电视&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField id="ref-8">http://ww4.sinaimg.cn/thumbnail/cf3e3d97jw1e4y2vx84w7j205r02imwz.jpg</_x003C_ThumbnailPictureUrl_x003E_k__BackingField>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField id="ref-9">http://ww4.sinaimg.cn/bmiddle/cf3e3d97jw1e4y2vx84w7j205r02imwz.jpg</_x003C_MiddleSizePictureUrl_x003E_k__BackingField>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField id="ref-10">http://ww4.sinaimg.cn/large/cf3e3d97jw1e4y2vx84w7j205r02imwz.jpg</_x003C_OriginalPictureUrl_x003E_k__BackingField>
+<_x003C_RepostsCount_x003E_k__BackingField>0</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>0</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField xsi:null="1"/>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Thu May 23 11:18:57 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3581078612328497</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">昨天早上8时，奥运冠军陈中、张国政一身交通志愿者的打扮，站在了海淀区长春桥路与万柳中路的交叉口，手持小旗，引导市民过马路。同时，来自民族大学、北京体育大学、人民大学等30多所高校的学生，也在海淀区20多个路口，引导行人遵法看灯过马路，为全市治理整顿行人非机动车交通秩序尽一份力。</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://weibo.com/&#34; rel=&#34;nofollow&#34;&#62;新浪微博&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField id="ref-8">http://ww2.sinaimg.cn/thumbnail/cf3e3d97tw1e4y2b0k0zqj20c80b8aby.jpg</_x003C_ThumbnailPictureUrl_x003E_k__BackingField>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField id="ref-9">http://ww2.sinaimg.cn/bmiddle/cf3e3d97tw1e4y2b0k0zqj20c80b8aby.jpg</_x003C_MiddleSizePictureUrl_x003E_k__BackingField>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField id="ref-10">http://ww2.sinaimg.cn/large/cf3e3d97tw1e4y2b0k0zqj20c80b8aby.jpg</_x003C_OriginalPictureUrl_x003E_k__BackingField>
+<_x003C_RepostsCount_x003E_k__BackingField>0</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>0</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField xsi:null="1"/>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Thu May 23 11:07:29 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3581075731122775</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">@北京微吧 北京各位们 这地方大家经常去吗。好久没有去了，闷在家里实在不怎么好受。今晚约朋友去喝点小酒。 去的留言。。</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://app.weibo.com/t/feed/1sxHP2&#34; rel=&#34;nofollow&#34;&#62;专业版微博&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField id="ref-8">http://ww4.sinaimg.cn/thumbnail/cf3e3d97tw1e4y1xktypwj20gl0m876f.jpg</_x003C_ThumbnailPictureUrl_x003E_k__BackingField>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField id="ref-9">http://ww4.sinaimg.cn/bmiddle/cf3e3d97tw1e4y1xktypwj20gl0m876f.jpg</_x003C_MiddleSizePictureUrl_x003E_k__BackingField>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField id="ref-10">http://ww4.sinaimg.cn/large/cf3e3d97tw1e4y1xktypwj20gl0m876f.jpg</_x003C_OriginalPictureUrl_x003E_k__BackingField>
+<_x003C_RepostsCount_x003E_k__BackingField>0</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>0</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField xsi:null="1"/>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Thu May 23 11:00:40 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3581074019887396</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">北京的同僚去的留言。</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://weibo.com/&#34; rel=&#34;nofollow&#34;&#62;新浪微博&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_RepostsCount_x003E_k__BackingField>0</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>0</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField id="ref-8">3581073894040869</_x003C_RetweetedStatusID_x003E_k__BackingField>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Thu May 23 11:00:12 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3581073894040869</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">北京各位们 这地方大家经常去吗。好久没有去了，闷在家里实在不怎么好受。今晚约朋友去喝点小酒。</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://weibo.com/&#34; rel=&#34;nofollow&#34;&#62;新浪微博&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField id="ref-8">http://ww1.sinaimg.cn/thumbnail/cf3e3d97tw1e4y1oo2ffpj20gl0m8dib.jpg</_x003C_ThumbnailPictureUrl_x003E_k__BackingField>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField id="ref-9">http://ww1.sinaimg.cn/bmiddle/cf3e3d97tw1e4y1oo2ffpj20gl0m8dib.jpg</_x003C_MiddleSizePictureUrl_x003E_k__BackingField>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField id="ref-10">http://ww1.sinaimg.cn/large/cf3e3d97tw1e4y1oo2ffpj20gl0m8dib.jpg</_x003C_OriginalPictureUrl_x003E_k__BackingField>
+<_x003C_RepostsCount_x003E_k__BackingField>1</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>1</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField xsi:null="1"/>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Thu May 23 10:45:28 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3581070190112202</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">转发微博</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://weibo.com/&#34; rel=&#34;nofollow&#34;&#62;新浪微博&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_RepostsCount_x003E_k__BackingField>0</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>0</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField id="ref-8">3579412580586233</_x003C_RetweetedStatusID_x003E_k__BackingField>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Thu May 23 10:30:10 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3581066335537470</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">济南一母子死于家中 尸体已经高度腐烂</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://weibo.com/&#34; rel=&#34;nofollow&#34;&#62;新浪微博&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField id="ref-8">http://ww3.sinaimg.cn/thumbnail/cf3e3d97tw1e4y0w5dj22j20qe0euadd.jpg</_x003C_ThumbnailPictureUrl_x003E_k__BackingField>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField id="ref-9">http://ww3.sinaimg.cn/bmiddle/cf3e3d97tw1e4y0w5dj22j20qe0euadd.jpg</_x003C_MiddleSizePictureUrl_x003E_k__BackingField>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField id="ref-10">http://ww3.sinaimg.cn/large/cf3e3d97tw1e4y0w5dj22j20qe0euadd.jpg</_x003C_OriginalPictureUrl_x003E_k__BackingField>
+<_x003C_RepostsCount_x003E_k__BackingField>0</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>0</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField xsi:null="1"/>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Thu May 23 10:21:48 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3581064229964760</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">在最美的时光里总##周立波训斥杜海涛##会有个一直伴你左右的死党，说说ta的故事吧~</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://weibo.com/&#34; rel=&#34;nofollow&#34;&#62;新浪微博&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_RepostsCount_x003E_k__BackingField>0</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>0</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField xsi:null="1"/>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Thu May 23 10:18:56 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3581063508704747</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">【那些什么跟什么的慈善机构！该你们发挥啦！少养一个美美，就可以救活好几个这样的老人】重庆一位可怜患病乞讨老人，坐在台阶上乞讨，根据临床经验诊断，他患的是多发性神经纤维瘤。需要300万手术费！好痛苦的老人！您转或不转，鼠标在您手里！@薛蛮子 @袁裕来律师 @左小祖咒 @陈坤 @刘同 #</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://weibo.com/&#34; rel=&#34;nofollow&#34;&#62;新浪微博&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_RepostsCount_x003E_k__BackingField>0</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>0</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField xsi:null="1"/>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Wed May 22 19:01:08 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3580832533031910</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">#半透明校服# http://weibo.com/3476962711/zxUHAq5Na 详情:http://t.cn/zHLgiFl</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://app.weibo.com/t/feed/4AbAFV&#34; rel=&#34;nofollow&#34;&#62;微话题&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_RepostsCount_x003E_k__BackingField>0</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>0</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField xsi:null="1"/>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Wed May 22 18:42:44 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3580827906218796</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">周立波训斥杜海涛无脑，称“小台来的就这样” 5月19日《舞出我人生》，周立波对担任助梦人的湖南卫视主持杜海涛，先是怒斥其无脑 ，随后又因其插话而讥讽“小台出来的就这样。”引发台下哗然。碰了一鼻子灰的杜海涛事后回应：“对央视这样的平台来说，我们的确是小台。”该内容在节目播出时已被删除。</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://weibo.com/&#34; rel=&#34;nofollow&#34;&#62;新浪微博&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_RepostsCount_x003E_k__BackingField>1</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>0</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField xsi:null="1"/>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Wed May 22 18:39:15 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3580827034478475</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">@北京微吧 我想做，但是没有资格</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://app.weibo.com/t/feed/1sxHP2&#34; rel=&#34;nofollow&#34;&#62;专业版微博&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_RepostsCount_x003E_k__BackingField>0</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>0</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField xsi:null="1"/>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Sat May 18 16:40:42 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3579347643951849</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">##80后为何暮气沉沉##</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://weibo.com/&#34; rel=&#34;nofollow&#34;&#62;新浪微博&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_RepostsCount_x003E_k__BackingField>4</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>4</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField xsi:null="1"/>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Sat May 18 16:36:40 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3579346629733773</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">转发微博</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://app.weibo.com/t/feed/1sxHP2&#34; rel=&#34;nofollow&#34;&#62;专业版微博&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_RepostsCount_x003E_k__BackingField>0</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>0</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField id="ref-8">3578648201896522</_x003C_RetweetedStatusID_x003E_k__BackingField>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Sat May 18 16:24:56 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3579343677096512</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">#张惠妹发福# 发福发福 详情:http://t.cn/zTkHp9S</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://app.weibo.com/t/feed/4AbAFV&#34; rel=&#34;nofollow&#34;&#62;微话题&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField id="ref-8">http://ww2.sinaimg.cn/thumbnail/cf3e3d97jw1e4sj1prfntj20fy0qowkr.jpg</_x003C_ThumbnailPictureUrl_x003E_k__BackingField>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField id="ref-9">http://ww2.sinaimg.cn/bmiddle/cf3e3d97jw1e4sj1prfntj20fy0qowkr.jpg</_x003C_MiddleSizePictureUrl_x003E_k__BackingField>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField id="ref-10">http://ww2.sinaimg.cn/large/cf3e3d97jw1e4sj1prfntj20fy0qowkr.jpg</_x003C_OriginalPictureUrl_x003E_k__BackingField>
+<_x003C_RepostsCount_x003E_k__BackingField>0</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>0</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField xsi:null="1"/>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Sat May 18 16:24:02 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3579343450356205</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">#张惠妹发福# 详情:http://t.cn/zTkHp9S</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://app.weibo.com/t/feed/4AbAFV&#34; rel=&#34;nofollow&#34;&#62;微话题&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField id="ref-8">http://ww3.sinaimg.cn/thumbnail/cf3e3d97jw1e4sj0zkt9bj20fy0qowkr.jpg</_x003C_ThumbnailPictureUrl_x003E_k__BackingField>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField id="ref-9">http://ww3.sinaimg.cn/bmiddle/cf3e3d97jw1e4sj0zkt9bj20fy0qowkr.jpg</_x003C_MiddleSizePictureUrl_x003E_k__BackingField>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField id="ref-10">http://ww3.sinaimg.cn/large/cf3e3d97jw1e4sj0zkt9bj20fy0qowkr.jpg</_x003C_OriginalPictureUrl_x003E_k__BackingField>
+<_x003C_RepostsCount_x003E_k__BackingField>0</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>0</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField xsi:null="1"/>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Sat May 18 16:23:20 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3579343274357094</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">#校长带女生开房# 详情:http://t.cn/zTew30H</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://app.weibo.com/t/feed/4AbAFV&#34; rel=&#34;nofollow&#34;&#62;微话题&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField id="ref-8">http://ww2.sinaimg.cn/thumbnail/cf3e3d97jw1e4sj096eavj20fy0qowkr.jpg</_x003C_ThumbnailPictureUrl_x003E_k__BackingField>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField id="ref-9">http://ww2.sinaimg.cn/bmiddle/cf3e3d97jw1e4sj096eavj20fy0qowkr.jpg</_x003C_MiddleSizePictureUrl_x003E_k__BackingField>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField id="ref-10">http://ww2.sinaimg.cn/large/cf3e3d97jw1e4sj096eavj20fy0qowkr.jpg</_x003C_OriginalPictureUrl_x003E_k__BackingField>
+<_x003C_RepostsCount_x003E_k__BackingField>0</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>0</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField xsi:null="1"/>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Sat May 18 16:22:57 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3579343177670434</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">#校长带女生开房# 没人关注我 没人关注我 详情:http://t.cn/zTew30H</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://app.weibo.com/t/feed/4AbAFV&#34; rel=&#34;nofollow&#34;&#62;微话题&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_RepostsCount_x003E_k__BackingField>0</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>1</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField xsi:null="1"/>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Sat May 18 16:22:19 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3579343026428025</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">没人关注我</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://weibo.com/&#34; rel=&#34;nofollow&#34;&#62;新浪微博&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_RepostsCount_x003E_k__BackingField>0</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>1</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField id="ref-8">11363709437</_x003C_RetweetedStatusID_x003E_k__BackingField>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Sat May 18 16:19:12 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3579342237815669</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">//@雪儿思杏薇: 回复@奋斗啊Stone:已经触到我们底线啦，还有她的粉在他微薄下面骂的那么难听</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://weibo.com/&#34; rel=&#34;nofollow&#34;&#62;新浪微博&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_RepostsCount_x003E_k__BackingField>0</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>0</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField id="ref-8">3578996652811771</_x003C_RetweetedStatusID_x003E_k__BackingField>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Sat May 18 16:14:15 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3579340983527982</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">回复@sosopark集團:[得意地笑] //@sosopark集團:我一直想要超越马云，但我首先要做的是，查看他的微博 @杜子建 @董藩 @刘彦斌 @王石 @sosopark集团</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://weibo.com/&#34; rel=&#34;nofollow&#34;&#62;新浪微博&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_RepostsCount_x003E_k__BackingField>0</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>0</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField id="ref-8">11363709437</_x003C_RetweetedStatusID_x003E_k__BackingField>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Sat May 18 16:12:04 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3579340446919467</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">回复@zh楚彬:求关注了 同学 //@zh楚彬:豪无相关，为了证明什么，</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://weibo.com/&#34; rel=&#34;nofollow&#34;&#62;新浪微博&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_RepostsCount_x003E_k__BackingField>0</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>0</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField id="ref-8">3368747132128258</_x003C_RetweetedStatusID_x003E_k__BackingField>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Sat May 18 16:11:32 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3579340291399420</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">回复@性福宅男:[得意地笑] //@性福宅男:[花心][花心]（会PS的种子大神伤不起啊，更多原创内涵图片请关注PS、种子大神@性福宅男）</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://weibo.com/&#34; rel=&#34;nofollow&#34;&#62;新浪微博&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_RepostsCount_x003E_k__BackingField>0</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>0</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField id="ref-8">3368747132128258</_x003C_RetweetedStatusID_x003E_k__BackingField>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Sat May 18 16:11:16 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3579340237182678</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">[得意地笑]</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://weibo.com/&#34; rel=&#34;nofollow&#34;&#62;新浪微博&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_RepostsCount_x003E_k__BackingField>0</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>0</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField id="ref-8">3368747132128258</_x003C_RetweetedStatusID_x003E_k__BackingField>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Sat May 18 16:05:20 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3579338744145774</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">回复@Carolin汀汀:12 来自话题#陈坤谈赵薇# http://t.cn/zTsHG9l</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://app.weibo.com/t/feed/4AbAFV&#34; rel=&#34;nofollow&#34;&#62;微话题&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_RepostsCount_x003E_k__BackingField>0</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>0</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField id="ref-8">3578987583965935</_x003C_RetweetedStatusID_x003E_k__BackingField>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Sat May 18 16:04:43 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3579338597576552</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">#陈坤谈赵薇# 详情:http://t.cn/zTsHGKF</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://app.weibo.com/t/feed/4AbAFV&#34; rel=&#34;nofollow&#34;&#62;微话题&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField id="ref-8">http://ww4.sinaimg.cn/thumbnail/cf3e3d97jw1e4sigx639xj20fy0qoafu.jpg</_x003C_ThumbnailPictureUrl_x003E_k__BackingField>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField id="ref-9">http://ww4.sinaimg.cn/bmiddle/cf3e3d97jw1e4sigx639xj20fy0qoafu.jpg</_x003C_MiddleSizePictureUrl_x003E_k__BackingField>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField id="ref-10">http://ww4.sinaimg.cn/large/cf3e3d97jw1e4sigx639xj20fy0qoafu.jpg</_x003C_OriginalPictureUrl_x003E_k__BackingField>
+<_x003C_RepostsCount_x003E_k__BackingField>0</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>0</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField xsi:null="1"/>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Sat May 18 16:04:04 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3579338429768982</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">#陈坤谈赵薇# 详情:http://t.cn/zTsHGKF</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://app.weibo.com/t/feed/4AbAFV&#34; rel=&#34;nofollow&#34;&#62;微话题&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_RepostsCount_x003E_k__BackingField>0</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>0</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField xsi:null="1"/>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Sat May 18 16:03:00 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3579338165645930</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">转发微博</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://weibo.com/&#34; rel=&#34;nofollow&#34;&#62;新浪微博&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_RepostsCount_x003E_k__BackingField>0</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>0</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField id="ref-8">3579337615439569</_x003C_RetweetedStatusID_x003E_k__BackingField>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Status id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/WeiboTools/WeiboTools%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CreatedAt_x003E_k__BackingField id="ref-3">Sat May 18 16:00:52 +0800 2013</_x003C_CreatedAt_x003E_k__BackingField>
+<_x003C_ID_x003E_k__BackingField id="ref-4">3579337615439569</_x003C_ID_x003E_k__BackingField>
+<_x003C_Text_x003E_k__BackingField id="ref-5">没有人关注我。。。。我想和大家交流</_x003C_Text_x003E_k__BackingField>
+<_x003C_Source_x003E_k__BackingField id="ref-6">&#60;a href=&#34;http://weibo.com/&#34; rel=&#34;nofollow&#34;&#62;新浪微博&#60;/a&#62;</_x003C_Source_x003E_k__BackingField>
+<_x003C_UserID_x003E_k__BackingField id="ref-7">3476962711</_x003C_UserID_x003E_k__BackingField>
+<_x003C_Truncated_x003E_k__BackingField>false</_x003C_Truncated_x003E_k__BackingField>
+<_x003C_ThumbnailPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_MiddleSizePictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_OriginalPictureUrl_x003E_k__BackingField xsi:null="1"/>
+<_x003C_RepostsCount_x003E_k__BackingField>1</_x003C_RepostsCount_x003E_k__BackingField>
+<_x003C_CommentsCount_x003E_k__BackingField>1</_x003C_CommentsCount_x003E_k__BackingField>
+<_x003C_RetweetedStatusID_x003E_k__BackingField xsi:null="1"/>
+</a1:Status>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

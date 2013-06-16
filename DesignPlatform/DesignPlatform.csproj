@@ -60,7 +60,7 @@
     <Compile Include="Classifiers\Learnable\DetectorSpace.cs" />
     <Compile Include="Classifiers\FilterTypeIllegal.cs" />
     <Compile Include="Classifiers\Learnable\ClassifierLearnable.cs" />
-    <Compile Include="Classifiers\Learnable\Teacher.cs" />
+    <Compile Include="Classifiers\Learnable\Assistant.cs" />
     <Compile Include="Classifiers\Speaker.cs" />
     <Compile Include="Classifiers\Transmitter.cs" />
     <Compile Include="Framework\Collector.cs" />

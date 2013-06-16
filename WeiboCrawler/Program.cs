@@ -20,13 +20,13 @@ namespace WeiboTools
             //keepWatchingPhotos("silver6wings", 5);
             //fetchStatus("银翎六翼");
 
-            fetchUserStatusInFile("userList.txt");
+            fetchUserStatusInFile("UserList.txt", 200);
 
             Console.WriteLine("=== END ===");
             Console.ReadKey();
         }
 
-        public static void fetchUserStatusInFile(string listName)
+        public static void fetchUserStatusInFile(string listName, int topMax)
         {
             string listPath = Properties.Crawler.Default.basePath + listName;
 
@@ -35,12 +35,12 @@ namespace WeiboTools
             string userName = "";
             while(!string.IsNullOrEmpty(userName = sr.ReadLine())){
                 Console.WriteLine(userName);
-                fetchUserStatus(userName);
+                fetchUserStatus(userName, topMax);
             }
             sr.Close();
         }
 
-        public static void fetchUserStatus(string userName)
+        public static void fetchUserStatus(string userName, int topMax)
         {
             // 找到用户名对应的文件
             string filePath = Properties.Crawler.Default.weiboPath + userName + ".txt";
@@ -63,7 +63,7 @@ namespace WeiboTools
 
             // 抓用户最新的微博
             Crawler cr = new Crawler();
-            List<Status> ls = cr.getUserStatusByUserName(userName, 20, 1);
+            List<Status> ls = cr.getUserStatusByUserName(userName, topMax, 1);
 
             rr.WriteStream(filePath);
             foreach (Status s in ls)

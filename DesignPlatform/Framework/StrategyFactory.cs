@@ -18,7 +18,7 @@ namespace DesignPlatform
 
             ClassifierLearnable c0 = new ClassifierLearnableBayes(ClassifierLearnableBayesType.Naive);
             c0._detector = new DetectorSpace();
-            Teacher.teachWithFile(c0, "../Data/DP/TrainData.txt");
+            Assistant.teachWithFile(c0, "../Data/DP/TrainData.txt");
 
             /*        
             c0.doTrain("Nobody owns the water", "GOOD");

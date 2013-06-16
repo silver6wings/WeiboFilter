@@ -7,7 +7,7 @@ using System.IO;
 
 namespace DesignPlatform.Classifiers
 {
-    class Teacher
+    class Assistant
     {
         public static void teachWithFile(ClassifierLearnable classifier, string trainFileName)
         {
