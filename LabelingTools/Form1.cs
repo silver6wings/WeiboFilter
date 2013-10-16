@@ -69,6 +69,7 @@ namespace LabelingTools
             ofd.Filter = "文本文件(*.txt;*.doc)|*.txt;*.doc";
             ofd.FilterIndex = 1;
             ofd.FileName = "";
+            ofd.InitialDirectory = Application.StartupPath;
 
             string filePath = "";
             string fileName = "";
