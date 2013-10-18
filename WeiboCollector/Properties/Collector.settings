@@ -1,10 +1,7 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
-<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="WeiboTools.Properties" GeneratedClassName="Crawler">
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="WeiboCollector.Properties" GeneratedClassName="Collector">
   <Profiles />
   <Settings>
-    <Setting Name="basePath" Type="System.String" Scope="User">
-      <Value Profile="(Default)">../_Data/</Value>
-    </Setting>
     <Setting Name="picPath" Type="System.String" Scope="User">
       <Value Profile="(Default)">../_Data/Pictures/</Value>
     </Setting>

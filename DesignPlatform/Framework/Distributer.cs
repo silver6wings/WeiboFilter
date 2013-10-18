@@ -17,7 +17,7 @@ namespace DesignPlatform
         // 将item分发给各个strategy
         public void pushItem(string item)
         {
-            foreach (Strategy strategy in _strategys) strategy.receiveItem(item);            
+            foreach (Strategy strategy in _strategys) strategy.judgeItem(item);            
         }
     }
 }

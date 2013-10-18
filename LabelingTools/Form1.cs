@@ -27,8 +27,6 @@ namespace LabelingTools
         {
             InitializeComponent();
 
-            labelingPath = "../../_Data/Labeling/";
-
             statusRecorder = new Recorder(false);
             labelRecorder = new Recorder(false);
             existLabeling = new List<Labeling>();
@@ -65,6 +63,7 @@ namespace LabelingTools
 
         private void menu_click(object s, EventArgs e)
         {
+            // 选择文件对话
             OpenFileDialog ofd = new OpenFileDialog();
             ofd.Filter = "文本文件(*.txt;*.doc)|*.txt;*.doc";
             ofd.FilterIndex = 1;
@@ -91,6 +90,7 @@ namespace LabelingTools
         
         private void bt1_click(object s, EventArgs e)
         {
+            // 标记为普通
             if (!isLabeling) return;
 
             Labeling tlb = findLabeling(status.ID);
@@ -103,6 +103,7 @@ namespace LabelingTools
 
         private void bt2_click(object s, EventArgs e)
         {
+            // 标记为垃圾
             if (!isLabeling) return;
 
             Labeling tlb = findLabeling(status.ID);
@@ -120,6 +121,7 @@ namespace LabelingTools
             refreshCheckedBoxes(true);
 
             // 打开标记读取数据流
+            labelingPath = "../_Data/Labeling/";
             labelingName = "Result_" + sourceName;
             string recordPath = labelingPath + labelingName;  
 
@@ -128,10 +130,10 @@ namespace LabelingTools
             {
                 labelRecorder.ReadStream(recordPath);            
                 existLabeling.Clear();  
-                Labeling tl = (Labeling)labelRecorder.ReadObject();
+                Labeling tl = (Labeling)labelRecorder.ReadNextObject();
                 while(tl != null){
                     existLabeling.Add(tl);
-                    tl = (Labeling)labelRecorder.ReadObject();
+                    tl = (Labeling)labelRecorder.ReadNextObject();
                 }
                 labelRecorder.CloseStream();
             }
@@ -151,9 +153,11 @@ namespace LabelingTools
             string recordPath = labelingPath + labelingName;
 
             labelRecorder.OverWriteStream(recordPath);
+
             foreach (Labeling tl in existLabeling)            
                 labelRecorder.WriteObject(tl);            
             labelRecorder.CloseStream();
+
             labelingName = "";
 
             // 关闭微博读取流
@@ -171,7 +175,7 @@ namespace LabelingTools
             // 找到下一个符合过滤需求的Status
             while (!foundNext)
             {
-                status = (Status)statusRecorder.ReadObject();
+                status = (Status)statusRecorder.ReadNextObject();
 
                 if (status == null) break;
                 else

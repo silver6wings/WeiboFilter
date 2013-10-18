@@ -31,9 +31,9 @@ namespace DesignPlatform.Classifiers
             }
 
             // 寻找下一个分类器
-            for (int i = 0; i < _strategy._graph[_index].Length; i++)
+            for (int i = 0; i < _strategy._road[_index].Length; i++)
             {
-                if(_strategy._graph[_index][i].Equals(category)){
+                if(_strategy._road[_index][i].Equals(category)){
 
                     // 转交item
                     _strategy._transmitters.ElementAt(i).receiveItem(item, category);

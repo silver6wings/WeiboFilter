@@ -5,15 +5,15 @@ using System.Text;
 
 namespace DesignPlatform.Classifiers
 {
-    class ClassifierHaveRNRNRN : Classifier
+    class ClassifierEmptyRow : Classifier
     {
         public override string classify(string comment)
         {
-            if (comment.Contains("\\r\\n\\r\\n\\r\\n"))
+            if (comment.Contains("\\r\\n\\r\\n"))
             {
-                return "BLACK";
+                return "HaveEmptyRow";
             }
-            return "WHITE";
+            return "NotHaveEmptyRow";
         }
     }
 }

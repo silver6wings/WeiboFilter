@@ -13,10 +13,10 @@ namespace DesignPlatform.Classifiers
             {
                 if (comment[i] >= '0' && comment[i] <= '9')
                 {
-                    return "NB+";
+                    return "HaveNumber";
                 }
             }
-            return "NB-";
+            return "NoNumber";
         }
     }
 }

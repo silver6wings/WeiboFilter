@@ -8,30 +8,18 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WeiboTools.Properties {
+namespace WeiboCollector.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "11.0.0.0")]
-    internal sealed partial class Crawler : global::System.Configuration.ApplicationSettingsBase {
+    internal sealed partial class Collector : global::System.Configuration.ApplicationSettingsBase {
         
-        private static Crawler defaultInstance = ((Crawler)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Crawler())));
+        private static Collector defaultInstance = ((Collector)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Collector())));
         
-        public static Crawler Default {
+        public static Collector Default {
             get {
                 return defaultInstance;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("../_Data/")]
-        public string basePath {
-            get {
-                return ((string)(this["basePath"]));
-            }
-            set {
-                this["basePath"] = value;
             }
         }
         

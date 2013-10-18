@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5C4FE0EE-12D4-4D66-826C-732386484618}</ProjectGuid>
+    <ProjectGuid>{2F637C10-7363-4DC6-949E-3A911F264ED8}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>WeiboTools</RootNamespace>
-    <AssemblyName>WeiboTools</AssemblyName>
+    <RootNamespace>WeiboCollector</RootNamespace>
+    <AssemblyName>WeiboCollector</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -17,7 +17,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>..\bin\WeiboTools\</OutputPath>
+    <OutputPath>..\bin\WeiboCollector\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -34,7 +34,6 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -42,37 +41,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Utilities\Crawler.cs" />
-    <Compile Include="Utilities\Downloader.cs" />
-    <Compile Include="Models\Labeling.cs" />
-    <Compile Include="Models\User.cs" />
-    <Compile Include="Utilities\OAuther.cs" />
-    <Compile Include="SimpleCode.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Properties\WeiboOAuth.Designer.cs">
-      <DependentUpon>WeiboOAuth.settings</DependentUpon>
+    <Compile Include="Properties\Collector.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Collector.settings</DependentUpon>
     </Compile>
-    <Compile Include="Models\Status.cs" />
-    <Compile Include="Utilities\Recorder.cs" />
-    <Compile Include="Utilities\WordDivider.cs" />
+    <Compile Include="WeiboCollector.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="Properties\WeiboOAuth.settings">
+    <None Include="Properties\Collector.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
-      <LastGenOutput>WeiboOAuth.Designer.cs</LastGenOutput>
+      <LastGenOutput>Collector.Designer.cs</LastGenOutput>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\NetDimension.Weibo\NetDimension.Weibo40.csproj">
-      <Project>{7b795714-40d6-4b2e-a277-cbe13c33e1ed}</Project>
-      <Name>NetDimension.Weibo40</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\PanGu\PanGu.csproj">
-      <Project>{091e1c60-f77b-45a1-844c-86c5f508b57b}</Project>
-      <Name>PanGu</Name>
+    <ProjectReference Include="..\WeiboCrawler\WeiboTools.csproj">
+      <Project>{5c4fe0ee-12d4-4d66-826c-732386484618}</Project>
+      <Name>WeiboTools</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

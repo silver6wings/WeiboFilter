@@ -37,30 +37,7 @@ namespace DesignPlatform
             testClassifierGroup.Add(new Speaker("BAD"));
 
 
-            return new Strategy("Bayes", testGraph, testClassifierGroup);
-        }
-
-        public static Strategy getExperimentStrategy()
-        {
-            string[][] testGraph = new string[6][];
-            for (int i = 0; i < 6; i++)
-                testGraph[i] = new string[] { "", "", "", "", "", "" };
-
-            List<Transmitter> testClassifierGroup = new List<Transmitter>();
-
-            Classifier c1 = new ClassifierHaveIllegalChar();
-            c1._filter = new FilterType();
-
-            Classifier c2 = new ClassifierHaveRNRNRN();
-
-            testClassifierGroup.Add(c1);
-            testGraph[0][1] = "WHITE";
-            testGraph[0][2] = "BLACK";
-
-            testClassifierGroup.Add(new Speaker("GOOD"));
-            testClassifierGroup.Add(new Speaker("SPAM"));
-
-            return new Strategy("Experiment", testGraph, testClassifierGroup);
+            return new Strategy(0, testGraph, testClassifierGroup);
         }
 
         public static Strategy getSampleStrategy()
@@ -72,22 +49,22 @@ namespace DesignPlatform
             List<Transmitter> testClassifierGroup = new List<Transmitter>();
 
             testClassifierGroup.Add(new ClassifierHaveNumber());
-            testGraph[0][1] = "NB+";
-            testGraph[0][2] = "NB-";
+            testGraph[0][1] = "HaveNumber";
+            testGraph[0][2] = "NoNumber";
 
             testClassifierGroup.Add(new ClassifierLength10());
-            testGraph[1][3] = "10+";
-            testGraph[1][4] = "10-";
+            testGraph[1][3] = "Length>10";
+            testGraph[1][4] = "Length<=10";
 
-            testClassifierGroup.Add(new ClassifierHaveUppercase());
-            testGraph[2][4] = "UC+";
-            testGraph[2][5] = "UC-";
+            testClassifierGroup.Add(new ClassifierUppercase());
+            testGraph[2][4] = "HaveUppercase";
+            testGraph[2][5] = "NoUppercase";
 
-            testClassifierGroup.Add(new Speaker("s03"));
-            testClassifierGroup.Add(new Speaker("s04"));
-            testClassifierGroup.Add(new Speaker("s05"));
+            testClassifierGroup.Add(new Speaker("Category01"));
+            testClassifierGroup.Add(new Speaker("Category02"));
+            testClassifierGroup.Add(new Speaker("Category03"));
 
-            return new Strategy("Sample", testGraph, testClassifierGroup);
+            return new Strategy(1, testGraph, testClassifierGroup);
         }
     }
 }

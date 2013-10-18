@@ -9,7 +9,7 @@ using System.IO;
 
 namespace WeiboTools
 {
-    class Downloader
+    public class Downloader
     {
         public static void getPicture(string picURL, string picPath)
         {       
@@ -29,7 +29,7 @@ namespace WeiboTools
             }        
         }
 
-        public static void getStatusPictures(Status status)
+        public static void getStatusPictures(Status status, String path)
         {
             string s = null;
             if (status != null)
@@ -38,7 +38,7 @@ namespace WeiboTools
                 if (!string.IsNullOrEmpty(s))
                 {
                     string[] ss = s.Split('/');
-                    string picPath = Properties.Crawler.Default.picPath + "o_" + ss[ss.Length - 1];
+                    string picPath = path + "o_" + ss[ss.Length - 1];
                     if (!File.Exists(picPath))
                     {
                         Downloader.getPicture(s, picPath);
@@ -49,7 +49,7 @@ namespace WeiboTools
                 if (!string.IsNullOrEmpty(s))
                 {
                     string[] ss = s.Split('/');
-                    string picPath = Properties.Crawler.Default.picPath + "m_" + ss[ss.Length - 1];
+                    string picPath = path + "m_" + ss[ss.Length - 1];
 
                     if (!File.Exists(picPath))
                     {

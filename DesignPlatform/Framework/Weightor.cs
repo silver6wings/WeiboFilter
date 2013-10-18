@@ -7,9 +7,8 @@ namespace DesignPlatform
 {
     class Collector
     {
-        Dictionary<Strategy, float> weight;
-        Dictionary<Strategy, string> result;
-        
+        //Dictionary<Strategy, float> weight;
+        //Dictionary<Strategy, string> result;        
 
         public void pushResult()
         {

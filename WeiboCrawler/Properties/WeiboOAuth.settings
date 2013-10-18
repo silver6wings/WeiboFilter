@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
-<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="WeiboCrawler.Properties" GeneratedClassName="WeiboOAuth">
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="WeiboTools.Properties" GeneratedClassName="WeiboOAuth">
   <Profiles />
   <Settings>
     <Setting Name="AccessToken" Type="System.String" Scope="User">
@@ -14,11 +14,11 @@
     <Setting Name="CallbackUrl" Type="System.String" Scope="User">
       <Value Profile="(Default)">http://127.0.0.1</Value>
     </Setting>
-    <Setting Name="WeiboUser" Type="System.String" Scope="User">
-      <Value Profile="(Default)">silver6wings</Value>
-    </Setting>
     <Setting Name="WeiboPassword" Type="System.String" Scope="User">
       <Value Profile="(Default)">Richbird123</Value>
+    </Setting>
+    <Setting Name="WeiboUser" Type="System.String" Scope="User">
+      <Value Profile="(Default)">silver6wings</Value>
     </Setting>
   </Settings>
 </SettingsFile>

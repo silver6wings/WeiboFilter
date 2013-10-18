@@ -16,7 +16,7 @@ namespace WeiboTools
         IFormatter formatter;
         Stream stream;
 
-        public Recorder(bool useBinary = true)
+        public Recorder(bool useBinary)
         {
             if (useBinary) formatter = new BinaryFormatter();
             else formatter = new SoapFormatter();
@@ -56,16 +56,17 @@ namespace WeiboTools
             }
         }
 
-        public object ReadObject()
+        public object ReadNextObject()
         {
             object o = null;
             try
             {                
                 o = formatter.Deserialize(stream);
             }
-            catch 
+            catch (Exception ex)
             {
-                // Here may the end of file.
+                Console.WriteLine("{0}", ex.GetType().Name);
+                Console.WriteLine("{0}", ex.Message);
             }
             return o;
         }

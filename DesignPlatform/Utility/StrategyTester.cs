@@ -26,7 +26,7 @@ namespace DesignPlatform
                 {
                     line = sr.ReadLine();
 
-                    if (strategy.receiveItem(line).Equals("GOOD"))
+                    if (strategy.judgeItem(line).Equals("GOOD"))
                     {
                         whiteReal[0]++;
                     }
@@ -38,7 +38,7 @@ namespace DesignPlatform
                 else // is Black
                 {
                     line = sr.ReadLine();
-                    if (strategy.receiveItem(line).Equals("GOOD"))
+                    if (strategy.judgeItem(line).Equals("GOOD"))
                     {
                         blackReal[0]++;
                     }
@@ -53,7 +53,7 @@ namespace DesignPlatform
             Console.WriteLine("stop testing ...");
             Console.WriteLine(DateTime.Now - dt);
 
-            StringBuilder sb = new StringBuilder(strategy._name);
+            StringBuilder sb = new StringBuilder(strategy._entrance);
 
             sb.Append("\r\n");
             sb.Append(testFileName);

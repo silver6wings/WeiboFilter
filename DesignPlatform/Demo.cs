@@ -8,20 +8,20 @@ using DesignPlatform.Classifiers;
 
 namespace DesignPlatform
 {
-    class Client
+    class Demo
     {
         static void Main(string[] args)
         {
             Console.WriteLine("---------------- BEGIN ----------------");
-            
-            Strategy se = StrategyFactory.getBayesStra();
 
-            se._showPath = false;
-            se.receiveItem("À1234567890123ÀÁÂÃÄÅ℃【“”字");
+            Strategy se = StrategyFactory.getSampleStrategy();
 
-            StrategyTester.testBinary(se, "../Data/DP/TestData_2012-10-31.txt");
+            se._showPath = true;
+            Console.WriteLine(se.judgeItem("À1234567890123ÀÁÂÃÄÅ℃【“”字"));
+
+            //StrategyTester.testBinary(se, "../Data/DP/TestData_2012-10-31.txt");
              
-            /* code for test distrbutor
+            /*code for test distrbutor
               
             List<Strategy> stra = new List<Strategy>();
             stra.Add(getStra01());           

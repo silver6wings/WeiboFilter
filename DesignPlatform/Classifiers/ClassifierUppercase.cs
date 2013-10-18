@@ -5,7 +5,7 @@ using System.Text;
 
 namespace DesignPlatform.Classifiers
 {
-    class ClassifierHaveUppercase : Classifier
+    class ClassifierUppercase : Classifier
     {
         public override string classify(string comment)
         {
@@ -13,10 +13,10 @@ namespace DesignPlatform.Classifiers
             {
                 if (comment[i] >= 'A' && comment[i] <= 'Z')
                 {
-                    return "UC+";
+                    return "HaveUppercase";
                 }
             }
-            return "UC-";
+            return "NoUppercase";
         } 
     }
 }

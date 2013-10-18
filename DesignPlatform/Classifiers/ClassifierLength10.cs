@@ -11,9 +11,9 @@ namespace DesignPlatform.Classifiers
         {
             if (comment.Length > 10)
             {
-                return "10+";
+                return "Length>10";
             }
-            return "10-";            
+            return "Length<=10";            
         }
     }
 }
