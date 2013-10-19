@@ -7,6 +7,6 @@ namespace DesignPlatform.Classifiers
 {
     abstract class Detector
     {
-        public abstract string[] detectFeature(string comment);
+        public abstract string[] detect(string comment);
     }
 }

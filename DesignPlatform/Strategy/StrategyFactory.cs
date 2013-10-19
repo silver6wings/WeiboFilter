@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using DesignPlatform.Classifiers;
+using System.IO;
 
 namespace DesignPlatform
 {
@@ -16,9 +17,9 @@ namespace DesignPlatform
 
             List<Transmitter> testClassifierGroup = new List<Transmitter>();
 
-            ClassifierLearnable c0 = new ClassifierLearnableBayes(ClassifierLearnableBayesType.Naive);
+            ClassifierML c0 = new ClassifierMLBayes(ClassifierLearnableBayesType.Naive);
             c0._detector = new DetectorSpace();
-            Assistant.teachWithFile(c0, "../Data/DP/TrainData.txt");
+            teachWithFile(c0, "../Data/DP/TrainData.txt");
 
             /*        
             c0.doTrain("Nobody owns the water", "GOOD");
@@ -38,6 +39,30 @@ namespace DesignPlatform
 
 
             return new Strategy(0, testGraph, testClassifierGroup);
+        }
+
+        public static void teachWithFile(ClassifierML classifier, string trainFileName)
+        {
+            DateTime dt = DateTime.Now;
+            Console.WriteLine("start trainning...");
+
+            StreamReader sr = new StreamReader(trainFileName);
+
+            string line = sr.ReadLine();
+            while (!line.Equals("@END"))
+            {
+                string catName = line;// Category Name
+                line = sr.ReadLine(); // load features
+
+                classifier.train(line, catName);
+
+                line = sr.ReadLine(); // load next
+            }
+
+            sr.Close();
+
+            Console.WriteLine("stop trainning...");
+            Console.WriteLine(DateTime.Now - dt);
         }
 
         public static Strategy getSampleStrategy()
@@ -64,7 +89,7 @@ namespace DesignPlatform
             testClassifierGroup.Add(new Speaker("Category02"));
             testClassifierGroup.Add(new Speaker("Category03"));
 
-            return new Strategy(1, testGraph, testClassifierGroup);
+            return new Strategy(0, testGraph, testClassifierGroup, true);
         }
     }
 }

@@ -13,7 +13,7 @@ namespace DesignPlatform.Classifiers
         Revised
     }
 
-    class ClassifierLearnableBayes : ClassifierLearnable
+    class ClassifierMLBayes : ClassifierML
     {
         private ClassifierLearnableBayesType _classifierBayesType;
 
@@ -25,9 +25,9 @@ namespace DesignPlatform.Classifiers
         private Dictionary<string, long> _allFeaturesCountInCategory; // just for performance <Category, Count Sum of features in this category>
         private Dictionary<string, long> _featuresCountInAllCategory;  // just for performance <Feature, Count Sum of features In All Category> 
 
-        public ClassifierLearnableBayes(ClassifierLearnableBayesType defaultBayesType = ClassifierLearnableBayesType.Revised)
+        public ClassifierMLBayes(ClassifierLearnableBayesType defaultBayesType = ClassifierLearnableBayesType.Revised)
         {
-            _classifierBayesType = defaultBayesType;
+            _classifierBayesType = defaultBayesType;            
 
             _categoryNames = new List<string>();
             _itemsCountInCategory = new Dictionary<string, long>();
@@ -69,7 +69,7 @@ namespace DesignPlatform.Classifiers
             // Add feature count
             if (!_featuresCountInCategory.ContainsKey(category)) _featuresCountInCategory.Add(category, new Dictionary<string, long>());
 
-            string[] features = _detector.detectFeature(comment);
+            string[] features = _detector.detect(comment);
             foreach (string feature in features)
             {
                 // Add feature Count in all Category
@@ -133,7 +133,7 @@ namespace DesignPlatform.Classifiers
             string result = "";
             foreach (string category in _featuresCountInCategory.Keys)
             {
-                double tempProb = getProbNaive(category, _detector.detectFeature(comment));
+                double tempProb = getProbNaive(category, _detector.detect(comment));
                
                 if (tempProb > maxProb)
                 {
@@ -150,7 +150,7 @@ namespace DesignPlatform.Classifiers
             string result = "";
             foreach (string category in _featuresCountInCategory.Keys)
             {
-                double tempProb = getProbFisher(category, _detector.detectFeature(comment));
+                double tempProb = getProbFisher(category, _detector.detect(comment));
                 if (tempProb > maxProb)
                 {
                     maxProb = tempProb;
@@ -166,7 +166,7 @@ namespace DesignPlatform.Classifiers
             string result = "";
             foreach (string category in _featuresCountInCategory.Keys)
             {
-                double tempProb = getProbRevised(category, _detector.detectFeature(comment));
+                double tempProb = getProbRevised(category, _detector.detect(comment));
                 if (tempProb > maxProb)
                 {
                     maxProb = tempProb;

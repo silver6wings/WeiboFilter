@@ -7,7 +7,7 @@ namespace DesignPlatform.Classifiers
 {
     class DetectorSpace : Detector
     {
-        public override string[] detectFeature(string comment)
+        public override string[] detect(string comment)
         {
             if (!string.IsNullOrEmpty(comment) && comment.Length < 2000)
             {

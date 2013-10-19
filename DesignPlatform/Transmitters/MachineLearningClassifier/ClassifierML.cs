@@ -5,7 +5,7 @@ using System.Text;
 
 namespace DesignPlatform.Classifiers
 {
-    abstract class ClassifierLearnable : Classifier
+    abstract class ClassifierML : Classifier
     {
         public Detector _detector { get; set; }
 

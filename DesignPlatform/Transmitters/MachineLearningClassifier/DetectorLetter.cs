@@ -11,7 +11,7 @@ namespace DesignPlatform.Classifiers
     {
         private int wordLengthMin = 1, wordLengthMax = 30;
 
-        public override string[] detectFeature(string comment)
+        public override string[] detect(string comment)
         {            
             List<string> features = new List<string>();
 

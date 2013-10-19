@@ -15,6 +15,29 @@ namespace DesignPlatform.Classifiers
                                   '[', ']', ':', ';', '<', '>', 
                                   '?', ',', '.', '/' };
 
+        public override string[] detect(string comment)
+        {
+            List<string> features = new List<string>();
+
+            if (!string.IsNullOrEmpty(comment))
+            {
+                comment = comment.ToLower();
+                comment = back(comment);
+                comment = comment.Trim(blanks);
+
+                string[] words = comment.Split(blanks);
+
+                foreach (string word in words)
+                {
+                    if (word.Length >= wordLengthMin && word.Length <= wordLengthMax)
+                    {
+                        features.Add(word);
+                    }
+                }
+            }
+            return features.ToArray();
+        }
+
         private string back(string str)
         {
             /*            
@@ -44,29 +67,6 @@ namespace DesignPlatform.Classifiers
             str = str.Replace("\\v", "\v");
 
             return str;
-        }
-
-        public override string[] detectFeature(string comment)
-        {
-            List<string> features = new List<string>();
-
-            if (!string.IsNullOrEmpty(comment))
-            {
-                comment = comment.ToLower();
-                comment = back(comment);
-                comment = comment.Trim(blanks);
-
-                string[] words = comment.Split(blanks);
-
-                foreach (string word in words)
-                {
-                    if (word.Length >= wordLengthMin && word.Length <= wordLengthMax)
-                    {
-                        features.Add(word);
-                    }
-                }
-            }
-            return features.ToArray();
         }
     }
 }

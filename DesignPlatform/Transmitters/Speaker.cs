@@ -23,10 +23,10 @@ namespace DesignPlatform.Classifiers
         public override void reportItem(string comment, string category)
         {
             // 显示分类路径
-            if (_strategy._showPath) Console.WriteLine("\"{0}\" >> {1}", comment, _finalCategory);
+            if (_strategy.showPath()) Console.WriteLine("\"{0}\" >> {1}", comment, _finalCategory);
 
             // 告诉strategy最终结果
-            _strategy._categoryResult = _finalCategory;
+            _strategy.reportCategory(_finalCategory);
         }
     }
 }

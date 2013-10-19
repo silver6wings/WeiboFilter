@@ -16,7 +16,6 @@ namespace DesignPlatform
 
             Strategy se = StrategyFactory.getSampleStrategy();
 
-            se._showPath = true;
             Console.WriteLine(se.judgeItem("À1234567890123ÀÁÂÃÄÅ℃【“”字"));
 
             //StrategyTester.testBinary(se, "../Data/DP/TestData_2012-10-31.txt");

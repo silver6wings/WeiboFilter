@@ -47,30 +47,36 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Classifiers\Learnable\ClassifierLearnableBayes.cs" />
+    <Compile Include="Classifiers\MachineLearningClassifier\ClassifierMLBayes.cs" />
     <Compile Include="Classifiers\ClassifierEmptyRow.cs" />
     <Compile Include="Classifiers\ClassifierUppercase.cs" />
     <Compile Include="Classifiers\ClassifierLength10.cs" />
     <Compile Include="Classifiers\Classifier.cs" />
     <Compile Include="Classifiers\ClassifierHaveNumber.cs" />
-    <Compile Include="Classifiers\Learnable\Detector.cs" />
-    <Compile Include="Classifiers\Learnable\DetectorLetter.cs" />
-    <Compile Include="Classifiers\Learnable\DetectorSplit.cs" />
-    <Compile Include="Classifiers\Learnable\DetectorSpace.cs" />
+    <Compile Include="Classifiers\MachineLearningClassifier\Detector.cs" />
+    <Compile Include="Classifiers\MachineLearningClassifier\DetectorLetter.cs" />
+    <Compile Include="Classifiers\MachineLearningClassifier\DetectorSplit.cs" />
+    <Compile Include="Classifiers\MachineLearningClassifier\DetectorSpace.cs" />
     <Compile Include="Classifiers\FilterTypeIllegal.cs" />
-    <Compile Include="Classifiers\Learnable\ClassifierLearnable.cs" />
-    <Compile Include="Classifiers\Learnable\Assistant.cs" />
+    <Compile Include="Classifiers\MachineLearningClassifier\ClassifierML.cs" />
+    <Compile Include="Classifiers\MachineLearningClassifier\Teacher.cs" />
     <Compile Include="Classifiers\Speaker.cs" />
     <Compile Include="Classifiers\Transmitter.cs" />
     <Compile Include="Framework\Weightor.cs" />
     <Compile Include="Framework\Distributer.cs" />
     <Compile Include="Classifiers\FilterType.cs" />
     <Compile Include="Classifiers\Filter.cs" />
-    <Compile Include="Utility\StrategyFactory.cs" />
-    <Compile Include="Utility\StrategyTester.cs" />
+    <Compile Include="Strategy\StrategyFactory.cs" />
+    <Compile Include="Strategy\StrategyTester.cs" />
     <Compile Include="Demo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Framework\Strategy.cs" />
+    <Compile Include="Strategy\Strategy.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WeiboCrawler\WeiboTools.csproj">
+      <Project>{5c4fe0ee-12d4-4d66-826c-732386484618}</Project>
+      <Name>WeiboTools</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

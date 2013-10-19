@@ -22,7 +22,7 @@ namespace DesignPlatform.Classifiers
         public override void reportItem(string item, string category)
         {
             // 显示分类路径
-            if (_strategy._showPath)
+            if (_strategy.showPath())
             {
                 if (_filter != null)                
                     Console.WriteLine("\"{0}\" -> {1}", _filter.filtering(item), category);                
