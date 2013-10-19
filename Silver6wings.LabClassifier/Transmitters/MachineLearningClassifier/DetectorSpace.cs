@@ -1,0 +1,26 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace Silver6wings.LabClassifier.Classifiers
+{
+    class DetectorSpace : Detector
+    {
+        public override string[] detect(string comment)
+        {
+            if (!string.IsNullOrEmpty(comment) && comment.Length < 2000)
+            {
+                try
+                {
+                    return comment.Split(' ');
+                }
+                catch
+                {
+                    Console.WriteLine('('+comment+')');
+                }
+            }
+            return new string[0];
+        }
+    }
+}

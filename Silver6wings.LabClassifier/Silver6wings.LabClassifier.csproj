@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E673D763-EAAF-4357-AFE7-3301093ABF13}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Silver6wings.LabClassifier</RootNamespace>
+    <AssemblyName>Silver6wings.LabClassifier</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\bin\DesignPlatform\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Transmitters\MachineLearningClassifier\ClassifierMLBayes.cs" />
+    <Compile Include="Transmitters\NormalClassifer\ClassifierEmptyRow.cs" />
+    <Compile Include="Transmitters\NormalClassifer\ClassifierUppercase.cs" />
+    <Compile Include="Transmitters\NormalClassifer\ClassifierLength10.cs" />
+    <Compile Include="Transmitters\NormalClassifer\Classifier.cs" />
+    <Compile Include="Transmitters\NormalClassifer\ClassifierHaveNumber.cs" />
+    <Compile Include="Transmitters\MachineLearningClassifier\Detector.cs" />
+    <Compile Include="Transmitters\MachineLearningClassifier\DetectorLetter.cs" />
+    <Compile Include="Transmitters\MachineLearningClassifier\DetectorSplit.cs" />
+    <Compile Include="Transmitters\MachineLearningClassifier\DetectorSpace.cs" />
+    <Compile Include="Transmitters\NormalClassifer\FilterTypeIllegal.cs" />
+    <Compile Include="Transmitters\MachineLearningClassifier\ClassifierML.cs" />
+    <Compile Include="Transmitters\MachineLearningClassifier\Teacher.cs" />
+    <Compile Include="Transmitters\Speaker.cs" />
+    <Compile Include="Transmitters\Transmitter.cs" />
+    <Compile Include="Framework\Weightor.cs" />
+    <Compile Include="Framework\Distributer.cs" />
+    <Compile Include="Transmitters\NormalClassifer\FilterType.cs" />
+    <Compile Include="Transmitters\NormalClassifer\Filter.cs" />
+    <Compile Include="Strategys\StrategyFactory.cs" />
+    <Compile Include="Strategys\StrategyTester.cs" />
+    <Compile Include="Demo.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Strategys\Strategy.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Silver6wings.WeiboCrawler\Silver6wings.WeiboTools.csproj">
+      <Project>{5c4fe0ee-12d4-4d66-826c-732386484618}</Project>
+      <Name>Silver6wings.WeiboTools</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
