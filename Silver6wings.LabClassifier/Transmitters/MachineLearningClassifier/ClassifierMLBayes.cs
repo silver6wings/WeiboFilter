@@ -93,21 +93,25 @@ namespace Silver6wings.LabClassifier.Classifiers
             throw new NotImplementedException();
         }
 
-        public override void showModelInfo()
+        public void showModelInfo(string toPath, bool toScreen)
         {
+            if (String.IsNullOrEmpty(toPath) && toScreen == false) return;            
+
             StringBuilder sb = new StringBuilder("\t\t{ALL}");
 
-            // write Header
+            // Prepare Header
             foreach (string categoryName in _featuresCountInCategory.Keys)
             {
                 sb.Append(string.Format("\t{0}\t", categoryName));
             }
             sb.Append("\r\n");
 
-            // write Feature Count
+            // Prepare Feature Count
             foreach (string feature in _featuresCountInAllCategory.Keys)
             {
-                sb.Append(feature);
+                if (feature.Length > 7) sb.Append(feature.Substring(0,6) + '.');
+                else sb.Append(feature);
+
                 sb.Append(string.Format("\t{0}", getFeatureTotalInAllCategory(feature)));
 
                 foreach (string category in _featuresCountInCategory.Keys)
@@ -118,11 +122,16 @@ namespace Silver6wings.LabClassifier.Classifiers
                 sb.Append("\r\n");
             }
 
-            //Console.WriteLine(sb);
-
-            StreamWriter sw = new StreamWriter("../Data/DP/BayesModel.txt");
-            sw.WriteLine(sb);
-            sw.Close();
+            // Output to screen
+            if(toScreen) Console.WriteLine(sb);
+           
+            // Output to file
+            if (!String.IsNullOrEmpty(toPath))
+            {
+                StreamWriter sw = new StreamWriter(toPath);
+                sw.WriteLine(sb);
+                sw.Close();
+            }
         }
         
         // ===== Guess method =====

@@ -14,26 +14,24 @@ namespace Silver6wings.LabClassifier
         {
             Console.WriteLine("---------------- BEGIN ----------------");
 
-            Strategy se = StrategyFactory.getSampleStrategy();
-
-            Console.WriteLine(se.judgeItem("À1234567890123ÀÁÂÃÄÅ℃【“”字"));
+            DemoBayes();
 
             //StrategyTester.testBinary(se, "../Data/DP/TestData_2012-10-31.txt");
-             
-            /*code for test distrbutor
-              
-            List<Strategy> stra = new List<Strategy>();
-            stra.Add(getStra01());           
-
-            Distributer dis = new Distributer(stra);
-            dis.pushComments("123456789");
-            dis.pushComments("12345678901");
-            dis.pushComments("abcdefghjik");
-            dis.pushComments("AVX");
-            */
 
             Console.WriteLine("----------------- END -----------------");
             Console.ReadKey(); 
+        }
+
+        static void DemoBayes()
+        {
+            Strategy sBayes = StrategyFactory.getDemoSingleBayesClassifier();
+            Console.WriteLine(sBayes.judgeItem("quick Rabbit"));
+        }
+
+        static void DemoNormal()
+        {
+            Strategy se = StrategyFactory.getDemoNormalStrategy();
+            Console.WriteLine(se.judgeItem("À1234567890123ÀÁÂÃÄÅ℃【“”字"));
         }
     }    
 }

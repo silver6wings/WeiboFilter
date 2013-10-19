@@ -8,7 +8,7 @@ namespace Silver6wings.LabClassifier.Classifiers
 {
     class StrategyFactory
     {
-        public static Strategy getBayesStra()
+        public static Strategy getDemoSingleBayesClassifier()
         {
             string[][] testGraph = new string[2][];
             for (int i = 0; i < 2; i++)
@@ -18,26 +18,23 @@ namespace Silver6wings.LabClassifier.Classifiers
 
             ClassifierML c0 = new ClassifierMLBayes(ClassifierLearnableBayesType.Naive);
             c0._detector = new DetectorSpace();
-            teachWithFile(c0, "../Data/DP/TrainData.txt");
+            //teachWithFile(c0, "../Data/DP/TrainData.txt");
+            
+            c0.train("Nobody owns the water", "GOOD");
+            c0.train("the quick rabbit jumps fences", "GOOD");
+            c0.train("the quick brown fox jumps", "GOOD");
+            c0.train("buy pharmaceuticals now!", "BAD");
+            c0.train("make quick money at the online casino.", "BAD");
+            ((ClassifierMLBayes)c0).showModelInfo(null, true);
 
-            /*        
-            c0.doTrain("Nobody owns the water", "GOOD");
-            c0.doTrain("the quick rabbit jumps fences", "GOOD");
-            c0.doTrain("the quick brown fox jumps", "GOOD");
-            c0.doTrain("buy pharmaceuticals now!", "BAD");
-            c0.doTrain("make quick money at the online casino.", "BAD");
-            c0.showModelInfo();
-            */
-
-            testClassifierGroup.Add(c0);
+            testClassifierGroup.Add(c0); // 0
             testGraph[0][1] = "GOOD";
             testGraph[0][2] = "BAD";
 
-            testClassifierGroup.Add(new Speaker("GOOD"));
-            testClassifierGroup.Add(new Speaker("BAD"));
+            testClassifierGroup.Add(new Speaker("GOOD")); // 1
+            testClassifierGroup.Add(new Speaker("BAD"));  // 2
 
-
-            return new Strategy(0, testGraph, testClassifierGroup);
+            return new Strategy(0, testGraph, testClassifierGroup, true);
         }
 
         public static void teachWithFile(ClassifierML classifier, string trainFileName)
@@ -64,7 +61,7 @@ namespace Silver6wings.LabClassifier.Classifiers
             Console.WriteLine(DateTime.Now - dt);
         }
 
-        public static Strategy getSampleStrategy()
+        public static Strategy getDemoNormalStrategy()
         {
             string[][] testGraph = new string[6][];
             for (int i = 0; i < 6; i++)
