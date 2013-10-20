@@ -41,20 +41,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Properties\Collector.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTimeSharedInput>True</DesignTimeSharedInput>
-      <DependentUpon>Collector.settings</DependentUpon>
-    </Compile>
     <Compile Include="WeiboCollector.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="Properties\Collector.settings">
-      <Generator>SettingsSingleFileGenerator</Generator>
-      <LastGenOutput>Collector.Designer.cs</LastGenOutput>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Silver6wings.WeiboCrawler\Silver6wings.WeiboTools.csproj">

@@ -1,6 +1,6 @@
 ﻿namespace Silver6wings.LabelingTools
 {
-    partial class Form1
+    partial class LabelingForm
     {
         /// <summary>
         /// Required designer variable.
@@ -31,9 +31,12 @@
             this.cbUnlabeled = new System.Windows.Forms.CheckBox();
             this.cbNormal = new System.Windows.Forms.CheckBox();
             this.cbSpam = new System.Windows.Forms.CheckBox();
-            this.txb1 = new System.Windows.Forms.TextBox();
+            this.txbStatusContent = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.txbLabelingNum = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txbFilePath = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // cbUnlabeled
@@ -68,13 +71,13 @@
             this.cbSpam.Text = "过滤分类：Spam";
             this.cbSpam.UseVisualStyleBackColor = true;
             // 
-            // txb1
+            // txbStatusContent
             // 
-            this.txb1.Location = new System.Drawing.Point(12, 12);
-            this.txb1.Multiline = true;
-            this.txb1.Name = "txb1";
-            this.txb1.Size = new System.Drawing.Size(401, 226);
-            this.txb1.TabIndex = 3;
+            this.txbStatusContent.Location = new System.Drawing.Point(12, 37);
+            this.txbStatusContent.Multiline = true;
+            this.txbStatusContent.Name = "txbStatusContent";
+            this.txbStatusContent.Size = new System.Drawing.Size(401, 201);
+            this.txbStatusContent.TabIndex = 3;
             // 
             // button1
             // 
@@ -99,19 +102,47 @@
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.bt2_click);
             // 
-            // Form1
+            // txbLabelingNum
+            // 
+            this.txbLabelingNum.Location = new System.Drawing.Point(428, 341);
+            this.txbLabelingNum.Name = "txbLabelingNum";
+            this.txbLabelingNum.Size = new System.Drawing.Size(119, 20);
+            this.txbLabelingNum.TabIndex = 7;
+            this.txbLabelingNum.Text = "0";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(425, 321);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(127, 13);
+            this.label1.TabIndex = 8;
+            this.label1.Text = "内存中已完成的标记：";
+            // 
+            // txbFilePath
+            // 
+            this.txbFilePath.Location = new System.Drawing.Point(12, 11);
+            this.txbFilePath.Name = "txbFilePath";
+            this.txbFilePath.Size = new System.Drawing.Size(401, 20);
+            this.txbFilePath.TabIndex = 9;
+            this.txbFilePath.Text = "No File Reading...";
+            // 
+            // LabelingForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(580, 390);
+            this.Controls.Add(this.txbFilePath);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.txbLabelingNum);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.txb1);
+            this.Controls.Add(this.txbStatusContent);
             this.Controls.Add(this.cbSpam);
             this.Controls.Add(this.cbNormal);
             this.Controls.Add(this.cbUnlabeled);
-            this.Name = "Form1";
-            this.Text = "No File Reading...";
+            this.Name = "LabelingForm";
+            this.Text = "Labeling Tools";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -123,9 +154,12 @@
         private System.Windows.Forms.CheckBox cbUnlabeled;
         private System.Windows.Forms.CheckBox cbNormal;
         private System.Windows.Forms.CheckBox cbSpam;
-        private System.Windows.Forms.TextBox txb1;
+        private System.Windows.Forms.TextBox txbStatusContent;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.TextBox txbLabelingNum;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox txbFilePath;
     }
 }
 

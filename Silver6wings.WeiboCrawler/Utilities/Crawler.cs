@@ -68,7 +68,7 @@ namespace Silver6wings.WeiboTools
 
             try
             {
-                var statusList = sina.API.Entity.Statuses.HomeTimeline(null, null, num, 1, false, 0);
+                var statusList = sina.API.Entity.Statuses.HomeTimeline(null, null, num, page, false, 0);
 
                 if (statusList.Statuses != null)
                 {

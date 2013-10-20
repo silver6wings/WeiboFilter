@@ -58,7 +58,7 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
     <Compile Include="Models\Status.cs" />
-    <Compile Include="Utilities\Recorder.cs" />
+    <Compile Include="Utilities\Serializer.cs" />
     <Compile Include="Utilities\WordDivider.cs" />
   </ItemGroup>
   <ItemGroup>

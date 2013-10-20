@@ -11,12 +11,12 @@ using System.Runtime.Serialization.Formatters.Soap;
 
 namespace Silver6wings.WeiboTools
 {
-    public class Recorder
+    public class Serializer
     {
         IFormatter formatter;
         Stream stream;
 
-        public Recorder(bool useBinary)
+        public Serializer(bool useBinary)
         {
             if (useBinary) formatter = new BinaryFormatter();
             else formatter = new SoapFormatter();

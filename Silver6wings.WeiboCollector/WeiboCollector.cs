@@ -12,27 +12,39 @@ namespace Silver6wings.WeiboCollector
 {
     public class WeiboCollector
     {
+        private static bool unfollow = true;
+        private static bool follow = true;
+
+        private static int numberOfStatus = 2000;
+        private static string pathUserList = "../_Data/UserList_Spammer.txt";
+        private static string pathDatabase = "../_Data/Database.txt";
 
         public static void Main()
         {
             Console.WriteLine("=== START ===");
-
-            fetchUserStatusInFile("../_Data/UserListNew.txt", "../_Data/Weibo/Database.txt", 50);
-
+            if (unfollow)
+            {
+                Crawler c = new Crawler();
+                c.unfollowUserByUserList("../_Data/UserList_BigV.txt");    
+                c.unfollowUserByUserList("../_Data/UserList_Normal.txt");
+                c.unfollowUserByUserList("../_Data/UserList_Spammer.txt");
+            }
+            fetchUserStatusInFile(pathUserList, pathDatabase, numberOfStatus, follow);
             Console.WriteLine("=== END ===");
             Console.ReadKey();
         }
 
-        public static void fetchUserStatusInFile(string listPath, string toPath, int topMax)
+        // 用依然可以使用的Home_Timeline获取最新的一大串微博
+        public static void fetchUserStatusInFile(string listPath, string toPath, int topMax, bool followFirst = false)
         {
             // 关注所有的list
             Crawler crawler = new Crawler();
-            //crawler.followUserByUserList(listPath);
+            if (followFirst) crawler.followUserByUserList(listPath);            
 
             // 找到用户最新的微博ID
             long max = long.MinValue;
 
-            Recorder rr = new Recorder(false);
+            Serializer rr = new Serializer(false);
             if (File.Exists(toPath))
             {
                 rr.ReadStream(toPath);
@@ -45,15 +57,18 @@ namespace Silver6wings.WeiboCollector
                 rr.CloseStream();
             }
 
-            // 用依然可以使用的Home_Timeline获取最新的一大串微博
+            
             rr.WriteStream(toPath);
             int count = 0, page = 1, numOfRecord = 0;      
      
             while(count < topMax){
+
                 int need = Math.Min(topMax - count, 100);
+
                 Console.WriteLine(need);
 
                 List<Status> ls = crawler.getUserStatusByHome(need, page);
+                Console.WriteLine(need + " " + page);
 
                 foreach (Status s in ls)
                 {
@@ -65,6 +80,7 @@ namespace Silver6wings.WeiboCollector
                         numOfRecord++;
                     }
                 }
+
 
                 count += need;
                 page++;
@@ -79,12 +95,12 @@ namespace Silver6wings.WeiboCollector
         public static void fetchUserStatus(string userName, int topMax)
         {
             // 找到用户名对应的文件
-            string filePath = Properties.Collector.Default.weiboPath + userName + ".txt";
+            string filePath = pathUserList;
 
             // 找到用户最新的微博ID
             long max = long.MinValue;
 
-            Recorder rr = new Recorder(false);
+            Serializer rr = new Serializer(false);
             if(File.Exists(filePath))
             {
                 rr.ReadStream(filePath);

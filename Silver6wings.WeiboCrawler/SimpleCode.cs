@@ -11,26 +11,25 @@ namespace Silver6wings.WeiboTools
     public class SimpleCode
     {
         public static void Main()
-        {
-            Recorder r = new Recorder(false);
-            r.ReadStream("../_Data/Labeling/Result_Database.txt");
+        {       
+            testSerializer("../_Data/Result_Database1.txt");
+
+            Console.WriteLine("END");
+            Console.ReadKey();
+        }
+
+        static void testSerializer(string filePath){            
+            Serializer r = new Serializer(false);
+            r.ReadStream(filePath);
 
             Labeling l = (Labeling)r.ReadNextObject();
 
             while(l != null){
-                Console.WriteLine(l.Category);
+                Console.WriteLine(l.StatusID + " " + l.Category);
                 l = (Labeling)r.ReadNextObject();
             }
 
             r.CloseStream();
-
-            /*
-            Crawler crawler = new Crawler();
-            crawler.unfollowUserByUserList("../Data/UserList.txt");
-            */
-
-            Console.WriteLine("END");
-            Console.ReadKey();
         }
     }
 }
