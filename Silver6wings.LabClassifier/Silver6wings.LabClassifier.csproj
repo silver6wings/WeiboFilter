@@ -65,7 +65,6 @@
     <Compile Include="Transmitters\MachineLearningClassifier\Teacher.cs" />
     <Compile Include="Transmitters\Speaker.cs" />
     <Compile Include="Transmitters\Transmitter.cs" />
-    <Compile Include="Framework\Weightor.cs" />
     <Compile Include="Framework\Distributer.cs" />
     <Compile Include="Transmitters\NormalClassifer\FilterType.cs" />
     <Compile Include="Transmitters\NormalClassifer\Filter.cs" />

@@ -86,7 +86,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(190, 103);
             this.button1.TabIndex = 4;
-            this.button1.Text = "普通信息 Normal";
+            this.button1.Text = "<< 普通信息 Normal";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.bt1_click);
             // 
@@ -98,7 +98,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(190, 103);
             this.button2.TabIndex = 5;
-            this.button2.Text = "垃圾信息 Spam";
+            this.button2.Text = "垃圾信息 Spam >>";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.bt2_click);
             // 

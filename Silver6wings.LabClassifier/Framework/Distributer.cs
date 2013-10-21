@@ -10,6 +10,7 @@ namespace Silver6wings.LabClassifier.Framework
     class Distributer
     {
         List<Strategy> _strategys;
+        List<double> _weight;
 
         public Distributer(List<Strategy> strategys)
         {
