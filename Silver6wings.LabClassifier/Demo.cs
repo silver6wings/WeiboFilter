@@ -5,6 +5,7 @@ using System.Text;
 using System.IO;
 
 using Silver6wings.LabClassifier.Classifiers;
+using Silver6wings.LabClassifier.Framework;
 
 namespace Silver6wings.LabClassifier
 {
@@ -14,8 +15,15 @@ namespace Silver6wings.LabClassifier
         {
             Console.WriteLine("---------------- BEGIN ----------------");
 
-            DemoNormal();
-            DemoBayes();
+            //DemoNormal();
+            //DemoBayes();
+
+            Distributer d = new Distributer(null, null);
+            
+            d.add(StrategyFactory.createDemoSingleBayesStrategy(), 1);
+            d.add(StrategyFactory.createDemoNormalStrategy(), 1);
+
+            Distributer.Output(d.distributeItem("quick MONEY"));
 
             //StrategyTester.testBinary(se, "../Data/DP/TestData_2012-10-31.txt");
 
@@ -25,16 +33,14 @@ namespace Silver6wings.LabClassifier
 
         static void DemoBayes()
         {
-            Console.WriteLine("===== NBC =====");
-            Strategy sBayes = StrategyFactory.getDemoSingleBayesClassifier();
+            Strategy sBayes = StrategyFactory.createDemoSingleBayesStrategy();
             Console.WriteLine(sBayes.judgeItem("quick Rabbit")); 
             Console.WriteLine(sBayes.judgeItem("quick MONEY"));
         }
         
         static void DemoNormal()
         {
-            Console.WriteLine("===== Normal =====");
-            Strategy se = StrategyFactory.getDemoNormalStrategy();
+            Strategy se = StrategyFactory.createDemoNormalStrategy();
             Console.WriteLine(se.judgeItem("À1234567890123ÀÁÂÃÄÅ℃【“”字"));
             Console.WriteLine(se.judgeItem("123456789"));
             Console.WriteLine(se.judgeItem("1234567890123"));

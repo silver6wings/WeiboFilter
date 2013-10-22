@@ -4,7 +4,9 @@ using System.Linq;
 using System.Text;
 using System.IO;
 
-namespace Silver6wings.LabClassifier.Classifiers
+using Silver6wings.LabClassifier.Classifiers;
+
+namespace Silver6wings.LabClassifier.Framework
 {
     class StrategyTester
     {

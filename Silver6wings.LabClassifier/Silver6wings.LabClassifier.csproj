@@ -69,11 +69,11 @@
     <Compile Include="Framework\Distributer.cs" />
     <Compile Include="Transmitters\NormalClassifer\FilterType.cs" />
     <Compile Include="Transmitters\NormalClassifer\Filter.cs" />
-    <Compile Include="Strategys\StrategyFactory.cs" />
-    <Compile Include="Strategys\StrategyTester.cs" />
+    <Compile Include="Framework\StrategyFactory.cs" />
+    <Compile Include="Framework\StrategyTester.cs" />
     <Compile Include="Demo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Strategys\Strategy.cs" />
+    <Compile Include="Framework\Strategy.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Silver6wings.WeiboCrawler\Silver6wings.WeiboTools.csproj">

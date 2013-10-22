@@ -4,13 +4,17 @@ using System.Linq;
 using System.Text;
 using System.IO;
 
-namespace Silver6wings.LabClassifier.Classifiers
+using Silver6wings.LabClassifier.Classifiers;
+
+namespace Silver6wings.LabClassifier.Framework
 {
     class StrategyFactory
     {
         
-        public static Strategy getDemoSingleBayesClassifier()
+        public static Strategy createDemoSingleBayesStrategy()
         {
+            Console.WriteLine("Naive Bayes Classifier> Building up ....");
+
             List<Transmitter> tempT = new List<Transmitter>();
             Strategy tempS = new Strategy(0, tempT);
 
@@ -60,9 +64,11 @@ namespace Silver6wings.LabClassifier.Classifiers
             Console.WriteLine("stop trainning...");
             Console.WriteLine(DateTime.Now - dt);
         }
-        
-        public static Strategy getDemoNormalStrategy()
+
+        public static Strategy createDemoNormalStrategy()
         {
+            Console.WriteLine("Normal Classifier > Building up ....");
+
             List<Transmitter> tempT = new List<Transmitter>();
             Strategy tempS = new Strategy(0, tempT);
 

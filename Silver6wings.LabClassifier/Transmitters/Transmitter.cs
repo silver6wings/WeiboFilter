@@ -9,6 +9,6 @@ namespace Silver6wings.LabClassifier.Classifiers
     {             
         public abstract void receiveItem(string item);
 
-        public abstract void reportItem(string item, string category);
+        protected abstract void reportItem(string item, string category);
 	}
 }

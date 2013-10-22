@@ -22,7 +22,7 @@ namespace Silver6wings.LabClassifier.Classifiers
         }
 
         //report comment to next classifier or 
-        public override void reportItem(string item, string category)
+        protected override void reportItem(string item, string category)
         {
             if (_nextStrategies.Keys.Contains(category))
             {

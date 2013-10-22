@@ -23,7 +23,7 @@ namespace Silver6wings.LabClassifier.Classifiers
             _students = students;
         }
 
-        public void teachMyStudents(string comment, string category)
+        public void teachStudents(string comment, string category)
         {
             foreach (ClassifierML student in _students)
             {

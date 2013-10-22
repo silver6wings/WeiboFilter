@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
+using Silver6wings.LabClassifier.Framework;
+
 namespace Silver6wings.LabClassifier.Classifiers
 {
     class Speaker : Transmitter
@@ -23,7 +25,7 @@ namespace Silver6wings.LabClassifier.Classifiers
             reportItem(item, _finalCategory);
         }
 
-        public override void reportItem(string item, string category)
+        protected override void reportItem(string item, string category)
         {
             // 显示分类路径
             Console.WriteLine("\"{0}\" == {1}", item, category);
