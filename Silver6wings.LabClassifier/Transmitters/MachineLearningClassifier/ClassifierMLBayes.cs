@@ -88,11 +88,6 @@ namespace Silver6wings.LabClassifier.Classifiers
             }
         }
 
-        public override void untrain(string comment, string category)
-        {
-            throw new NotImplementedException();
-        }
-
         public void showModelInfo(string toPath, bool toScreen)
         {
             if (String.IsNullOrEmpty(toPath) && toScreen == false) return;            
@@ -134,7 +129,7 @@ namespace Silver6wings.LabClassifier.Classifiers
             }
         }
         
-        // ===== Guess method =====
+        // ===== 3 Guess method =====
 
         private string guessByNaive(string comment)
         {

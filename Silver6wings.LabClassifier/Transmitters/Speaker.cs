@@ -9,24 +9,27 @@ namespace Silver6wings.LabClassifier.Classifiers
     {
         protected string _finalCategory;
 
-        public Speaker(string finalCategory)
+        protected Strategy _strategy;     // 自己汇报的strategy
+
+        public Speaker(string finalCategory, Strategy strategy)
         {
             _finalCategory = finalCategory;
+            _strategy = strategy;
         }
 
-        public override void receiveItem(string comment, string category)
+        public override void receiveItem(string item)
         {
             // 不分类直接就发布声明
-            reportItem(comment, category);
+            reportItem(item, _finalCategory);
         }
 
-        public override void reportItem(string comment, string category)
+        public override void reportItem(string item, string category)
         {
             // 显示分类路径
-            if (_strategy.showPath()) Console.WriteLine("\"{0}\" >> {1}", comment, _finalCategory);
+            Console.WriteLine("\"{0}\" == {1}", item, category);
 
             // 告诉strategy最终结果
-            _strategy.reportCategory(_finalCategory);
+            _strategy.setCurrentResult(_finalCategory);
         }
     }
 }

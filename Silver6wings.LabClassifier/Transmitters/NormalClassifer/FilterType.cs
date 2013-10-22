@@ -9,7 +9,7 @@ namespace Silver6wings.LabClassifier.Classifiers
 {
     class FilterType : Filter
     {
-        public override string  filtering(string receive)
+        public override string filtering(string receive)
         {
             StringBuilder result = new StringBuilder("");
 

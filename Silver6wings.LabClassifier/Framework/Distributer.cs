@@ -10,11 +10,17 @@ namespace Silver6wings.LabClassifier.Framework
     class Distributer
     {
         List<Strategy> _strategys;
-        List<double> _weight;
+        List<float> _weight;
 
-        public Distributer(List<Strategy> strategys)
+        public Distributer(List<Strategy> strategys, List<float> weight)
         {
             _strategys = strategys;
+            _weight = weight;
+        }
+
+        public void addStrategy(Strategy strategy, float weight)
+        {
+
         }
 
         // 将item分发给各个strategy

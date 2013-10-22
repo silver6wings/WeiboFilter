@@ -8,33 +8,33 @@ namespace Silver6wings.LabClassifier.Classifiers
 {
     class StrategyFactory
     {
+        
         public static Strategy getDemoSingleBayesClassifier()
         {
-            string[][] testGraph = new string[2][];
-            for (int i = 0; i < 2; i++)
-                testGraph[i] = new string[] { "", "", "" };
+            List<Transmitter> tempT = new List<Transmitter>();
+            Strategy tempS = new Strategy(0, tempT);
 
-            List<Transmitter> testClassifierGroup = new List<Transmitter>();
+            tempT.Add(new ClassifierMLBayes(ClassifierLearnableBayesType.Naive));
+            tempT.Add(new Speaker("normal", tempS)); // 1
+            tempT.Add(new Speaker("spam", tempS));  // 2
 
-            ClassifierML c0 = new ClassifierMLBayes(ClassifierLearnableBayesType.Naive);
+            tempS.connectClassifier(0, 1, "GOOD");
+            tempS.connectClassifier(0, 2, "BAD");
+
+            // 训练过程
+            ClassifierMLBayes c0 = (ClassifierMLBayes)tempT[0];
+            c0._filter = new FilterToLowcase();
             c0._detector = new DetectorSpace();
-            //teachWithFile(c0, "../Data/DP/TrainData.txt");
             
             c0.train("Nobody owns the water", "GOOD");
             c0.train("the quick rabbit jumps fences", "GOOD");
             c0.train("the quick brown fox jumps", "GOOD");
             c0.train("buy pharmaceuticals now!", "BAD");
             c0.train("make quick money at the online casino.", "BAD");
-            ((ClassifierMLBayes)c0).showModelInfo(null, true);
+            c0.showModelInfo(null, true);
+            //teachWithFile(c0, "../Data/DP/TrainData.txt");
 
-            testClassifierGroup.Add(c0); // 0
-            testGraph[0][1] = "GOOD";
-            testGraph[0][2] = "BAD";
-
-            testClassifierGroup.Add(new Speaker("GOOD")); // 1
-            testClassifierGroup.Add(new Speaker("BAD"));  // 2
-
-            return new Strategy(0, testGraph, testClassifierGroup, true);
+            return tempS;
         }
 
         public static void teachWithFile(ClassifierML classifier, string trainFileName)
@@ -60,32 +60,27 @@ namespace Silver6wings.LabClassifier.Classifiers
             Console.WriteLine("stop trainning...");
             Console.WriteLine(DateTime.Now - dt);
         }
-
+        
         public static Strategy getDemoNormalStrategy()
         {
-            string[][] testGraph = new string[6][];
-            for (int i = 0; i < 6; i++)
-                testGraph[i] = new string[] { "", "", "", "", "", "" };
+            List<Transmitter> tempT = new List<Transmitter>();
+            Strategy tempS = new Strategy(0, tempT);
 
-            List<Transmitter> testClassifierGroup = new List<Transmitter>();
+            tempT.Add(new ClassifierHaveNumber());
+            tempT.Add(new ClassifierLength10());
+            tempT.Add(new ClassifierUppercase());
+            tempT.Add(new Speaker("Category01", tempS));
+            tempT.Add(new Speaker("Category02", tempS));
+            tempT.Add(new Speaker("Category03", tempS));
 
-            testClassifierGroup.Add(new ClassifierHaveNumber());
-            testGraph[0][1] = "HaveNumber";
-            testGraph[0][2] = "NoNumber";
-
-            testClassifierGroup.Add(new ClassifierLength10());
-            testGraph[1][3] = "Length>10";
-            testGraph[1][4] = "Length<=10";
-
-            testClassifierGroup.Add(new ClassifierUppercase());
-            testGraph[2][4] = "HaveUppercase";
-            testGraph[2][5] = "NoUppercase";
-
-            testClassifierGroup.Add(new Speaker("Category01"));
-            testClassifierGroup.Add(new Speaker("Category02"));
-            testClassifierGroup.Add(new Speaker("Category03"));
-
-            return new Strategy(0, testGraph, testClassifierGroup, true);
+            tempS.connectClassifier(0, 1, "HaveNumber");
+            tempS.connectClassifier(0, 2, "NoNumber");
+            tempS.connectClassifier(1, 3, "Length>10");
+            tempS.connectClassifier(1, 4, "Length<=10");
+            tempS.connectClassifier(2, 4, "HaveUppercase");
+            tempS.connectClassifier(2, 5, "NoUppercase");
+            
+            return tempS;
         }
     }
 }
