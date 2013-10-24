@@ -60,6 +60,7 @@
     <Compile Include="Transmitters\MachineLearningClassifier\DetectorLetter.cs" />
     <Compile Include="Transmitters\MachineLearningClassifier\DetectorSplit.cs" />
     <Compile Include="Transmitters\MachineLearningClassifier\DetectorSpace.cs" />
+    <Compile Include="Transmitters\NormalClassifer\ClassifierShortUrl.cs" />
     <Compile Include="Transmitters\NormalClassifer\FilterToLowcase.cs" />
     <Compile Include="Transmitters\NormalClassifer\FilterTypeIllegal.cs" />
     <Compile Include="Transmitters\MachineLearningClassifier\ClassifierML.cs" />

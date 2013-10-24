@@ -33,9 +33,9 @@ namespace Silver6wings.LabClassifier
 
         static void DemoBayes()
         {
-            Strategy sBayes = StrategyFactory.createDemoSingleBayesStrategy();
-            Console.WriteLine(sBayes.judgeItem("quick Rabbit")); 
-            Console.WriteLine(sBayes.judgeItem("quick MONEY"));
+            Strategy strategySingleNaiveBayes = StrategyFactory.createDemoSingleBayesStrategy();
+            Console.WriteLine(strategySingleNaiveBayes.judgeItem("quick Rabbit")); 
+            Console.WriteLine(strategySingleNaiveBayes.judgeItem("quick MONEY"));
         }
         
         static void DemoNormal()

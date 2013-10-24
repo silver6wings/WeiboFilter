@@ -17,13 +17,19 @@ namespace Silver6wings.LabClassifier.Classifiers
     {
         private ClassifierLearnableBayesType _classifierBayesType;
 
-        private List<string> _categoryNames; // <Category>
-        private Dictionary<string, long> _itemsCountInCategory; // <Category, Count of Items>
-        private Dictionary<string, Dictionary<string, long>> _featuresCountInCategory; // <Category, <Feature, Count>>
+        // <Category>
+        private List<string> _categoryNames; 
+        // <Category, Count of Items>
+        private Dictionary<string, long> _itemsCountInCategory;
+        // <Category, <Feature, Count>>
+        private Dictionary<string, Dictionary<string, long>> _featuresCountInCategory;
 
-        private long _featuresCountTotal; // just for performance
-        private Dictionary<string, long> _allFeaturesCountInCategory; // just for performance <Category, Count Sum of features in this category>
-        private Dictionary<string, long> _featuresCountInAllCategory;  // just for performance <Feature, Count Sum of features In All Category> 
+        // just for performance
+        private long _featuresCountTotal;
+        // just for performance <Category, Count Sum of features in this category>
+        private Dictionary<string, long> _allFeaturesCountInCategory;
+        // just for performance <Feature, Count Sum of features In All Category> 
+        private Dictionary<string, long> _featuresCountInAllCategory;  
 
         public ClassifierMLBayes(ClassifierLearnableBayesType defaultBayesType = ClassifierLearnableBayesType.Revised)
         {
@@ -40,6 +46,8 @@ namespace Silver6wings.LabClassifier.Classifiers
 
         public override string classify(string comment)
         {
+            if (_detector == null) return null;
+
             if(_classifierBayesType == ClassifierLearnableBayesType.Revised)
             {
                 return guessByRevised(comment);

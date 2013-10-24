@@ -5,17 +5,18 @@ using System.Text;
 
 namespace Silver6wings.LabClassifier.Classifiers
 {
-    class ClassifierUppercase : Classifier
+    class ClassifierShortUrl : Classifier
     {
         public override string classify(string comment)
-        {            
-            for (int i = 0; i < comment.Length; i++)
+        {
+            //http://t.cn/zRfkCoY
+         
+
+            if (comment.Contains("http://t.cn/"))
             {
-                if (comment[i] >= 'A' && comment[i] <= 'Z')
-                {
-                    return "HaveUppercase";
-                }
+                return "HaveUppercase";
             }
+
             return "NoUppercase";
         } 
     }
