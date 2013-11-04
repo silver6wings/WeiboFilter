@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.IO;
+using System.Diagnostics;
 
 using Silver6wings.LabClassifier.Classifiers;
 using Silver6wings.LabClassifier.Framework;
@@ -13,17 +14,30 @@ namespace Silver6wings.LabClassifier
     {
         static void Main(string[] args)
         {
+
             Console.WriteLine("---------------- BEGIN ----------------");
 
-            //DemoNormal();
-            //DemoBayes();
+            //training
+            Process trainProcess = new Process();
+            trainProcess.StartInfo.FileName = 
+                "C:\\Users\\v-jipe\\Downloads\\libsvm-3.12\\libsvm-3.12\\windows\\svm-train";
+            trainProcess.StartInfo.Arguments =
+                "C:\\Users\\v-jipe\\Downloads\\libsvm-3.12\\libsvm-3.12\\windows\\heart " +
+                "C:\\Users\\v-jipe\\Downloads\\libsvm-3.12\\libsvm-3.12\\windows\\heart.model";
+            trainProcess.Start();
+            trainProcess.Dispose();
 
-            Distributer d = new Distributer(null, null);
-            
-            d.add(StrategyFactory.createDemoSingleBayesStrategy(), 1);
-            d.add(StrategyFactory.createDemoNormalStrategy(), 1);
+            //test
+            Process testProcess = new Process();
+            testProcess.StartInfo.FileName =
+                "C:\\Users\\v-jipe\\Downloads\\libsvm-3.12\\libsvm-3.12\\windows\\svm-predict";
+            testProcess.StartInfo.Arguments =
+                "C:\\Users\\v-jipe\\Desktop\\test " +
+                "C:\\Users\\v-jipe\\Downloads\\libsvm-3.12\\libsvm-3.12\\windows\\heart.model " +
+                "C:\\Users\\v-jipe\\Downloads\\libsvm-3.12\\libsvm-3.12\\windows\\test.result";
+            testProcess.Start();
+            testProcess.Dispose();   
 
-            Distributer.Output(d.distributeItem("quick MONEY"));
 
             //StrategyTester.testBinary(se, "../Data/DP/TestData_2012-10-31.txt");
 
@@ -47,5 +61,14 @@ namespace Silver6wings.LabClassifier
             Console.WriteLine(se.judgeItem("havumber"));
             Console.WriteLine(se.judgeItem("NoNuGDFDFGDFGDFGmber"));
         }        
+
+        static void DemoDistributer(){
+            Distributer d = new Distributer(null, null);
+            
+            d.add(StrategyFactory.createDemoSingleBayesStrategy(), 1);
+            d.add(StrategyFactory.createDemoNormalStrategy(), 1);
+
+            Distributer.Output(d.distributeItem("quick MONEY"));
+        }
     }    
 }

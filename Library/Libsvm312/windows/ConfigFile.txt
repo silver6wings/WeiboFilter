@@ -1,0 +1,16 @@
+PercentOfTraingData=0.6
+DataNum=100000
+FeatureRank=500
+DataPercentForFeatureBuildingAndFilter=0.3
+percentForExtract=0.5
+percentForExtractMethod2=0.5
+AllDataFileName="\libsvm-3.12\windows\All"
+TrainDataFileName="\libsvm-3.12\windows\heart"
+TestDataFileName="\libsvm-3.12\windows\test"
+NewFeatureFileName="\libsvm-3.12\windows\feature.txt"
+FilterFeatureFileName="\libsvm-3.12\windows\filterFeature.txt"
+FeatureFilePath="\libsvm-3.12\windows\Features.txt"
+emotionWordFilePath="\libsvm-3.12\windows\emotionWords.txt"
+stopWordFilePath="\libsvm-3.12\windows\stopword_hanzi.dic"
+feature2FileName="\libsvm-3.12\windows\FeatureMethod2.txt"
+BasicFeatureFilePath="\libsvm-3.12\windows\basicFeatures.txt"

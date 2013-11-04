@@ -69,11 +69,11 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\NetDimension.Weibo\NetDimension.Weibo40.csproj">
+    <ProjectReference Include="..\Library\NetDimension.Weibo\NetDimension.Weibo40.csproj">
       <Project>{7b795714-40d6-4b2e-a277-cbe13c33e1ed}</Project>
       <Name>NetDimension.Weibo40</Name>
     </ProjectReference>
-    <ProjectReference Include="..\PanGu\PanGu.csproj">
+    <ProjectReference Include="..\Library\PanGu\PanGu.csproj">
       <Project>{091e1c60-f77b-45a1-844c-86c5f508b57b}</Project>
       <Name>PanGu</Name>
     </ProjectReference>
