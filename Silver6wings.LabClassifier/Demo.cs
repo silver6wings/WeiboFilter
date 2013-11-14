@@ -16,7 +16,7 @@ namespace Silver6wings.LabClassifier
         {
 
             Console.WriteLine("---------------- BEGIN ----------------");
-
+            /*
             //training
             Process trainProcess = new Process();
             trainProcess.StartInfo.FileName = 
@@ -37,7 +37,7 @@ namespace Silver6wings.LabClassifier
                 "C:\\Users\\v-jipe\\Downloads\\libsvm-3.12\\libsvm-3.12\\windows\\test.result";
             testProcess.Start();
             testProcess.Dispose();   
-
+            */
 
             //StrategyTester.testBinary(se, "../Data/DP/TestData_2012-10-31.txt");
 
