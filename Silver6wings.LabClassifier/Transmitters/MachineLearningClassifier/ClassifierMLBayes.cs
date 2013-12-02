@@ -211,7 +211,7 @@ namespace Silver6wings.LabClassifier.Classifiers
         private double getFeatureWeightedProbByNaive(string category, string feature)
         {
             double weight = 1.0;
-            double allProb = 1.0 / getCategoryNamesCount();
+            double allProb = weight / getCategoryNamesCount();
 
             double basicProb = getFeatureProbInItemCategory(category, feature);
 
@@ -257,7 +257,7 @@ namespace Silver6wings.LabClassifier.Classifiers
         private double getFeatureWeightedProbByFisher(string category, string feature)
         {
             double weight = 1.0;
-            double allProb = 1.0 / getCategoryNamesCount();
+            double allProb = weight / getCategoryNamesCount();
 
             double basicProb = getFeatureProbByFisher(category, feature);
 
@@ -315,7 +315,7 @@ namespace Silver6wings.LabClassifier.Classifiers
         {
 
             double weight = 1.0;
-            double allProb = 1.0 / getCategoryNamesCount();
+            double allProb = weight / getCategoryNamesCount();
 
             double basicProb = getFeatureProbByFeatureCount(category, feature);
             double totals = getFeatureTotalInAllCategory(feature);
