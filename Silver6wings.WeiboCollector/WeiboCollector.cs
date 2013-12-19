@@ -16,7 +16,7 @@ namespace Silver6wings.WeiboCollector
         private static bool follow = true;
 
         private static int numberOfStatus = 2000;
-        private static string pathUserList = "../_Data/UserList_Spammer.txt";
+        private static string pathUserList = "../_Data/UserList_Backup.txt";
         private static string pathDatabase = "../_Data/Database.txt";
 
         public static void Main()
@@ -25,10 +25,10 @@ namespace Silver6wings.WeiboCollector
             if (unfollow)
             {
                 Crawler c = new Crawler();
-                c.unfollowUserByUserList("../_Data/UserList_BigV.txt");
-                c.unfollowUserByUserList("../_Data/UserList_Normal.txt");
-                c.unfollowUserByUserList("../_Data/UserList_Zombie.txt");
-                c.unfollowUserByUserList("../_Data/UserList_Spammer.txt");
+                //c.unfollowUserByUserList("../_Data/UserList_BigV.txt");
+                //c.unfollowUserByUserList("../_Data/UserList_Normal.txt");
+                //c.unfollowUserByUserList("../_Data/UserList_Zombie.txt");
+                //c.unfollowUserByUserList("../_Data/UserList_Spammer.txt");
             }
             fetchUserStatusInFile(pathUserList, pathDatabase, numberOfStatus, follow);
             Console.WriteLine("=== END ===");
